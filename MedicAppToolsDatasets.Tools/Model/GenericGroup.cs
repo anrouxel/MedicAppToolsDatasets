@@ -1,8 +1,22 @@
+using CsvHelper.Configuration.Attributes;
+
 public class GenericGroup
 {
-    public string GenericGroupId { get; set; }
-    public string GenericGroupLabel { get; set; }
-    public string CISCode { get; set; }
+    [Index(0)]
+    [TypeConverter(typeof(StringConverter))]
+    public string GenericGroupId { get; set; } = string.Empty;
+
+    [Index(1)]
+    [TypeConverter(typeof(StringConverter))]
+    public string GenericGroupLabel { get; set; } = string.Empty;
+
+    [Index(2)]
+    [TypeConverter(typeof(StringConverter))]
+    public string CISCode { get; set; } = string.Empty;
+
+    [Index(3)]
     public int GenericType { get; set; }
+
+    [Index(4)]
     public int SortNumber { get; set; }
 }
