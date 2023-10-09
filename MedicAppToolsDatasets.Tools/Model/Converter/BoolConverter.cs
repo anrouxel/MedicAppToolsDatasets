@@ -6,10 +6,22 @@ public class BoolConverter : DefaultTypeConverter
 {
     public override object? ConvertFromString(string? text, IReaderRow row, MemberMapData memberMapData)
     {
-        if (text == null)
+        if (string.IsNullOrEmpty(text))
         {
             return null;
         }
-        return text.Trim().Equals("Oui", StringComparison.OrdinalIgnoreCase);
+        
+        if (text.Trim().Equals("Oui", StringComparison.OrdinalIgnoreCase))
+        {
+            return true;
+        }
+        else if (text.Trim().Equals("Non", StringComparison.OrdinalIgnoreCase))
+        {
+            return false;
+        }
+        else
+        {
+            return null;
+        }
     }
 }

@@ -31,8 +31,8 @@ public class MedicationPresentation
     public string CIP13Code { get; set; } = string.Empty;
 
     [Index(7)]
-    [TypeConverter(typeof(StringConverter))]
-    public string ApprovalForCommunities { get; set; } = string.Empty;
+    [TypeConverter(typeof(BoolConverter))]
+    public bool? ApprovalForCommunities { get; set; }
 
     [Index(8)]
     [TypeConverter(typeof(ListPourcentConverter))]

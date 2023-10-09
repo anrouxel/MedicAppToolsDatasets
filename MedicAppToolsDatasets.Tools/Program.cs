@@ -16,7 +16,7 @@ string CIS_CIP_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telecha
 
 using (HttpClient client = new HttpClient())
 {
-    HttpResponseMessage response = await client.GetAsync(CIS_bdpm);
+    HttpResponseMessage response = await client.GetAsync(CIS_CIP_bdpm);
     if (response.IsSuccessStatusCode)
     {
         if (response.Content.Headers.ContentType != null)
@@ -39,7 +39,7 @@ using (HttpClient client = new HttpClient())
             using (var csv = new CsvReader(reader, csvConfig))
             {
                 // Remplacez Medicament par le type correspondant à votre fichier CSV.
-                var records = csv.GetRecords<Medication>().ToList();
+                var records = csv.GetRecords<MedicationPresentation>().ToList();
 
                 foreach (var record in records)
                 {
@@ -47,7 +47,7 @@ using (HttpClient client = new HttpClient())
                 }
 
                 string json = JsonSerializer.Serialize(records, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText("CIS_bdpm.json", json);
+                File.WriteAllText("CIS_CIP_bdpm.json", json);
             }
         }
     }
