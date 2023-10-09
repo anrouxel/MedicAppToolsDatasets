@@ -6,7 +6,7 @@ public class ListStringConverter : DefaultTypeConverter
 {
     public override object? ConvertFromString(string? text, IReaderRow row, MemberMapData memberMapData)
     {
-        if (text == null)
+        if (string.IsNullOrEmpty(text))
         {
             return new List<string>();
         }
