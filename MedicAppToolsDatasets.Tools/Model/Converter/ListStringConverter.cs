@@ -8,7 +8,7 @@ public class ListStringConverter : DefaultTypeConverter
     {
         if (text == null)
         {
-            return base.ConvertFromString(text, row, memberMapData);
+            return new List<string>();
         }
         return text.Split(';').Select(s => s.Trim().ToUpperInvariant()).ToList();
     }

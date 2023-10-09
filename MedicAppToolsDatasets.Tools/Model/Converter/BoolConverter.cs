@@ -8,7 +8,7 @@ public class BoolConverter : DefaultTypeConverter
     {
         if (text == null)
         {
-            return base.ConvertFromString(text, row, memberMapData);
+            return null;
         }
         return text.Trim().Equals("Oui", StringComparison.OrdinalIgnoreCase);
     }

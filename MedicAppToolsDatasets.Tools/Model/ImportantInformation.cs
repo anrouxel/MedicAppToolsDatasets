@@ -8,11 +8,11 @@ public class ImportantInformation
 
     [Index(1)]
     [TypeConverter(typeof(DateOnlyReverseDashConverter))]
-    public DateOnly SafetyInformationStartDate { get; set; }
+    public DateOnly? SafetyInformationStartDate { get; set; }
 
     [Index(2)]
     [TypeConverter(typeof(DateOnlyReverseDashConverter))]
-    public DateOnly SafetyInformationEndDate { get; set; }
+    public DateOnly? SafetyInformationEndDate { get; set; }
 
     [Index(3)]
     [TypeConverter(typeof(StringConverter))]

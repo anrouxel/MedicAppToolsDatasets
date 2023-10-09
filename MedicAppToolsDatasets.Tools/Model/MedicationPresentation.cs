@@ -24,7 +24,7 @@ public class MedicationPresentation
 
     [Index(5)]
     [TypeConverter(typeof(DateOnlySlashConverter))]
-    public DateOnly CommercializationDeclarationDate { get; set; }
+    public DateOnly? CommercializationDeclarationDate { get; set; }
 
     [Index(6)]
     [TypeConverter(typeof(StringConverter))]
@@ -35,13 +35,19 @@ public class MedicationPresentation
     public string ApprovalForCommunities { get; set; } = string.Empty;
 
     [Index(8)]
-    [TypeConverter(typeof(ListStringConverter))]
+    [TypeConverter(typeof(ListPourcentConverter))]
     public List<decimal> ReimbursementRates { get; set; } = new();
 
     [Index(9)]
-    public decimal PriceInEuros { get; set; }
+    public decimal? PriceWithoutHonoraryInEuro { get; set; }
 
     [Index(10)]
+    public decimal? PriceWithHonoraryInEuro { get; set; }
+
+    [Index(11)]
+    public decimal? PriceHonoraryInEuro { get; set; }
+
+    [Index(12)]
     [TypeConverter(typeof(StringConverter))]
     public string ReimbursementIndications { get; set; } = string.Empty;
 }

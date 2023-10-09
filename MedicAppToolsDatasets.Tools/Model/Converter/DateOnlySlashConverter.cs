@@ -13,7 +13,7 @@ public class DateOnlySlashConverter : DefaultTypeConverter
         }
         else
         {
-            return base.ConvertFromString(text, row, memberMapData);
+            return null;
         }
     }
 }

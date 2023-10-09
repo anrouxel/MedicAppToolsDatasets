@@ -8,7 +8,7 @@ public class StringConverter : DefaultTypeConverter
     {
         if (text == null)
         {
-            return base.ConvertFromString(text, row, memberMapData);
+            return string.Empty;
         }
         return text.Trim().ToUpperInvariant();
     }

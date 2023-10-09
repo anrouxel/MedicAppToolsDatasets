@@ -16,7 +16,7 @@ public class HasSmrOpinion
 
     [Index(3)]
     [TypeConverter(typeof(DateOnlyReverseConverter))]
-    public DateOnly TransparencyCommissionOpinionDate { get; set; }
+    public DateOnly? TransparencyCommissionOpinionDate { get; set; }
 
     [Index(4)]
     [TypeConverter(typeof(StringConverter))]

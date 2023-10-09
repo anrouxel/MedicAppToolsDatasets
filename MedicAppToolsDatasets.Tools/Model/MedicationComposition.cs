@@ -31,5 +31,5 @@ public class MedicationComposition
     public string ComponentNature { get; set; } = string.Empty;
 
     [Index(7)]
-    public int LinkNumber { get; set; }
+    public int? LinkNumber { get; set; }
 }
