@@ -17,7 +17,7 @@ Uri url = new Uri($"https://base-donnees-publique.medicaments.gouv.fr/telecharge
 
 using (HttpClient client = new HttpClient())
 {
-    HttpResponseMessage response = await client.GetAsync(url + CIS_COMPO_bdpm + ".txt");
+    HttpResponseMessage response = await client.GetAsync(url + CIS_CPD_bdpm + ".txt");
     if (response.IsSuccessStatusCode)
     {
         if (response.Content.Headers.ContentType != null)
@@ -40,7 +40,7 @@ using (HttpClient client = new HttpClient())
             using (var csv = new CsvReader(reader, csvConfig))
             {
                 // Remplacez Medicament par le type correspondant à votre fichier CSV.
-                var records = csv.GetRecords<MedicationComposition>().ToList();
+                var records = csv.GetRecords<PrescriptionDispensingConditions>().ToList();
 
                 foreach (var record in records)
                 {
@@ -48,7 +48,7 @@ using (HttpClient client = new HttpClient())
                 }
 
                 string json = JsonSerializer.Serialize(records, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText("CIS_COMPO_bdpm.json", json);
+                File.WriteAllText("CIS_CPD_bdpm.json", json);
             }
         }
     }
