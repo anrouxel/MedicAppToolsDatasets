@@ -15,7 +15,7 @@ public class HasAsmrOpinion
     public string EvaluationReason { get; set; } = string.Empty;
 
     [Index(3)]
-    [TypeConverter(typeof(DateOnlyConverter))]
+    [TypeConverter(typeof(DateOnlyReverseConverter))]
     public DateOnly TransparencyCommissionOpinionDate { get; set; }
 
     [Index(4)]

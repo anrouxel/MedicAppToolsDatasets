@@ -32,7 +32,7 @@ public class Medication
     public string CommercializationStatus { get; set; } = string.Empty;
 
     [Index(7)]
-    [TypeConverter(typeof(DateOnlyConverter))]
+    [TypeConverter(typeof(DateOnlySlashConverter))]
     public DateOnly MarketingAuthorizationDate { get; set; }
 
     [Index(8)]
