@@ -16,7 +16,7 @@ string CIS_CIP_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telecha
 
 using (HttpClient client = new HttpClient())
 {
-    HttpResponseMessage response = await client.GetAsync(HAS_LiensPageCT_bdpm);
+    HttpResponseMessage response = await client.GetAsync(CIS_HAS_ASMR);
     if (response.IsSuccessStatusCode)
     {
         if (response.Content.Headers.ContentType != null)
@@ -39,7 +39,7 @@ using (HttpClient client = new HttpClient())
             using (var csv = new CsvReader(reader, csvConfig))
             {
                 // Remplacez Medicament par le type correspondant à votre fichier CSV.
-                var records = csv.GetRecords<TransparencyCommissionOpinionLinks>().ToList();
+                var records = csv.GetRecords<HasAsmrOpinion>().ToList();
 
                 foreach (var record in records)
                 {
@@ -47,7 +47,7 @@ using (HttpClient client = new HttpClient())
                 }
 
                 string json = JsonSerializer.Serialize(records, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText("HAS_LiensPageCT_bdpm.json", json);
+                File.WriteAllText("CIS_HAS_ASMR.json", json);
             }
         }
     }
