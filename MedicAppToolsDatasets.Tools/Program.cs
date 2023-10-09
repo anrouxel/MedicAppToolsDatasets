@@ -3,21 +3,20 @@ using System.Text.Json;
 using CsvHelper;
 using CsvHelper.Configuration;
 
-string CIS_bdpm = "CIS_bdpm";
-string CIS_COMPO_bdpm = "CIS_COMPO_bdpm";
-string CIS_CPD_bdpm = "CIS_CPD_bdpm";
-string CIS_HAS_SMR = "CIS_HAS_SMR";
-string HAS_LiensPageCT_bdpm = "HAS_LiensPageCT_bdpm";
-string CIS_HAS_ASMR = "CIS_HAS_ASMR";
-string CIS_GENER_bdpm = "CIS_GENER_bdpm";
-string CIS_InfoImportantes_AAAAMMJJhhmiss_bdpm = "CIS_InfoImportantes_AAAAMMJJhhmiss_bdpm";
-string CIS_CIP_bdpm = "CIS_CIP_bdpm";
+string CIS_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_bdpm.txt";
+string CIS_COMPO_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_COMPO_bdpm.txt";
+string CIS_CPD_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_CPD_bdpm.txt";
+string CIS_HAS_SMR = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_HAS_SMR_bdpm.txt";
+string HAS_LiensPageCT_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=HAS_LiensPageCT_bdpm.txt";
+string CIS_HAS_ASMR = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_HAS_ASMR_bdpm.txt";
+string CIS_GENER_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_GENER_bdpm.txt";
+string CIS_InfoImportantes_AAAAMMJJhhmiss_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_InfoImportantes.txt";
+string CIS_CIP_bdpm = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_CIP_bdpm.txt";
 
-Uri url = new Uri($"https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=");
 
 using (HttpClient client = new HttpClient())
 {
-    HttpResponseMessage response = await client.GetAsync(url + CIS_CPD_bdpm + ".txt");
+    HttpResponseMessage response = await client.GetAsync(CIS_HAS_SMR);
     if (response.IsSuccessStatusCode)
     {
         if (response.Content.Headers.ContentType != null)
@@ -40,7 +39,7 @@ using (HttpClient client = new HttpClient())
             using (var csv = new CsvReader(reader, csvConfig))
             {
                 // Remplacez Medicament par le type correspondant à votre fichier CSV.
-                var records = csv.GetRecords<PrescriptionDispensingConditions>().ToList();
+                var records = csv.GetRecords<HasSmrOpinion>().ToList();
 
                 foreach (var record in records)
                 {
@@ -48,7 +47,7 @@ using (HttpClient client = new HttpClient())
                 }
 
                 string json = JsonSerializer.Serialize(records, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText("CIS_CPD_bdpm.json", json);
+                File.WriteAllText("CIS_HAS_SMR.json", json);
             }
         }
     }

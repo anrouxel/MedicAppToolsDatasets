@@ -11,6 +11,10 @@ public class DateOnlyConverter : DefaultTypeConverter
         {
             return date;
         }
+        else if (DateOnly.TryParseExact(text, "yyyyMMdd", null, System.Globalization.DateTimeStyles.None, out date))
+        {
+            return date;
+        }
         else
         {
             return base.ConvertFromString(text, row, memberMapData);
