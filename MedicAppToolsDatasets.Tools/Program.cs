@@ -3,11 +3,21 @@ using System.Text.Json;
 using CsvHelper;
 using CsvHelper.Configuration;
 
-string url = "https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_bdpm.txt";
+string CIS_bdpm = "CIS_bdpm";
+string CIS_COMPO_bdpm = "CIS_COMPO_bdpm";
+string CIS_CPD_bdpm = "CIS_CPD_bdpm";
+string CIS_HAS_SMR = "CIS_HAS_SMR";
+string HAS_LiensPageCT_bdpm = "HAS_LiensPageCT_bdpm";
+string CIS_HAS_ASMR = "CIS_HAS_ASMR";
+string CIS_GENER_bdpm = "CIS_GENER_bdpm";
+string CIS_InfoImportantes_AAAAMMJJhhmiss_bdpm = "CIS_InfoImportantes_AAAAMMJJhhmiss_bdpm";
+string CIS_CIP_bdpm = "CIS_CIP_bdpm";
+
+Uri url = new Uri($"https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=");
 
 using (HttpClient client = new HttpClient())
 {
-    HttpResponseMessage response = await client.GetAsync(url);
+    HttpResponseMessage response = await client.GetAsync(url + CIS_bdpm + ".txt");
     if (response.IsSuccessStatusCode)
     {
         if (response.Content.Headers.ContentType != null)
@@ -34,11 +44,11 @@ using (HttpClient client = new HttpClient())
 
                 foreach (var record in records)
                 {
-                    Console.WriteLine($"CISCode : {record.CISCode} - Name : {record.Name}");
+                    Console.WriteLine($"CISCode : {record.CISCode}");
                 }
 
                 string json = JsonSerializer.Serialize(records, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText("medications.json", json);
+                File.WriteAllText("CIS_bdpm.json", json);
             }
         }
     }
