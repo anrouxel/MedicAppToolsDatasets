@@ -7,6 +7,6 @@ public class TransparencyCommissionOpinionLinks
     public string HasDossierCode { get; set; } = string.Empty;
 
     [Index(1)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CommissionOpinionLink { get; set; } = string.Empty;
+    [TypeConverter(typeof(ParseUriConverter))]
+    public Uri? CommissionOpinionLink { get; set; }
 }

@@ -15,7 +15,8 @@ public class GenericGroup
     public string CISCode { get; set; } = string.Empty;
 
     [Index(3)]
-    public int? GenericType { get; set; }
+    [TypeConverter(typeof(ParseGenericTypeConverter))]
+    public GenericTypeInfo? GenericType { get; set; }
 
     [Index(4)]
     public int? SortNumber { get; set; }
