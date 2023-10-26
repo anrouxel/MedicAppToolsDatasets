@@ -50,4 +50,25 @@ public class Medication
     [Index(11)]
     [TypeConverter(typeof(ParseBoolConverter))]
     public bool? EnhancedMonitoring { get; set; }
+
+    [Ignore]
+    public MedicationComposition? MedicationComposition { get; set; }
+
+    [Ignore]
+    public MedicationPresentation? MedicationPresentation { get; set; }
+
+    [Ignore]
+    public GenericGroup? GenericGroup { get; set; }
+
+    [Ignore]
+    public HasSmrOpinion? HasSmrOpinion { get; set; }
+
+    [Ignore]
+    public HasAsmrOpinion? HasAsmrOpinion { get; set; }
+
+    [Ignore]
+    public ImportantInformation? ImportantInformation { get; set; }
+
+    [Ignore]
+    public PrescriptionDispensingConditions? PrescriptionDispensingConditions { get; set; }
 }

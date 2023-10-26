@@ -16,7 +16,7 @@ public class GenericGroup
 
     [Index(3)]
     [TypeConverter(typeof(ParseGenericTypeConverter))]
-    public GenericTypeInfo? GenericType { get; set; }
+    public string GenericType { get; set; } = string.Empty;
 
     [Index(4)]
     public int? SortNumber { get; set; }

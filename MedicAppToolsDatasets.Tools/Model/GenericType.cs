@@ -1,14 +1,14 @@
 public static class GenericType
 {
-    private static readonly Dictionary<int, GenericTypeInfo> GenericTypeInfoMap = new Dictionary<int, GenericTypeInfo>
+    private static readonly Dictionary<int, string> GenericTypeInfoMap = new Dictionary<int, string>
     {
-        [0] = new GenericTypeInfo { GenericTypeId = 0, GenericTypeLabel = "princeps" },
-        [1] = new GenericTypeInfo { GenericTypeId = 1, GenericTypeLabel = "générique" },
-        [2] = new GenericTypeInfo { GenericTypeId = 2, GenericTypeLabel = "génériques par complémentarité posologique" },
-        [4] = new GenericTypeInfo { GenericTypeId = 4, GenericTypeLabel = "générique substituable" }
+        [0] = "princeps",
+        [1] = "générique",
+        [2] = "génériques par complémentarité posologique",
+        [4] = "générique substituable"
     };
 
-    public static GenericTypeInfo? FindByGenericTypeId(int typeId)
+    public static string? FindByGenericTypeId(int typeId)
     {
         if (GenericTypeInfoMap.TryGetValue(typeId, out var typeInfo))
         {
