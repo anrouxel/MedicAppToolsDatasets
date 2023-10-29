@@ -52,23 +52,23 @@ public class Medication
     public bool? EnhancedMonitoring { get; set; }
 
     [Ignore]
-    public MedicationComposition? MedicationComposition { get; set; }
+    public List<MedicationComposition> MedicationCompositions { get; set; } = new();
 
     [Ignore]
-    public MedicationPresentation? MedicationPresentation { get; set; }
+    public List<MedicationPresentation> MedicationPresentations { get; set; } = new();
 
     [Ignore]
-    public GenericGroup? GenericGroup { get; set; }
+    public List<GenericGroup> GenericGroups { get; set; } = new();
 
     [Ignore]
-    public HasSmrOpinion? HasSmrOpinion { get; set; }
+    public List<HasSmrOpinion> HasSmrOpinions { get; set; } = new();
 
     [Ignore]
-    public HasAsmrOpinion? HasAsmrOpinion { get; set; }
+    public List<HasAsmrOpinion> HasAsmrOpinions { get; set; } = new();
 
     [Ignore]
-    public ImportantInformation? ImportantInformation { get; set; }
+    public List<ImportantInformation> ImportantInformations { get; set; } = new();
 
     [Ignore]
-    public PrescriptionDispensingConditions? PrescriptionDispensingConditions { get; set; }
+    public List<PrescriptionDispensingConditions> PrescriptionDispensingConditions { get; set; } = new();
 }

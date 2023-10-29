@@ -8,92 +8,129 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
+        const string CIS_bdpm = "CIS_bdpm";
+        const string CIS_COMPO_bdpm = "CIS_COMPO_bdpm";
+        const string CIS_CIP_bdpm = "CIS_CIP_bdpm";
+        const string CIS_GENER_bdpm = "CIS_GENER_bdpm";
+        const string CIS_HAS_SMR_bdpm = "CIS_HAS_SMR_bdpm";
+        const string CIS_HAS_ASMR_bdpm = "CIS_HAS_ASMR_bdpm";
+        const string CIS_InfoImportantes = "CIS_InfoImportantes";
+        const string CIS_CPD_bdpm = "CIS_CPD_bdpm";
+        const string HAS_LiensPageCT_bdpm = "HAS_LiensPageCT_bdpm";
+
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.Start();
 
-        List<Medication> medications = await DownloadAndConvertToCsvRecordsAsync<Medication>("CIS_bdpm");
-        List<MedicationComposition> medicationCompositions = await DownloadAndConvertToCsvRecordsAsync<MedicationComposition>("CIS_COMPO_bdpm");
-        List<MedicationPresentation> medicationPresentations = await DownloadAndConvertToCsvRecordsAsync<MedicationPresentation>("CIS_CIP_bdpm");
-        List<GenericGroup> genericGroups = await DownloadAndConvertToCsvRecordsAsync<GenericGroup>("CIS_GENER_bdpm");
-        List<HasSmrOpinion> hasSmrOpinions = await DownloadAndConvertToCsvRecordsAsync<HasSmrOpinion>("CIS_HAS_SMR_bdpm");
-        List<HasAsmrOpinion> hasAsmrOpinions = await DownloadAndConvertToCsvRecordsAsync<HasAsmrOpinion>("CIS_HAS_ASMR_bdpm");
-        List<ImportantInformation> importantInformations = await DownloadAndConvertToCsvRecordsAsync<ImportantInformation>("CIS_InfoImportantes");
-        List<PrescriptionDispensingConditions> prescriptionDispensingConditions = await DownloadAndConvertToCsvRecordsAsync<PrescriptionDispensingConditions>("CIS_CPD_bdpm");
-        List<TransparencyCommissionOpinionLinks> transparencyCommissionOpinionLinks = await DownloadAndConvertToCsvRecordsAsync<TransparencyCommissionOpinionLinks>("HAS_LiensPageCT_bdpm");
+        var medicationsTask = DownloadAndConvertToCsvRecordsAsync<Medication>(CIS_bdpm);
+        var medicationCompositionsTask = DownloadAndConvertToCsvRecordsAsync<MedicationComposition>(CIS_COMPO_bdpm);
+        var medicationPresentationsTask = DownloadAndConvertToCsvRecordsAsync<MedicationPresentation>(CIS_CIP_bdpm);
+        var genericGroupsTask = DownloadAndConvertToCsvRecordsAsync<GenericGroup>(CIS_GENER_bdpm);
+        var hasSmrOpinionsTask = DownloadAndConvertToCsvRecordsAsync<HasSmrOpinion>(CIS_HAS_SMR_bdpm);
+        var hasAsmrOpinionsTask = DownloadAndConvertToCsvRecordsAsync<HasAsmrOpinion>(CIS_HAS_ASMR_bdpm);
+        var importantInformationsTask = DownloadAndConvertToCsvRecordsAsync<ImportantInformation>(CIS_InfoImportantes);
+        var prescriptionDispensingConditionsTask = DownloadAndConvertToCsvRecordsAsync<PrescriptionDispensingConditions>(CIS_CPD_bdpm);
+        var transparencyCommissionOpinionLinksTask = DownloadAndConvertToCsvRecordsAsync<TransparencyCommissionOpinionLinks>(HAS_LiensPageCT_bdpm);
+
+        await Task.WhenAll(medicationsTask, medicationCompositionsTask, medicationPresentationsTask, genericGroupsTask, hasSmrOpinionsTask, hasAsmrOpinionsTask, importantInformationsTask, prescriptionDispensingConditionsTask, transparencyCommissionOpinionLinksTask);
+
+        List<Medication> medications = medicationsTask.Result;
+        List<MedicationComposition> medicationCompositions = medicationCompositionsTask.Result;
+        List<MedicationPresentation> medicationPresentations = medicationPresentationsTask.Result;
+        List<GenericGroup> genericGroups = genericGroupsTask.Result;
+        List<HasSmrOpinion> hasSmrOpinions = hasSmrOpinionsTask.Result;
+        List<HasAsmrOpinion> hasAsmrOpinions = hasAsmrOpinionsTask.Result;
+        List<ImportantInformation> importantInformations = importantInformationsTask.Result;
+        List<PrescriptionDispensingConditions> prescriptionDispensingConditions = prescriptionDispensingConditionsTask.Result;
+        List<TransparencyCommissionOpinionLinks> transparencyCommissionOpinionLinks = transparencyCommissionOpinionLinksTask.Result;
 
         var mergedMedications = medications
-            .Join(medicationCompositions,
+            .GroupJoin(
+                medicationCompositions,
                 medication => medication.CISCode,
                 medicationComposition => medicationComposition.CISCode,
-                (medication, medicationComposition) =>
+                (medication, medicationCompositions) =>
                 {
-                    medication.MedicationComposition = medicationComposition;
+                    medication.MedicationCompositions = medicationCompositions.ToList();
                     return medication;
                 })
-            .Join(medicationPresentations,
+            .GroupJoin(
+                medicationPresentations,
                 medication => medication.CISCode,
                 medicationPresentation => medicationPresentation.CISCode,
-                (medication, medicationPresentation) =>
+                (medication, medicationPresentations) =>
                 {
-                    medication.MedicationPresentation = medicationPresentation;
+                    medication.MedicationPresentations = medicationPresentations.ToList();
                     return medication;
                 })
-            .Join(genericGroups,
+            .GroupJoin(
+                genericGroups,
                 medication => medication.CISCode,
                 genericGroup => genericGroup.CISCode,
-                (medication, genericGroup) =>
+                (medication, genericGroups) =>
                 {
-                    medication.GenericGroup = genericGroup;
+                    medication.GenericGroups = genericGroups.ToList();
                     return medication;
                 })
-            .Join(hasSmrOpinions,
+            .GroupJoin(
+                hasSmrOpinions,
                 medication => medication.CISCode,
                 hasSmrOpinion => hasSmrOpinion.CISCode,
-                (medication, hasSmrOpinion) =>
+                (medication, hasSmrOpinions) =>
                 {
-                    medication.HasSmrOpinion = hasSmrOpinion;
+                    medication.HasSmrOpinions = hasSmrOpinions.ToList();
                     return medication;
                 })
-            .Join(hasAsmrOpinions,
+            .GroupJoin(
+                hasAsmrOpinions,
                 medication => medication.CISCode,
                 hasAsmrOpinion => hasAsmrOpinion.CISCode,
-                (medication, hasAsmrOpinion) =>
+                (medication, hasAsmrOpinions) =>
                 {
-                    medication.HasAsmrOpinion = hasAsmrOpinion;
+                    medication.HasAsmrOpinions = hasAsmrOpinions.ToList();
                     return medication;
                 })
-            .Join(importantInformations,
+            .GroupJoin(
+                importantInformations,
                 medication => medication.CISCode,
                 importantInformation => importantInformation.CISCode,
-                (medication, importantInformation) =>
+                (medication, importantInformations) =>
                 {
-                    medication.ImportantInformation = importantInformation;
+                    medication.ImportantInformations = importantInformations.ToList();
                     return medication;
                 })
-            .Join(prescriptionDispensingConditions,
+            .GroupJoin(
+                prescriptionDispensingConditions,
                 medication => medication.CISCode,
                 prescriptionDispensingCondition => prescriptionDispensingCondition.CISCode,
-                (medication, prescriptionDispensingCondition) =>
+                (medication, prescriptionDispensingConditions) =>
                 {
-                    medication.PrescriptionDispensingConditions = prescriptionDispensingCondition;
+                    medication.PrescriptionDispensingConditions = prescriptionDispensingConditions.ToList();
                     return medication;
                 })
             .ToList();
 
-        string json = JsonSerializer.Serialize(mergedMedications, new JsonSerializerOptions { WriteIndented = true });
-        await File.WriteAllTextAsync("medications.json", json);
+        await SaveAsJsonAsync(medications, CIS_bdpm);
+        await SaveAsJsonAsync(medicationCompositions, CIS_COMPO_bdpm);
+        await SaveAsJsonAsync(medicationPresentations, CIS_CIP_bdpm);
+        await SaveAsJsonAsync(genericGroups, CIS_GENER_bdpm);
+        await SaveAsJsonAsync(hasSmrOpinions, CIS_HAS_SMR_bdpm);
+        await SaveAsJsonAsync(hasAsmrOpinions, CIS_HAS_ASMR_bdpm);
+        await SaveAsJsonAsync(importantInformations, CIS_InfoImportantes);
+        await SaveAsJsonAsync(prescriptionDispensingConditions, CIS_CPD_bdpm);
+        await SaveAsJsonAsync(transparencyCommissionOpinionLinks, HAS_LiensPageCT_bdpm);
+        await SaveAsJsonAsync(mergedMedications, "medications");
 
         stopwatch.Stop();
         Console.WriteLine($"Temps d'exécution: {stopwatch.ElapsedMilliseconds} ms");
     }
 
-    public static async Task<string> DownloadAsync(string file)
+    public static async Task<string> DownloadAsync(string fileName)
     {
         using (HttpClient client = new HttpClient())
         {
             Uri baseApiUri = new Uri("https://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=");
             var fileUriBuilder = new UriBuilder(baseApiUri);
-            fileUriBuilder.Query += file + ".txt";
+            fileUriBuilder.Query += fileName + ".txt";
             Uri fileUri = fileUriBuilder.Uri;
 
             HttpResponseMessage response = await client.GetAsync(fileUri);
@@ -135,10 +172,16 @@ public class Program
         }
     }
 
-    public static async Task<List<T>> DownloadAndConvertToCsvRecordsAsync<T>(string file)
+    public static async Task<List<T>> DownloadAndConvertToCsvRecordsAsync<T>(string fileName)
     {
-        string csvData = await DownloadAsync(file);
+        string csvData = await DownloadAsync(fileName);
         List<T> records = ConvertToCsvRecords<T>(csvData);
         return records;
+    }
+
+    public static async Task SaveAsJsonAsync<T>(List<T> records, string fileName)
+    {
+        string json = JsonSerializer.Serialize(records, new JsonSerializerOptions { WriteIndented = true });
+        await File.WriteAllTextAsync("data/" + fileName + ".json", json);
     }
 }
