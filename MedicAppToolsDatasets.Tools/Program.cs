@@ -109,6 +109,15 @@ public class Program
                 })
             .ToList();
 
+        var medicamentWithMultiple = mergedMedications.Where(
+            m => m.MedicationCompositions.Count > 1
+            && m.MedicationPresentations.Count > 1
+            && m.ImportantInformations.Count > 1
+            && m.PrescriptionDispensingConditions.Count > 1
+            ).Take(1).ToList();
+
+        await SaveAsJsonAsync(medicamentWithMultiple, "medicamentWithMultiple");
+
         await SaveAsJsonAsync(medications, CIS_bdpm);
         await SaveAsJsonAsync(medicationCompositions, CIS_COMPO_bdpm);
         await SaveAsJsonAsync(medicationPresentations, CIS_CIP_bdpm);
