@@ -43,23 +43,25 @@ public class Program
         List<PrescriptionDispensingConditions> prescriptionDispensingConditions = prescriptionDispensingConditionsTask.Result;
         List<TransparencyCommissionOpinionLinks> transparencyCommissionOpinionLinks = transparencyCommissionOpinionLinksTask.Result;
 
-        var mergeHasSmrOpinions = hasSmrOpinions
+        var mergedHasSmrOpinions = hasSmrOpinions
             .GroupJoin(
                 transparencyCommissionOpinionLinks,
                 hasSmrOpinion => hasSmrOpinion.HasDossierCode,
                 transparencyCommissionOpinionLink => transparencyCommissionOpinionLink.HasDossierCode,
-                (hasAsmrOpinion, transparencyCommissionOpinionLink) => {
+                (hasAsmrOpinion, transparencyCommissionOpinionLink) =>
+                {
                     hasAsmrOpinion.TransparencyCommissionOpinionLinks = transparencyCommissionOpinionLink.ToList();
                     return hasAsmrOpinion;
                 }
             );
-        
-        var mergeHasAsmrOpinions = hasAsmrOpinions
+
+        var mergedHasAsmrOpinions = hasAsmrOpinions
             .GroupJoin(
                 transparencyCommissionOpinionLinks,
                 hasAsmrOpinion => hasAsmrOpinion.HasDossierCode,
                 transparencyCommissionOpinionLink => transparencyCommissionOpinionLink.HasDossierCode,
-                (hasAsmrOpinion, transparencyCommissionOpinionLink) => {
+                (hasAsmrOpinion, transparencyCommissionOpinionLink) =>
+                {
                     hasAsmrOpinion.TransparencyCommissionOpinionLinks = transparencyCommissionOpinionLink.ToList();
                     return hasAsmrOpinion;
                 }
@@ -70,76 +72,73 @@ public class Program
                 medicationCompositions,
                 medication => medication.CISCode,
                 medicationComposition => medicationComposition.CISCode,
-                (medication, medicationCompositions) =>
+                (medication, medicationComposition) =>
                 {
-                    medication.MedicationCompositions = medicationCompositions.ToList();
+                    medication.MedicationCompositions = medicationComposition.ToList();
                     return medication;
-                })
+                }
+            )
             .GroupJoin(
                 medicationPresentations,
                 medication => medication.CISCode,
                 medicationPresentation => medicationPresentation.CISCode,
-                (medication, medicationPresentations) =>
+                (medication, medicationPresentation) =>
                 {
-                    medication.MedicationPresentations = medicationPresentations.ToList();
+                    medication.MedicationPresentations = medicationPresentation.ToList();
                     return medication;
-                })
+                }
+            )
             .GroupJoin(
                 genericGroups,
                 medication => medication.CISCode,
                 genericGroup => genericGroup.CISCode,
-                (medication, genericGroups) =>
+                (medication, genericGroup) =>
                 {
-                    medication.GenericGroups = genericGroups.ToList();
+                    medication.GenericGroups = genericGroup.ToList();
                     return medication;
-                })
+                }
+            )
             .GroupJoin(
-                mergeHasSmrOpinions,
+                mergedHasSmrOpinions,
                 medication => medication.CISCode,
                 hasSmrOpinion => hasSmrOpinion.CISCode,
-                (medication, hasSmrOpinions) =>
+                (medication, hasSmrOpinion) =>
                 {
-                    medication.HasSmrOpinions = hasSmrOpinions.ToList();
+                    medication.HasSmrOpinions = hasSmrOpinion.ToList();
                     return medication;
-                })
+                }
+            )
             .GroupJoin(
-                mergeHasAsmrOpinions,
+                mergedHasAsmrOpinions,
                 medication => medication.CISCode,
                 hasAsmrOpinion => hasAsmrOpinion.CISCode,
-                (medication, hasAsmrOpinions) =>
+                (medication, hasAsmrOpinion) =>
                 {
-                    medication.HasAsmrOpinions = hasAsmrOpinions.ToList();
+                    medication.HasAsmrOpinions = hasAsmrOpinion.ToList();
                     return medication;
-                })
+                }
+            )
             .GroupJoin(
                 importantInformations,
                 medication => medication.CISCode,
                 importantInformation => importantInformation.CISCode,
-                (medication, importantInformations) =>
+                (medication, importantInformation) =>
                 {
-                    medication.ImportantInformations = importantInformations.ToList();
+                    medication.ImportantInformations = importantInformation.ToList();
                     return medication;
-                })
+                }
+            )
             .GroupJoin(
                 prescriptionDispensingConditions,
                 medication => medication.CISCode,
                 prescriptionDispensingCondition => prescriptionDispensingCondition.CISCode,
-                (medication, prescriptionDispensingConditions) =>
+                (medication, prescriptionDispensingCondition) =>
                 {
-                    medication.PrescriptionDispensingConditions = prescriptionDispensingConditions.ToList();
+                    medication.PrescriptionDispensingConditions = prescriptionDispensingCondition.ToList();
                     return medication;
-                })
-            .ToList();
-
-        var medicamentWithMultiple = mergedMedications.Where(
-            m => m.MedicationCompositions.Count > 1
-            && m.MedicationPresentations.Count > 1
-            && m.ImportantInformations.Count > 1
-            && m.PrescriptionDispensingConditions.Count > 1
-            ).Take(1).ToList();
-
-        await SaveAsJsonAsync(medicamentWithMultiple, "medicamentWithMultiple");
-
+                }
+            );
+        
         await SaveAsJsonAsync(medications, CIS_bdpm);
         await SaveAsJsonAsync(medicationCompositions, CIS_COMPO_bdpm);
         await SaveAsJsonAsync(medicationPresentations, CIS_CIP_bdpm);
@@ -149,7 +148,9 @@ public class Program
         await SaveAsJsonAsync(importantInformations, CIS_InfoImportantes);
         await SaveAsJsonAsync(prescriptionDispensingConditions, CIS_CPD_bdpm);
         await SaveAsJsonAsync(transparencyCommissionOpinionLinks, HAS_LiensPageCT_bdpm);
-        await SaveAsJsonAsync(mergedMedications, "medications");
+        await SaveAsJsonAsync(mergedHasSmrOpinions.ToList(), "merged_" + CIS_HAS_SMR_bdpm);
+        await SaveAsJsonAsync(mergedHasAsmrOpinions.ToList(), "merged_" + CIS_HAS_ASMR_bdpm);
+        await SaveAsJsonAsync(mergedMedications.ToList(), "merged_" + CIS_bdpm);
 
         stopwatch.Stop();
         Console.WriteLine($"Temps d'exécution: {stopwatch.ElapsedMilliseconds} ms");
