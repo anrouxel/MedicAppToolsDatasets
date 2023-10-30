@@ -25,4 +25,7 @@ public class HasSmrOpinion
     [Index(5)]
     [TypeConverter(typeof(ParseStringConverter))]
     public string SmrLabel { get; set; } = string.Empty;
+
+    [Ignore]
+    public List<TransparencyCommissionOpinionLinks> TransparencyCommissionOpinionLinks { get; set; } = new();
 }

@@ -25,4 +25,7 @@ public class HasAsmrOpinion
     [Index(5)]
     [TypeConverter(typeof(ParseStringConverter))]
     public string AsmrLabel { get; set; } = string.Empty;
+
+    [Ignore]
+    public List<TransparencyCommissionOpinionLinks> TransparencyCommissionOpinionLinks { get; set; } = new();
 }

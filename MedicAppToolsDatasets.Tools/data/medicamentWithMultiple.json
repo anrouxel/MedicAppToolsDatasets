@@ -78,7 +78,13 @@
         "EvaluationReason": "INSCRIPTION (CT)",
         "TransparencyCommissionOpinionDate": "2017-06-07",
         "SmrValue": "IMPORTANT",
-        "SmrLabel": "LE SERVICE M\u00C9DICAL RENDU PAR ACETATE DE TERLIPRESSINE EVER PHARMA 0,2 MG/ML, SOLUTION INJECTABLE EST IMPORTANT DANS LES INDICATIONS DE L\u0092AMM."
+        "SmrLabel": "LE SERVICE M\u00C9DICAL RENDU PAR ACETATE DE TERLIPRESSINE EVER PHARMA 0,2 MG/ML, SOLUTION INJECTABLE EST IMPORTANT DANS LES INDICATIONS DE L\u0092AMM.",
+        "TransparencyCommissionOpinionLinks": [
+          {
+            "HasDossierCode": "CT-16191",
+            "CommissionOpinionLink": "https://www.has-sante.fr/jcms/c_2773791"
+          }
+        ]
       }
     ],
     "HasAsmrOpinions": [
@@ -88,7 +94,13 @@
         "EvaluationReason": "INSCRIPTION (CT)",
         "TransparencyCommissionOpinionDate": "2017-06-07",
         "AsmrValue": "V",
-        "AsmrLabel": "CETTE SP\u00C9CIALIT\u00C9 N\u0092APPORTE PAS D\u0092AM\u00C9LIORATION DU SERVICE M\u00C9DICAL RENDU (ASMR V) PAR RAPPORT AU PRINCEPS GLYPRESSINE 1 MG/5 ML D\u00C9J\u00C0 INSCRIT."
+        "AsmrLabel": "CETTE SP\u00C9CIALIT\u00C9 N\u0092APPORTE PAS D\u0092AM\u00C9LIORATION DU SERVICE M\u00C9DICAL RENDU (ASMR V) PAR RAPPORT AU PRINCEPS GLYPRESSINE 1 MG/5 ML D\u00C9J\u00C0 INSCRIT.",
+        "TransparencyCommissionOpinionLinks": [
+          {
+            "HasDossierCode": "CT-16191",
+            "CommissionOpinionLink": "https://www.has-sante.fr/jcms/c_2773791"
+          }
+        ]
       }
     ],
     "ImportantInformations": [

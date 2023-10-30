@@ -43,6 +43,28 @@ public class Program
         List<PrescriptionDispensingConditions> prescriptionDispensingConditions = prescriptionDispensingConditionsTask.Result;
         List<TransparencyCommissionOpinionLinks> transparencyCommissionOpinionLinks = transparencyCommissionOpinionLinksTask.Result;
 
+        var mergeHasSmrOpinions = hasSmrOpinions
+            .GroupJoin(
+                transparencyCommissionOpinionLinks,
+                hasSmrOpinion => hasSmrOpinion.HasDossierCode,
+                transparencyCommissionOpinionLink => transparencyCommissionOpinionLink.HasDossierCode,
+                (hasAsmrOpinion, transparencyCommissionOpinionLink) => {
+                    hasAsmrOpinion.TransparencyCommissionOpinionLinks = transparencyCommissionOpinionLink.ToList();
+                    return hasAsmrOpinion;
+                }
+            );
+        
+        var mergeHasAsmrOpinions = hasAsmrOpinions
+            .GroupJoin(
+                transparencyCommissionOpinionLinks,
+                hasAsmrOpinion => hasAsmrOpinion.HasDossierCode,
+                transparencyCommissionOpinionLink => transparencyCommissionOpinionLink.HasDossierCode,
+                (hasAsmrOpinion, transparencyCommissionOpinionLink) => {
+                    hasAsmrOpinion.TransparencyCommissionOpinionLinks = transparencyCommissionOpinionLink.ToList();
+                    return hasAsmrOpinion;
+                }
+            );
+
         var mergedMedications = medications
             .GroupJoin(
                 medicationCompositions,
@@ -72,7 +94,7 @@ public class Program
                     return medication;
                 })
             .GroupJoin(
-                hasSmrOpinions,
+                mergeHasSmrOpinions,
                 medication => medication.CISCode,
                 hasSmrOpinion => hasSmrOpinion.CISCode,
                 (medication, hasSmrOpinions) =>
@@ -81,7 +103,7 @@ public class Program
                     return medication;
                 })
             .GroupJoin(
-                hasAsmrOpinions,
+                mergeHasAsmrOpinions,
                 medication => medication.CISCode,
                 hasAsmrOpinion => hasAsmrOpinion.CISCode,
                 (medication, hasAsmrOpinions) =>
