@@ -43,7 +43,17 @@ public class Program
         List<PrescriptionDispensingConditions> prescriptionDispensingConditions = prescriptionDispensingConditionsTask.Result;
         List<TransparencyCommissionOpinionLinks> transparencyCommissionOpinionLinks = transparencyCommissionOpinionLinksTask.Result;
 
-        var mergedHasSmrOpinions = hasSmrOpinions
+        await SaveAsJsonAsync(medications, CIS_bdpm);
+        await SaveAsJsonAsync(medicationCompositions, CIS_COMPO_bdpm);
+        await SaveAsJsonAsync(medicationPresentations, CIS_CIP_bdpm);
+        await SaveAsJsonAsync(genericGroups, CIS_GENER_bdpm);
+        await SaveAsJsonAsync(hasSmrOpinions, CIS_HAS_SMR_bdpm);
+        await SaveAsJsonAsync(hasAsmrOpinions, CIS_HAS_ASMR_bdpm);
+        await SaveAsJsonAsync(importantInformations, CIS_InfoImportantes);
+        await SaveAsJsonAsync(prescriptionDispensingConditions, CIS_CPD_bdpm);
+        await SaveAsJsonAsync(transparencyCommissionOpinionLinks, HAS_LiensPageCT_bdpm);
+
+        hasSmrOpinions
             .GroupJoin(
                 transparencyCommissionOpinionLinks,
                 hasSmrOpinion => hasSmrOpinion.HasDossierCode,
@@ -53,9 +63,10 @@ public class Program
                     hasAsmrOpinion.TransparencyCommissionOpinionLinks = transparencyCommissionOpinionLink.ToList();
                     return hasAsmrOpinion;
                 }
-            );
+            )
+            .ToList();
 
-        var mergedHasAsmrOpinions = hasAsmrOpinions
+        hasAsmrOpinions
             .GroupJoin(
                 transparencyCommissionOpinionLinks,
                 hasAsmrOpinion => hasAsmrOpinion.HasDossierCode,
@@ -65,9 +76,10 @@ public class Program
                     hasAsmrOpinion.TransparencyCommissionOpinionLinks = transparencyCommissionOpinionLink.ToList();
                     return hasAsmrOpinion;
                 }
-            );
+            )
+            .ToList();
 
-        var mergedMedications = medications
+        medications
             .GroupJoin(
                 medicationCompositions,
                 medication => medication.CISCode,
@@ -99,7 +111,7 @@ public class Program
                 }
             )
             .GroupJoin(
-                mergedHasSmrOpinions,
+                hasSmrOpinions,
                 medication => medication.CISCode,
                 hasSmrOpinion => hasSmrOpinion.CISCode,
                 (medication, hasSmrOpinion) =>
@@ -109,7 +121,7 @@ public class Program
                 }
             )
             .GroupJoin(
-                mergedHasAsmrOpinions,
+                hasAsmrOpinions,
                 medication => medication.CISCode,
                 hasAsmrOpinion => hasAsmrOpinion.CISCode,
                 (medication, hasAsmrOpinion) =>
@@ -137,20 +149,12 @@ public class Program
                     medication.PrescriptionDispensingConditions = prescriptionDispensingCondition.ToList();
                     return medication;
                 }
-            );
+            )
+            .ToList();
         
-        await SaveAsJsonAsync(medications, CIS_bdpm);
-        await SaveAsJsonAsync(medicationCompositions, CIS_COMPO_bdpm);
-        await SaveAsJsonAsync(medicationPresentations, CIS_CIP_bdpm);
-        await SaveAsJsonAsync(genericGroups, CIS_GENER_bdpm);
-        await SaveAsJsonAsync(hasSmrOpinions, CIS_HAS_SMR_bdpm);
-        await SaveAsJsonAsync(hasAsmrOpinions, CIS_HAS_ASMR_bdpm);
-        await SaveAsJsonAsync(importantInformations, CIS_InfoImportantes);
-        await SaveAsJsonAsync(prescriptionDispensingConditions, CIS_CPD_bdpm);
-        await SaveAsJsonAsync(transparencyCommissionOpinionLinks, HAS_LiensPageCT_bdpm);
-        await SaveAsJsonAsync(mergedHasSmrOpinions.ToList(), "merged_" + CIS_HAS_SMR_bdpm);
-        await SaveAsJsonAsync(mergedHasAsmrOpinions.ToList(), "merged_" + CIS_HAS_ASMR_bdpm);
-        await SaveAsJsonAsync(mergedMedications.ToList(), "merged_" + CIS_bdpm);
+        await SaveAsJsonAsync(hasSmrOpinions, "merged_" + CIS_HAS_SMR_bdpm);
+        await SaveAsJsonAsync(hasAsmrOpinions, "merged_" + CIS_HAS_ASMR_bdpm);
+        await SaveAsJsonAsync(medications, "merged_" + CIS_bdpm);
 
         stopwatch.Stop();
         Console.WriteLine($"Temps d'exécution: {stopwatch.ElapsedMilliseconds} ms");
