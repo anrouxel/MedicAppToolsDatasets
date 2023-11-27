@@ -28,13 +28,6 @@
     "SortNumber": 2
   },
   {
-    "GenericGroupId": "2",
-    "GenericGroupLabel": "CIMETIDINE 200 MG - TAGAMET 200 MG, COMPRIM\u00C9 EFFERVESCENT",
-    "CISCode": "64073139",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 3
-  },
-  {
     "GenericGroupId": "3",
     "GenericGroupLabel": "CIMETIDINE 400 MG - TAGAMET 400 MG, COMPRIM\u00C9 PELLICUL\u00C9",
     "CISCode": "69472373",
@@ -352,65 +345,58 @@
   {
     "GenericGroupId": "14",
     "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "66060546",
+    "CISCode": "65231460",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 20
   },
   {
     "GenericGroupId": "14",
     "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "65231460",
+    "CISCode": "67993388",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 21
   },
   {
     "GenericGroupId": "14",
     "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "67993388",
+    "CISCode": "65692233",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 22
   },
   {
     "GenericGroupId": "14",
     "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "65692233",
+    "CISCode": "63225793",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 23
   },
   {
     "GenericGroupId": "14",
     "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "63225793",
+    "CISCode": "69291960",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 24
   },
   {
     "GenericGroupId": "14",
     "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "69291960",
+    "CISCode": "69036504",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 25
   },
   {
     "GenericGroupId": "14",
     "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "69036504",
+    "CISCode": "63244391",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 26
   },
   {
     "GenericGroupId": "14",
     "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "63244391",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 27
-  },
-  {
-    "GenericGroupId": "14",
-    "GenericGroupLabel": "OMEPRAZOLE 20 MG - MOPRAL 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 20 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
     "CISCode": "62238446",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 28
+    "SortNumber": 27
   },
   {
     "GenericGroupId": "15",
@@ -1517,13 +1503,6 @@
     "CISCode": "65529574",
     "GenericType": "princeps",
     "SortNumber": 2
-  },
-  {
-    "GenericGroupId": "34",
-    "GenericGroupLabel": "GLIPIZIDE 5 MG - GLIBENESE 5 MG, COMPRIM\u00C9 S\u00C9CABLE - MINIDIAB 5 MG, COMPRIM\u00C9 S\u00C9CABLE",
-    "CISCode": "67477432",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 3
   },
   {
     "GenericGroupId": "35",
@@ -3845,23 +3824,30 @@
   {
     "GenericGroupId": "98",
     "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 5 MG - PRINIVIL 5 MG, COMPRIM\u00C9 - ZESTRIL 5 MG, COMPRIM\u00C9 S\u00C9CABLE.",
-    "CISCode": "61139452",
+    "CISCode": "66517571",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "98",
     "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 5 MG - PRINIVIL 5 MG, COMPRIM\u00C9 - ZESTRIL 5 MG, COMPRIM\u00C9 S\u00C9CABLE.",
-    "CISCode": "60697664",
+    "CISCode": "61139452",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "98",
     "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 5 MG - PRINIVIL 5 MG, COMPRIM\u00C9 - ZESTRIL 5 MG, COMPRIM\u00C9 S\u00C9CABLE.",
-    "CISCode": "61299147",
+    "CISCode": "60697664",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
+  },
+  {
+    "GenericGroupId": "98",
+    "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 5 MG - PRINIVIL 5 MG, COMPRIM\u00C9 - ZESTRIL 5 MG, COMPRIM\u00C9 S\u00C9CABLE.",
+    "CISCode": "61299147",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 8
   },
   {
     "GenericGroupId": "99",
@@ -3908,30 +3894,37 @@
   {
     "GenericGroupId": "99",
     "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 20 MG - PRINIVIL 20 MG, COMPRIM\u00C9 - ZESTRIL 20 MG, COMPRIM\u00C9.",
-    "CISCode": "61789051",
+    "CISCode": "69299380",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "99",
     "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 20 MG - PRINIVIL 20 MG, COMPRIM\u00C9 - ZESTRIL 20 MG, COMPRIM\u00C9.",
-    "CISCode": "64505061",
+    "CISCode": "61789051",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "99",
     "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 20 MG - PRINIVIL 20 MG, COMPRIM\u00C9 - ZESTRIL 20 MG, COMPRIM\u00C9.",
-    "CISCode": "69559554",
+    "CISCode": "64505061",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "99",
     "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 20 MG - PRINIVIL 20 MG, COMPRIM\u00C9 - ZESTRIL 20 MG, COMPRIM\u00C9.",
-    "CISCode": "62606357",
+    "CISCode": "69559554",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
+  },
+  {
+    "GenericGroupId": "99",
+    "GenericGroupLabel": "LISINOPRIL DIHYDRATE \u00C9QUIVALANT \u00C0 LISINOPRIL 20 MG - PRINIVIL 20 MG, COMPRIM\u00C9 - ZESTRIL 20 MG, COMPRIM\u00C9.",
+    "CISCode": "62606357",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 11
   },
   {
     "GenericGroupId": "100",
@@ -4706,58 +4699,51 @@
   {
     "GenericGroupId": "111",
     "GenericGroupLabel": "ECONAZOLE (NITRATE D\u0027) 1 % - PEVARYL 1 POUR CENT, POUDRE POUR APPLICATION LOCALE EN FLACON POUDREUR.",
-    "CISCode": "64003525",
+    "CISCode": "68250551",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "111",
     "GenericGroupLabel": "ECONAZOLE (NITRATE D\u0027) 1 % - PEVARYL 1 POUR CENT, POUDRE POUR APPLICATION LOCALE EN FLACON POUDREUR.",
-    "CISCode": "68250551",
+    "CISCode": "64772993",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "111",
     "GenericGroupLabel": "ECONAZOLE (NITRATE D\u0027) 1 % - PEVARYL 1 POUR CENT, POUDRE POUR APPLICATION LOCALE EN FLACON POUDREUR.",
-    "CISCode": "64772993",
+    "CISCode": "69913825",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "111",
     "GenericGroupLabel": "ECONAZOLE (NITRATE D\u0027) 1 % - PEVARYL 1 POUR CENT, POUDRE POUR APPLICATION LOCALE EN FLACON POUDREUR.",
-    "CISCode": "69913825",
+    "CISCode": "66710638",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "111",
     "GenericGroupLabel": "ECONAZOLE (NITRATE D\u0027) 1 % - PEVARYL 1 POUR CENT, POUDRE POUR APPLICATION LOCALE EN FLACON POUDREUR.",
-    "CISCode": "66710638",
+    "CISCode": "66240875",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "111",
     "GenericGroupLabel": "ECONAZOLE (NITRATE D\u0027) 1 % - PEVARYL 1 POUR CENT, POUDRE POUR APPLICATION LOCALE EN FLACON POUDREUR.",
-    "CISCode": "66240875",
+    "CISCode": "60521470",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "111",
     "GenericGroupLabel": "ECONAZOLE (NITRATE D\u0027) 1 % - PEVARYL 1 POUR CENT, POUDRE POUR APPLICATION LOCALE EN FLACON POUDREUR.",
-    "CISCode": "60521470",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 8
-  },
-  {
-    "GenericGroupId": "111",
-    "GenericGroupLabel": "ECONAZOLE (NITRATE D\u0027) 1 % - PEVARYL 1 POUR CENT, POUDRE POUR APPLICATION LOCALE EN FLACON POUDREUR.",
     "CISCode": "69511634",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 9
+    "SortNumber": 8
   },
   {
     "GenericGroupId": "112",
@@ -6806,86 +6792,93 @@
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "64176281",
+    "CISCode": "66426958",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "65247087",
+    "CISCode": "64176281",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "62820980",
+    "CISCode": "65247087",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "64725100",
+    "CISCode": "62820980",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "69839638",
+    "CISCode": "64725100",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "65786907",
+    "CISCode": "69839638",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "63524692",
+    "CISCode": "65786907",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "61246828",
+    "CISCode": "63524692",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "60998361",
+    "CISCode": "61246828",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "66929913",
+    "CISCode": "60998361",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "60556852",
+    "CISCode": "66929913",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "159",
     "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
-    "CISCode": "61198803",
+    "CISCode": "60556852",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
+  },
+  {
+    "GenericGroupId": "159",
+    "GenericGroupLabel": "AMOXICILLINE \u002B CLAVULANATE DE POTASSIUM \u00C9QUIVALANT \u00C0 AMOXICILLINE \u002B ACIDE CLAVULANIQUE 1 G \u002B 125 MG ADULTES (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - AUGMENTIN 1 G/125 MG ADULTES, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1) - CIBLOR 1 G/125 MG ADULTE, POUDRE POUR SUSPENSION BUVABLE EN SACHET-DOSE (RAPPORT AMOXICILLINE/ACIDE CLAVULANIQUE : 8/1).",
+    "CISCode": "61198803",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 17
   },
   {
     "GenericGroupId": "163",
@@ -7877,30 +7870,23 @@
   {
     "GenericGroupId": "192",
     "GenericGroupLabel": "SPIRAMYCINE 0.75 M.UI \u002B METRONIDAZOLE 125 MG - RODOGYL, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "65763036",
+    "CISCode": "68142878",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "192",
     "GenericGroupLabel": "SPIRAMYCINE 0.75 M.UI \u002B METRONIDAZOLE 125 MG - RODOGYL, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "68142878",
+    "CISCode": "61912415",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "192",
     "GenericGroupLabel": "SPIRAMYCINE 0.75 M.UI \u002B METRONIDAZOLE 125 MG - RODOGYL, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "61912415",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 6
-  },
-  {
-    "GenericGroupId": "192",
-    "GenericGroupLabel": "SPIRAMYCINE 0.75 M.UI \u002B METRONIDAZOLE 125 MG - RODOGYL, COMPRIM\u00C9 PELLICUL\u00C9.",
     "CISCode": "64161144",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 7
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "194",
@@ -8892,14 +8878,14 @@
   {
     "GenericGroupId": "230",
     "GenericGroupLabel": "KETOPROFENE 2,5 % - KETUM 2,5 POUR CENT, GEL.",
-    "CISCode": "68440789",
+    "CISCode": "61832054",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "230",
     "GenericGroupLabel": "KETOPROFENE 2,5 % - KETUM 2,5 POUR CENT, GEL.",
-    "CISCode": "61832054",
+    "CISCode": "68440789",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
@@ -13834,51 +13820,44 @@
   {
     "GenericGroupId": "350",
     "GenericGroupLabel": "OMEPRAZOLE 10 MG - MOPRAL 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "65171910",
+    "CISCode": "65581090",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 17
   },
   {
     "GenericGroupId": "350",
     "GenericGroupLabel": "OMEPRAZOLE 10 MG - MOPRAL 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "65581090",
+    "CISCode": "65658163",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 18
   },
   {
     "GenericGroupId": "350",
     "GenericGroupLabel": "OMEPRAZOLE 10 MG - MOPRAL 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "65658163",
+    "CISCode": "62543615",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 19
   },
   {
     "GenericGroupId": "350",
     "GenericGroupLabel": "OMEPRAZOLE 10 MG - MOPRAL 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "62543615",
+    "CISCode": "69531932",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 20
   },
   {
     "GenericGroupId": "350",
     "GenericGroupLabel": "OMEPRAZOLE 10 MG - MOPRAL 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "69531932",
+    "CISCode": "62872742",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 21
   },
   {
     "GenericGroupId": "350",
     "GenericGroupLabel": "OMEPRAZOLE 10 MG - MOPRAL 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
-    "CISCode": "62872742",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 22
-  },
-  {
-    "GenericGroupId": "350",
-    "GenericGroupLabel": "OMEPRAZOLE 10 MG - MOPRAL 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE - ZOLTUM 10 MG, G\u00C9LULE GASTRO-R\u00C9SISTANTE",
     "CISCode": "67575816",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 23
+    "SortNumber": 22
   },
   {
     "GenericGroupId": "351",
@@ -14959,13 +14938,6 @@
     "SortNumber": 4
   },
   {
-    "GenericGroupId": "371",
-    "GenericGroupLabel": "FLUCONAZOLE 2 MG/ML - TRIFLUCAN 2 MG/ML, SOLUTION POUR PERFUSION.",
-    "CISCode": "63139942",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 5
-  },
-  {
     "GenericGroupId": "372",
     "GenericGroupLabel": "RAMIPRIL 1,25 MG - TRIATEC 1,25 MG, COMPRIM\u00C9.",
     "CISCode": "67103203",
@@ -15871,23 +15843,30 @@
   {
     "GenericGroupId": "385",
     "GenericGroupLabel": "CARBOPLATINE 10 MG/ML - PARAPLATINE 10 MG/ML, SOLUTION INJECTABLE POUR PERFUSION.",
-    "CISCode": "69921291",
+    "CISCode": "65210982",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "385",
     "GenericGroupLabel": "CARBOPLATINE 10 MG/ML - PARAPLATINE 10 MG/ML, SOLUTION INJECTABLE POUR PERFUSION.",
-    "CISCode": "68513956",
+    "CISCode": "69921291",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "385",
     "GenericGroupLabel": "CARBOPLATINE 10 MG/ML - PARAPLATINE 10 MG/ML, SOLUTION INJECTABLE POUR PERFUSION.",
-    "CISCode": "69671343",
+    "CISCode": "68513956",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "385",
+    "GenericGroupLabel": "CARBOPLATINE 10 MG/ML - PARAPLATINE 10 MG/ML, SOLUTION INJECTABLE POUR PERFUSION.",
+    "CISCode": "69671343",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "387",
@@ -17173,72 +17152,79 @@
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
-    "CISCode": "61609749",
+    "CISCode": "61235810",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
-    "CISCode": "69898857",
+    "CISCode": "61609749",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
-    "CISCode": "69490193",
+    "CISCode": "69898857",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
-    "CISCode": "66620532",
+    "CISCode": "69490193",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
+    "CISCode": "66620532",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
+  },
+  {
+    "GenericGroupId": "422",
+    "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "64848430",
     "GenericType": "g\u00E9n\u00E9rique substituable",
-    "SortNumber": 6
+    "SortNumber": 7
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "63622510",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 7
+    "SortNumber": 8
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "67346714",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 8
+    "SortNumber": 9
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "60513032",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 9
+    "SortNumber": 10
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "62607587",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 10
+    "SortNumber": 11
   },
   {
     "GenericGroupId": "422",
     "GenericGroupLabel": "ALFUZOSINE (CHLORHYDRATE D\u0027) 10 MG - XATRAL LP 10 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "63143652",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 11
+    "SortNumber": 12
   },
   {
     "GenericGroupId": "423",
@@ -21940,16 +21926,9 @@
   {
     "GenericGroupId": "534",
     "GenericGroupLabel": "DOXORUBICINE (CHLORHYDRATE DE)  10 MG/5 ML - ADRIBLASTINE 10 MG/5 ML, SOLUTION INJECTABLE POUR PERFUSION EN FLACON ( FLACON DE 5 ML).",
-    "CISCode": "64107221",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 4
-  },
-  {
-    "GenericGroupId": "534",
-    "GenericGroupLabel": "DOXORUBICINE (CHLORHYDRATE DE)  10 MG/5 ML - ADRIBLASTINE 10 MG/5 ML, SOLUTION INJECTABLE POUR PERFUSION EN FLACON ( FLACON DE 5 ML).",
     "CISCode": "63627532",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 5
+    "SortNumber": 4
   },
   {
     "GenericGroupId": "535",
@@ -22275,35 +22254,35 @@
   },
   {
     "GenericGroupId": "552",
-    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - TELFAST 120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - ALLERVI  120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
     "CISCode": "68712285",
     "GenericType": "princeps",
     "SortNumber": 1
   },
   {
     "GenericGroupId": "552",
-    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - TELFAST 120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - ALLERVI  120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
     "CISCode": "68953418",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "552",
-    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - TELFAST 120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - ALLERVI  120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
     "CISCode": "68209202",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "552",
-    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - TELFAST 120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - ALLERVI  120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
     "CISCode": "69426155",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "552",
-    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - TELFAST 120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "GenericGroupLabel": "FEXOFENADINE (CHLORHYDRATE DE) 120 MG - ALLERVI  120 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
     "CISCode": "64014888",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
@@ -23928,21 +23907,21 @@
   {
     "GenericGroupId": "610",
     "GenericGroupLabel": "PIPERACILLINE SODIQUE \u00C9QUIVALANT \u00C0 PIPERACILLINE 2 G \u002B TAZOBACTAM SODIQUE \u00C9QUIVALANT \u00C0 TAZOBACTAM 250 MG - TAZOCILLINE 2 G/250 MG, POUDRE POUR SOLUTION POUR PERFUSION.",
-    "CISCode": "62005125",
+    "CISCode": "63789146",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "610",
     "GenericGroupLabel": "PIPERACILLINE SODIQUE \u00C9QUIVALANT \u00C0 PIPERACILLINE 2 G \u002B TAZOBACTAM SODIQUE \u00C9QUIVALANT \u00C0 TAZOBACTAM 250 MG - TAZOCILLINE 2 G/250 MG, POUDRE POUR SOLUTION POUR PERFUSION.",
-    "CISCode": "63789146",
+    "CISCode": "67101191",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "610",
     "GenericGroupLabel": "PIPERACILLINE SODIQUE \u00C9QUIVALANT \u00C0 PIPERACILLINE 2 G \u002B TAZOBACTAM SODIQUE \u00C9QUIVALANT \u00C0 TAZOBACTAM 250 MG - TAZOCILLINE 2 G/250 MG, POUDRE POUR SOLUTION POUR PERFUSION.",
-    "CISCode": "67101191",
+    "CISCode": "62005125",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
@@ -24005,21 +23984,21 @@
   {
     "GenericGroupId": "611",
     "GenericGroupLabel": "PIPERACILLINE SODIQUE \u00C9QUIVALANT \u00C0 PIPERACILLINE 4 G \u002B TAZOBACTAM SODIQUE \u00C9QUIVALANT \u00C0 TAZOBACTAM 500 MG - TAZOCILLINE 4 G/500 MG, POUDRE POUR SOLUTION POUR PERFUSION.",
-    "CISCode": "69087648",
+    "CISCode": "65844666",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "611",
     "GenericGroupLabel": "PIPERACILLINE SODIQUE \u00C9QUIVALANT \u00C0 PIPERACILLINE 4 G \u002B TAZOBACTAM SODIQUE \u00C9QUIVALANT \u00C0 TAZOBACTAM 500 MG - TAZOCILLINE 4 G/500 MG, POUDRE POUR SOLUTION POUR PERFUSION.",
-    "CISCode": "65844666",
+    "CISCode": "67909536",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "611",
     "GenericGroupLabel": "PIPERACILLINE SODIQUE \u00C9QUIVALANT \u00C0 PIPERACILLINE 4 G \u002B TAZOBACTAM SODIQUE \u00C9QUIVALANT \u00C0 TAZOBACTAM 500 MG - TAZOCILLINE 4 G/500 MG, POUDRE POUR SOLUTION POUR PERFUSION.",
-    "CISCode": "67909536",
+    "CISCode": "69087648",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
@@ -27148,21 +27127,21 @@
   {
     "GenericGroupId": "694",
     "GenericGroupLabel": "NARATRIPTAN (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 NARATRIPTAN 2,5 MG - NARAMIG 2,5 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "64876127",
+    "CISCode": "67482194",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "694",
     "GenericGroupLabel": "NARATRIPTAN (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 NARATRIPTAN 2,5 MG - NARAMIG 2,5 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "67482194",
+    "CISCode": "69298093",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "694",
     "GenericGroupLabel": "NARATRIPTAN (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 NARATRIPTAN 2,5 MG - NARAMIG 2,5 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "69298093",
+    "CISCode": "64876127",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
@@ -27498,44 +27477,37 @@
   {
     "GenericGroupId": "700",
     "GenericGroupLabel": "TRAMADOL (CHLORHYDRATE DE) 200 MG - CONTRAMAL L.P. 200 MG, COMPRIM\u00C9 PELLICUL\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E - TOPALGIC L.P. 200 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
-    "CISCode": "67177933",
-    "GenericType": "g\u00E9n\u00E9rique substituable",
-    "SortNumber": 10
-  },
-  {
-    "GenericGroupId": "700",
-    "GenericGroupLabel": "TRAMADOL (CHLORHYDRATE DE) 200 MG - CONTRAMAL L.P. 200 MG, COMPRIM\u00C9 PELLICUL\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E - TOPALGIC L.P. 200 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "67950433",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 11
+    "SortNumber": 10
   },
   {
     "GenericGroupId": "700",
     "GenericGroupLabel": "TRAMADOL (CHLORHYDRATE DE) 200 MG - CONTRAMAL L.P. 200 MG, COMPRIM\u00C9 PELLICUL\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E - TOPALGIC L.P. 200 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "63144569",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 12
+    "SortNumber": 11
   },
   {
     "GenericGroupId": "700",
     "GenericGroupLabel": "TRAMADOL (CHLORHYDRATE DE) 200 MG - CONTRAMAL L.P. 200 MG, COMPRIM\u00C9 PELLICUL\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E - TOPALGIC L.P. 200 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "66892557",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 13
+    "SortNumber": 12
   },
   {
     "GenericGroupId": "700",
     "GenericGroupLabel": "TRAMADOL (CHLORHYDRATE DE) 200 MG - CONTRAMAL L.P. 200 MG, COMPRIM\u00C9 PELLICUL\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E - TOPALGIC L.P. 200 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "65170801",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 14
+    "SortNumber": 13
   },
   {
     "GenericGroupId": "700",
     "GenericGroupLabel": "TRAMADOL (CHLORHYDRATE DE) 200 MG - CONTRAMAL L.P. 200 MG, COMPRIM\u00C9 PELLICUL\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E - TOPALGIC L.P. 200 MG, COMPRIM\u00C9 \u00C0 LIB\u00C9RATION PROLONG\u00C9E.",
     "CISCode": "65603398",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 15
+    "SortNumber": 14
   },
   {
     "GenericGroupId": "701",
@@ -28394,23 +28366,16 @@
   {
     "GenericGroupId": "714",
     "GenericGroupLabel": "DIACEREINE 50 MG - ART 50 MG, G\u00C9LULE - ZONDAR 50 MG, G\u00C9LULE.",
-    "CISCode": "63641749",
+    "CISCode": "63114533",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "714",
     "GenericGroupLabel": "DIACEREINE 50 MG - ART 50 MG, G\u00C9LULE - ZONDAR 50 MG, G\u00C9LULE.",
-    "CISCode": "63114533",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 6
-  },
-  {
-    "GenericGroupId": "714",
-    "GenericGroupLabel": "DIACEREINE 50 MG - ART 50 MG, G\u00C9LULE - ZONDAR 50 MG, G\u00C9LULE.",
     "CISCode": "67732819",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 7
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "715",
@@ -29031,14 +28996,14 @@
   {
     "GenericGroupId": "726",
     "GenericGroupLabel": "IMIPENEM MONOHYDRATE \u002B CILASTATINE SODIQUE \u00C9QUIVALANT \u00C0 IMIPENEM ANHYDRE 500 MG \u002B CILASTATINE ANHYDRE 500 MG - TIENAM 500 MG/500 MG, POUDRE POUR SOLUTION POUR PERFUSION",
-    "CISCode": "64326051",
+    "CISCode": "65465495",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "726",
     "GenericGroupLabel": "IMIPENEM MONOHYDRATE \u002B CILASTATINE SODIQUE \u00C9QUIVALANT \u00C0 IMIPENEM ANHYDRE 500 MG \u002B CILASTATINE ANHYDRE 500 MG - TIENAM 500 MG/500 MG, POUDRE POUR SOLUTION POUR PERFUSION",
-    "CISCode": "65465495",
+    "CISCode": "64326051",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
@@ -30102,16 +30067,9 @@
   {
     "GenericGroupId": "758",
     "GenericGroupLabel": "MYCOPHENOLATE MOFETIL 250 MG - CELLCEPT 250 MG, G\u00C9LULE.",
-    "CISCode": "62514439",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 6
-  },
-  {
-    "GenericGroupId": "758",
-    "GenericGroupLabel": "MYCOPHENOLATE MOFETIL 250 MG - CELLCEPT 250 MG, G\u00C9LULE.",
     "CISCode": "67572325",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 7
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "762",
@@ -30842,6 +30800,13 @@
     "SortNumber": 13
   },
   {
+    "GenericGroupId": "780",
+    "GenericGroupLabel": "FINASTERIDE 1 MG - PROPECIA 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "CISCode": "66378659",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 14
+  },
+  {
     "GenericGroupId": "782",
     "GenericGroupLabel": "FOSFOMYCINE TROMETAMOL \u00C9QUIVALANT \u00C0 FOSFOMYCINE 3 G - MONURIL 3 G, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET. - URIDOZ 3 G, GRANUL\u00C9 POUR SOLUTION BUVABLE EN SACHET.",
     "CISCode": "67951706",
@@ -30921,51 +30886,44 @@
   {
     "GenericGroupId": "782",
     "GenericGroupLabel": "FOSFOMYCINE TROMETAMOL \u00C9QUIVALANT \u00C0 FOSFOMYCINE 3 G - MONURIL 3 G, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET. - URIDOZ 3 G, GRANUL\u00C9 POUR SOLUTION BUVABLE EN SACHET.",
-    "CISCode": "60415474",
+    "CISCode": "61935264",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "782",
     "GenericGroupLabel": "FOSFOMYCINE TROMETAMOL \u00C9QUIVALANT \u00C0 FOSFOMYCINE 3 G - MONURIL 3 G, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET. - URIDOZ 3 G, GRANUL\u00C9 POUR SOLUTION BUVABLE EN SACHET.",
-    "CISCode": "61935264",
+    "CISCode": "67292184",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "782",
     "GenericGroupLabel": "FOSFOMYCINE TROMETAMOL \u00C9QUIVALANT \u00C0 FOSFOMYCINE 3 G - MONURIL 3 G, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET. - URIDOZ 3 G, GRANUL\u00C9 POUR SOLUTION BUVABLE EN SACHET.",
-    "CISCode": "67292184",
+    "CISCode": "69138306",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "782",
     "GenericGroupLabel": "FOSFOMYCINE TROMETAMOL \u00C9QUIVALANT \u00C0 FOSFOMYCINE 3 G - MONURIL 3 G, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET. - URIDOZ 3 G, GRANUL\u00C9 POUR SOLUTION BUVABLE EN SACHET.",
-    "CISCode": "69138306",
+    "CISCode": "62670616",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "782",
     "GenericGroupLabel": "FOSFOMYCINE TROMETAMOL \u00C9QUIVALANT \u00C0 FOSFOMYCINE 3 G - MONURIL 3 G, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET. - URIDOZ 3 G, GRANUL\u00C9 POUR SOLUTION BUVABLE EN SACHET.",
-    "CISCode": "62670616",
+    "CISCode": "61567061",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
   {
     "GenericGroupId": "782",
     "GenericGroupLabel": "FOSFOMYCINE TROMETAMOL \u00C9QUIVALANT \u00C0 FOSFOMYCINE 3 G - MONURIL 3 G, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET. - URIDOZ 3 G, GRANUL\u00C9 POUR SOLUTION BUVABLE EN SACHET.",
-    "CISCode": "61567061",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 17
-  },
-  {
-    "GenericGroupId": "782",
-    "GenericGroupLabel": "FOSFOMYCINE TROMETAMOL \u00C9QUIVALANT \u00C0 FOSFOMYCINE 3 G - MONURIL 3 G, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET. - URIDOZ 3 G, GRANUL\u00C9 POUR SOLUTION BUVABLE EN SACHET.",
     "CISCode": "65795863",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 18
+    "SortNumber": 17
   },
   {
     "GenericGroupId": "783",
@@ -46685,9 +46643,16 @@
   {
     "GenericGroupId": "1152",
     "GenericGroupLabel": "TROSPIUM (CHLORURE DE) 20 MG - CERIS 20 MG, COMPRIM\u00C9 ENROB\u00C9",
-    "CISCode": "65365616",
+    "CISCode": "66757043",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
+  },
+  {
+    "GenericGroupId": "1152",
+    "GenericGroupLabel": "TROSPIUM (CHLORURE DE) 20 MG - CERIS 20 MG, COMPRIM\u00C9 ENROB\u00C9",
+    "CISCode": "65365616",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 3
   },
   {
     "GenericGroupId": "1153",
@@ -47388,13 +47353,6 @@
     "CISCode": "61621858",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
-  },
-  {
-    "GenericGroupId": "1181",
-    "GenericGroupLabel": "PARAC\u00C9TAMOL  500 MG  \u002B  ACIDE ASCORBIQUE  200 MG \u002B  PH\u00C9NIRAMINE (MAL\u00C9ATE DE) 25 MG - FERVEX ADULTES, GRANUL\u00C9S POUR SOLUTION BUVABLE EN SACHET",
-    "CISCode": "61860121",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 5
   },
   {
     "GenericGroupId": "1182",
@@ -49905,30 +49863,23 @@
   {
     "GenericGroupId": "1249",
     "GenericGroupLabel": "PR\u00C9GABALINE 25 MG - LYRICA 25 MG, G\u00C9LULE",
-    "CISCode": "61251444",
+    "CISCode": "62767168",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
   {
     "GenericGroupId": "1249",
     "GenericGroupLabel": "PR\u00C9GABALINE 25 MG - LYRICA 25 MG, G\u00C9LULE",
-    "CISCode": "62767168",
+    "CISCode": "65282234",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 17
   },
   {
     "GenericGroupId": "1249",
     "GenericGroupLabel": "PR\u00C9GABALINE 25 MG - LYRICA 25 MG, G\u00C9LULE",
-    "CISCode": "65282234",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 18
-  },
-  {
-    "GenericGroupId": "1249",
-    "GenericGroupLabel": "PR\u00C9GABALINE 25 MG - LYRICA 25 MG, G\u00C9LULE",
     "CISCode": "61911861",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 19
+    "SortNumber": 18
   },
   {
     "GenericGroupId": "1250",
@@ -50038,30 +49989,23 @@
   {
     "GenericGroupId": "1250",
     "GenericGroupLabel": "PR\u00C9GABALINE 50 MG - LYRICA 50 MG, G\u00C9LULE",
-    "CISCode": "67528193",
+    "CISCode": "69075101",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
   {
     "GenericGroupId": "1250",
     "GenericGroupLabel": "PR\u00C9GABALINE 50 MG - LYRICA 50 MG, G\u00C9LULE",
-    "CISCode": "69075101",
+    "CISCode": "69967100",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 17
   },
   {
     "GenericGroupId": "1250",
     "GenericGroupLabel": "PR\u00C9GABALINE 50 MG - LYRICA 50 MG, G\u00C9LULE",
-    "CISCode": "69967100",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 18
-  },
-  {
-    "GenericGroupId": "1250",
-    "GenericGroupLabel": "PR\u00C9GABALINE 50 MG - LYRICA 50 MG, G\u00C9LULE",
     "CISCode": "68382834",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 19
+    "SortNumber": 18
   },
   {
     "GenericGroupId": "1251",
@@ -50171,30 +50115,23 @@
   {
     "GenericGroupId": "1251",
     "GenericGroupLabel": "PR\u00C9GABALINE 75 MG - LYRICA 75 MG, G\u00C9LULE",
-    "CISCode": "63608279",
+    "CISCode": "68615772",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
   {
     "GenericGroupId": "1251",
     "GenericGroupLabel": "PR\u00C9GABALINE 75 MG - LYRICA 75 MG, G\u00C9LULE",
-    "CISCode": "68615772",
+    "CISCode": "66410690",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 17
   },
   {
     "GenericGroupId": "1251",
     "GenericGroupLabel": "PR\u00C9GABALINE 75 MG - LYRICA 75 MG, G\u00C9LULE",
-    "CISCode": "66410690",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 18
-  },
-  {
-    "GenericGroupId": "1251",
-    "GenericGroupLabel": "PR\u00C9GABALINE 75 MG - LYRICA 75 MG, G\u00C9LULE",
     "CISCode": "66304210",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 19
+    "SortNumber": 18
   },
   {
     "GenericGroupId": "1252",
@@ -50304,30 +50241,23 @@
   {
     "GenericGroupId": "1252",
     "GenericGroupLabel": "PR\u00C9GABALINE 100 MG - LYRICA 100 MG, G\u00C9LULE",
-    "CISCode": "66090023",
+    "CISCode": "68398945",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
   {
     "GenericGroupId": "1252",
     "GenericGroupLabel": "PR\u00C9GABALINE 100 MG - LYRICA 100 MG, G\u00C9LULE",
-    "CISCode": "68398945",
+    "CISCode": "62249492",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 17
   },
   {
     "GenericGroupId": "1252",
     "GenericGroupLabel": "PR\u00C9GABALINE 100 MG - LYRICA 100 MG, G\u00C9LULE",
-    "CISCode": "62249492",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 18
-  },
-  {
-    "GenericGroupId": "1252",
-    "GenericGroupLabel": "PR\u00C9GABALINE 100 MG - LYRICA 100 MG, G\u00C9LULE",
     "CISCode": "62599681",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 19
+    "SortNumber": 18
   },
   {
     "GenericGroupId": "1253",
@@ -50437,30 +50367,23 @@
   {
     "GenericGroupId": "1253",
     "GenericGroupLabel": "PR\u00C9GABALINE 150 MG - LYRICA 150 MG, G\u00C9LULE",
-    "CISCode": "66587954",
+    "CISCode": "61954421",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
   {
     "GenericGroupId": "1253",
     "GenericGroupLabel": "PR\u00C9GABALINE 150 MG - LYRICA 150 MG, G\u00C9LULE",
-    "CISCode": "61954421",
+    "CISCode": "60912259",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 17
   },
   {
     "GenericGroupId": "1253",
     "GenericGroupLabel": "PR\u00C9GABALINE 150 MG - LYRICA 150 MG, G\u00C9LULE",
-    "CISCode": "60912259",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 18
-  },
-  {
-    "GenericGroupId": "1253",
-    "GenericGroupLabel": "PR\u00C9GABALINE 150 MG - LYRICA 150 MG, G\u00C9LULE",
     "CISCode": "69399555",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 19
+    "SortNumber": 18
   },
   {
     "GenericGroupId": "1254",
@@ -50563,30 +50486,23 @@
   {
     "GenericGroupId": "1254",
     "GenericGroupLabel": "PR\u00C9GABALINE 200 MG - LYRICA 200 MG, G\u00C9LULE",
-    "CISCode": "63206946",
+    "CISCode": "60061602",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "1254",
     "GenericGroupLabel": "PR\u00C9GABALINE 200 MG - LYRICA 200 MG, G\u00C9LULE",
-    "CISCode": "60061602",
+    "CISCode": "69365019",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
   {
     "GenericGroupId": "1254",
     "GenericGroupLabel": "PR\u00C9GABALINE 200 MG - LYRICA 200 MG, G\u00C9LULE",
-    "CISCode": "69365019",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 17
-  },
-  {
-    "GenericGroupId": "1254",
-    "GenericGroupLabel": "PR\u00C9GABALINE 200 MG - LYRICA 200 MG, G\u00C9LULE",
     "CISCode": "69158248",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 18
+    "SortNumber": 17
   },
   {
     "GenericGroupId": "1255",
@@ -50689,30 +50605,23 @@
   {
     "GenericGroupId": "1255",
     "GenericGroupLabel": "PR\u00C9GABALINE 300 MG - LYRICA 300 MG, G\u00C9LULE",
-    "CISCode": "63095549",
+    "CISCode": "69656583",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "1255",
     "GenericGroupLabel": "PR\u00C9GABALINE 300 MG - LYRICA 300 MG, G\u00C9LULE",
-    "CISCode": "69656583",
+    "CISCode": "63389216",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
   {
     "GenericGroupId": "1255",
     "GenericGroupLabel": "PR\u00C9GABALINE 300 MG - LYRICA 300 MG, G\u00C9LULE",
-    "CISCode": "63389216",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 17
-  },
-  {
-    "GenericGroupId": "1255",
-    "GenericGroupLabel": "PR\u00C9GABALINE 300 MG - LYRICA 300 MG, G\u00C9LULE",
     "CISCode": "62768099",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 18
+    "SortNumber": 17
   },
   {
     "GenericGroupId": "1256",
@@ -54378,72 +54287,79 @@
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "65060956",
+    "CISCode": "61064455",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "69157915",
+    "CISCode": "65060956",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "68665113",
+    "CISCode": "69157915",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "64296537",
+    "CISCode": "68665113",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "64842687",
+    "CISCode": "64296537",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "61843531",
+    "CISCode": "64842687",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "62533172",
+    "CISCode": "61843531",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "65078623",
+    "CISCode": "62533172",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "69323365",
+    "CISCode": "65078623",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "1336",
     "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
-    "CISCode": "61628475",
+    "CISCode": "69323365",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
+  },
+  {
+    "GenericGroupId": "1336",
+    "GenericGroupLabel": "IVERMECTINE 3 MG - STROMECTOL 3 MG, COMPRIM\u00C9",
+    "CISCode": "61628475",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 17
   },
   {
     "GenericGroupId": "1337",
@@ -55414,23 +55330,16 @@
   {
     "GenericGroupId": "1368",
     "GenericGroupLabel": "PARACETAMOL 400 MG \u002B CAFEINE 50 MG \u002B CODEINE (PHOSPHATE DE) HEMIHYDRATE 20 MG - PRONTALGINE, COMPRIM\u00C9",
-    "CISCode": "63252616",
+    "CISCode": "63399979",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1368",
     "GenericGroupLabel": "PARACETAMOL 400 MG \u002B CAFEINE 50 MG \u002B CODEINE (PHOSPHATE DE) HEMIHYDRATE 20 MG - PRONTALGINE, COMPRIM\u00C9",
-    "CISCode": "63399979",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 3
-  },
-  {
-    "GenericGroupId": "1368",
-    "GenericGroupLabel": "PARACETAMOL 400 MG \u002B CAFEINE 50 MG \u002B CODEINE (PHOSPHATE DE) HEMIHYDRATE 20 MG - PRONTALGINE, COMPRIM\u00C9",
     "CISCode": "64409077",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 4
+    "SortNumber": 3
   },
   {
     "GenericGroupId": "1369",
@@ -56093,51 +56002,44 @@
   {
     "GenericGroupId": "1380",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CASPOFUNGINE 50 MG - CANCIDAS 50 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "62504078",
+    "CISCode": "60140010",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1380",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CASPOFUNGINE 50 MG - CANCIDAS 50 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "60140010",
+    "CISCode": "66869238",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1380",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CASPOFUNGINE 50 MG - CANCIDAS 50 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "66869238",
+    "CISCode": "62080334",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1380",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CASPOFUNGINE 50 MG - CANCIDAS 50 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "62080334",
+    "CISCode": "67987353",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "1380",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CASPOFUNGINE 50 MG - CANCIDAS 50 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "67987353",
+    "CISCode": "69919835",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "1380",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CASPOFUNGINE 50 MG - CANCIDAS 50 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "69919835",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 16
-  },
-  {
-    "GenericGroupId": "1380",
-    "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CASPOFUNGINE 50 MG - CANCIDAS 50 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
     "CISCode": "66331570",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 17
+    "SortNumber": 16
   },
   {
     "GenericGroupId": "1381",
@@ -56212,44 +56114,37 @@
   {
     "GenericGroupId": "1381",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CAPSOFUNGINE 70 MG - CANCIDAS 70 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "67982527",
+    "CISCode": "63197689",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1381",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CAPSOFUNGINE 70 MG - CANCIDAS 70 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "63197689",
+    "CISCode": "67108093",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1381",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CAPSOFUNGINE 70 MG - CANCIDAS 70 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "67108093",
+    "CISCode": "69061411",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1381",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CAPSOFUNGINE 70 MG - CANCIDAS 70 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "69061411",
+    "CISCode": "63609267",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "1381",
     "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CAPSOFUNGINE 70 MG - CANCIDAS 70 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "63609267",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 15
-  },
-  {
-    "GenericGroupId": "1381",
-    "GenericGroupLabel": "CASPOFUNGINE (ACETATE DE) ((CHAMPIGNONS/GLAREA LOZOYENSIS)) \u00C9QUIVALANT \u00C0 CAPSOFUNGINE 70 MG - CANCIDAS 70 MG, POUDRE POUR SOLUTION \u00C0 DILUER POUR PERFUSION",
     "CISCode": "61215042",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 16
+    "SortNumber": 15
   },
   {
     "GenericGroupId": "1382",
@@ -56688,37 +56583,30 @@
   {
     "GenericGroupId": "1390",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR 400 MG - PREZISTA 400 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "64380729",
+    "CISCode": "67466069",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1390",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR 400 MG - PREZISTA 400 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "67466069",
+    "CISCode": "69977258",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1390",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR 400 MG - PREZISTA 400 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "69977258",
+    "CISCode": "60860061",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1390",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR 400 MG - PREZISTA 400 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60860061",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 8
-  },
-  {
-    "GenericGroupId": "1390",
-    "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 400 MG - DARUNAVIR 400 MG - PREZISTA 400 MG, COMPRIM\u00C9 PELLICUL\u00C9",
     "CISCode": "60803434",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 9
+    "SortNumber": 8
   },
   {
     "GenericGroupId": "1391",
@@ -56765,44 +56653,37 @@
   {
     "GenericGroupId": "1391",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR 600 MG - PREZISTA 600 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "63145062",
+    "CISCode": "62787982",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1391",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR 600 MG - PREZISTA 600 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "62787982",
+    "CISCode": "63124787",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1391",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR 600 MG - PREZISTA 600 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "63124787",
+    "CISCode": "68175216",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1391",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR 600 MG - PREZISTA 600 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "68175216",
+    "CISCode": "62624693",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1391",
     "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR 600 MG - PREZISTA 600 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "62624693",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 11
-  },
-  {
-    "GenericGroupId": "1391",
-    "GenericGroupLabel": "DARUNAVIR (ETHANOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR (PROPYLENE GLYCOLATE DE) \u00C9QUIVALANT \u00C0 DARUNAVIR 600 MG - DARUNAVIR 600 MG - PREZISTA 600 MG, COMPRIM\u00C9 PELLICUL\u00C9",
     "CISCode": "65900346",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 12
+    "SortNumber": 11
   },
   {
     "GenericGroupId": "1392",
@@ -59794,25 +59675,11 @@
     "SortNumber": 1
   },
   {
-    "GenericGroupId": "1462",
-    "GenericGroupLabel": "MYCOPHENOLATE SODIQUE \u00C9QUIVALANT \u00C0 ACIDE MYCOPHENOLIQUE 180 MG - MYFORTIC 180 MG, COMPRIM\u00C9 GASTRO-R\u00C9SISTANT",
-    "CISCode": "63828948",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 2
-  },
-  {
     "GenericGroupId": "1463",
     "GenericGroupLabel": "MYCOPHENOLATE SODIQUE \u00C9QUIVALANT \u00C0 ACIDE MYCOPHENOLIQUE 360 MG - MYFORTIC 360 MG, COMPRIM\u00C9 GASTRO-R\u00C9SISTANT",
     "CISCode": "67858369",
     "GenericType": "princeps",
     "SortNumber": 1
-  },
-  {
-    "GenericGroupId": "1463",
-    "GenericGroupLabel": "MYCOPHENOLATE SODIQUE \u00C9QUIVALANT \u00C0 ACIDE MYCOPHENOLIQUE 360 MG - MYFORTIC 360 MG, COMPRIM\u00C9 GASTRO-R\u00C9SISTANT",
-    "CISCode": "68337141",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 2
   },
   {
     "GenericGroupId": "1464",
@@ -61952,16 +61819,23 @@
   {
     "GenericGroupId": "1499",
     "GenericGroupLabel": "RIVAROXABAN 20 MG - XARELTO 20 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "64330217",
+    "CISCode": "61186021",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 26
   },
   {
     "GenericGroupId": "1499",
     "GenericGroupLabel": "RIVAROXABAN 20 MG - XARELTO 20 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60908257",
+    "CISCode": "64330217",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 27
+  },
+  {
+    "GenericGroupId": "1499",
+    "GenericGroupLabel": "RIVAROXABAN 20 MG - XARELTO 20 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "60908257",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 28
   },
   {
     "GenericGroupId": "1500",
@@ -63632,79 +63506,72 @@
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "68808522",
+    "CISCode": "67131252",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "67131252",
+    "CISCode": "61923187",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "61923187",
+    "CISCode": "61365088",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "61365088",
+    "CISCode": "64174946",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "64174946",
+    "CISCode": "61348135",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "61348135",
+    "CISCode": "68001614",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "68001614",
+    "CISCode": "66205899",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "66205899",
+    "CISCode": "62625592",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "62625592",
+    "CISCode": "68999650",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1547",
     "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
-    "CISCode": "68999650",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 14
-  },
-  {
-    "GenericGroupId": "1547",
-    "GenericGroupLabel": "LENALIDOMIDE 10 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 10 MG - REVLIMID 10 MG, G\u00C9LULE",
     "CISCode": "66960887",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 15
+    "SortNumber": 14
   },
   {
     "GenericGroupId": "1548",
@@ -63737,79 +63604,72 @@
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "60077752",
+    "CISCode": "69666766",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "69666766",
+    "CISCode": "64284175",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "64284175",
+    "CISCode": "60988940",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "60988940",
+    "CISCode": "69436263",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "69436263",
+    "CISCode": "66981995",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "66981995",
+    "CISCode": "65050652",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "65050652",
+    "CISCode": "64249690",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "64249690",
+    "CISCode": "67388994",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "67388994",
+    "CISCode": "63365222",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1548",
     "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
-    "CISCode": "63365222",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 14
-  },
-  {
-    "GenericGroupId": "1548",
-    "GenericGroupLabel": "LENALIDOMIDE 15 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 15 MG - REVLIMID 15 MG, G\u00C9LULE",
     "CISCode": "60479936",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 15
+    "SortNumber": 14
   },
   {
     "GenericGroupId": "1549",
@@ -63940,79 +63800,72 @@
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "60561618",
+    "CISCode": "63412501",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "63412501",
+    "CISCode": "66636255",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "66636255",
+    "CISCode": "65770358",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "65770358",
+    "CISCode": "69256226",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "69256226",
+    "CISCode": "67114872",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "67114872",
+    "CISCode": "64084616",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "64084616",
+    "CISCode": "64899528",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "64899528",
+    "CISCode": "60766498",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "60766498",
+    "CISCode": "67848898",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1550",
     "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
-    "CISCode": "67848898",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 14
-  },
-  {
-    "GenericGroupId": "1550",
-    "GenericGroupLabel": "LENALIDOMIDE 25 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 25 MG - REVLIMID 25 MG, G\u00C9LULE",
     "CISCode": "66979948",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 15
+    "SortNumber": 14
   },
   {
     "GenericGroupId": "1552",
@@ -64045,86 +63898,79 @@
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "66575578",
+    "CISCode": "64848925",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "64848925",
+    "CISCode": "62334569",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "62334569",
+    "CISCode": "63673526",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "63673526",
+    "CISCode": "62377951",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "62377951",
+    "CISCode": "66903224",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "66903224",
+    "CISCode": "65689333",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "65689333",
+    "CISCode": "68885337",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "68885337",
+    "CISCode": "62893964",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "62893964",
+    "CISCode": "63302229",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "63302229",
+    "CISCode": "61310469",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "1552",
     "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
-    "CISCode": "61310469",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 15
-  },
-  {
-    "GenericGroupId": "1552",
-    "GenericGroupLabel": "LENALIDOMIDE 5 MG - LENALIDOMIDE (CHLORHYDRATE DE) HYDRATE \u00C9QUIVALANT \u00C0 LENALIDOMIDE 5 MG - REVLIMID 5 MG, G\u00C9LULE",
     "CISCode": "66587947",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 16
+    "SortNumber": 15
   },
   {
     "GenericGroupId": "1553",
@@ -64402,51 +64248,37 @@
   {
     "GenericGroupId": "1569",
     "GenericGroupLabel": "DEXMEDETOMIDINE (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 DEXMEDETOMIDINE 100 MICROGRAMMES POUR 1 ML - DEXDOR 100 MICROGRAMMES/ML, SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "63696788",
+    "CISCode": "64111166",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "1569",
     "GenericGroupLabel": "DEXMEDETOMIDINE (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 DEXMEDETOMIDINE 100 MICROGRAMMES POUR 1 ML - DEXDOR 100 MICROGRAMMES/ML, SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "64111166",
+    "CISCode": "68657230",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "1569",
     "GenericGroupLabel": "DEXMEDETOMIDINE (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 DEXMEDETOMIDINE 100 MICROGRAMMES POUR 1 ML - DEXDOR 100 MICROGRAMMES/ML, SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "68657230",
+    "CISCode": "66488568",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1569",
     "GenericGroupLabel": "DEXMEDETOMIDINE (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 DEXMEDETOMIDINE 100 MICROGRAMMES POUR 1 ML - DEXDOR 100 MICROGRAMMES/ML, SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "66488568",
+    "CISCode": "69807359",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1569",
     "GenericGroupLabel": "DEXMEDETOMIDINE (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 DEXMEDETOMIDINE 100 MICROGRAMMES POUR 1 ML - DEXDOR 100 MICROGRAMMES/ML, SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "69807359",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 7
-  },
-  {
-    "GenericGroupId": "1569",
-    "GenericGroupLabel": "DEXMEDETOMIDINE (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 DEXMEDETOMIDINE 100 MICROGRAMMES POUR 1 ML - DEXDOR 100 MICROGRAMMES/ML, SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "66593494",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 8
-  },
-  {
-    "GenericGroupId": "1569",
-    "GenericGroupLabel": "DEXMEDETOMIDINE (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 DEXMEDETOMIDINE 100 MICROGRAMMES POUR 1 ML - DEXDOR 100 MICROGRAMMES/ML, SOLUTION \u00C0 DILUER POUR PERFUSION",
     "CISCode": "67267195",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 9
+    "SortNumber": 7
   },
   {
     "GenericGroupId": "1570",
@@ -64514,79 +64346,72 @@
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "69243823",
+    "CISCode": "66051294",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "66051294",
+    "CISCode": "61031277",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "61031277",
+    "CISCode": "60998831",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "60998831",
+    "CISCode": "60535915",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "60535915",
+    "CISCode": "64523554",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "64523554",
+    "CISCode": "67482148",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "67482148",
+    "CISCode": "60076860",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "60076860",
+    "CISCode": "65055820",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "65055820",
+    "CISCode": "64125746",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1573",
     "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
-    "CISCode": "64125746",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 14
-  },
-  {
-    "GenericGroupId": "1573",
-    "GenericGroupLabel": "LENALIDOMIDE 20 MG - REVLIMID 20 MG, G\u00C9LULE",
     "CISCode": "61035496",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 15
+    "SortNumber": 14
   },
   {
     "GenericGroupId": "1574",
@@ -65599,16 +65424,23 @@
   {
     "GenericGroupId": "1608",
     "GenericGroupLabel": "PHLOROGLUCINOL (DIHYDRATE) 160 MG - SPASFON LYOC 160 MG, LYOPHILISAT ORAL",
-    "CISCode": "69685535",
+    "CISCode": "66501535",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "1608",
     "GenericGroupLabel": "PHLOROGLUCINOL (DIHYDRATE) 160 MG - SPASFON LYOC 160 MG, LYOPHILISAT ORAL",
-    "CISCode": "64781024",
+    "CISCode": "69685535",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "1608",
+    "GenericGroupLabel": "PHLOROGLUCINOL (DIHYDRATE) 160 MG - SPASFON LYOC 160 MG, LYOPHILISAT ORAL",
+    "CISCode": "64781024",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "1609",
@@ -65760,23 +65592,16 @@
   {
     "GenericGroupId": "1617",
     "GenericGroupLabel": "AMYLMETACRESOL 0,6 MG \u002B ALCOOL DICHLORO-2,4-BENZYLIQUE 1,2 MG - STREPSILS MIEL CITRON, PASTILLE \u00C0 SUCER",
-    "CISCode": "63046267",
+    "CISCode": "66166122",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1617",
     "GenericGroupLabel": "AMYLMETACRESOL 0,6 MG \u002B ALCOOL DICHLORO-2,4-BENZYLIQUE 1,2 MG - STREPSILS MIEL CITRON, PASTILLE \u00C0 SUCER",
-    "CISCode": "66166122",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 3
-  },
-  {
-    "GenericGroupId": "1617",
-    "GenericGroupLabel": "AMYLMETACRESOL 0,6 MG \u002B ALCOOL DICHLORO-2,4-BENZYLIQUE 1,2 MG - STREPSILS MIEL CITRON, PASTILLE \u00C0 SUCER",
     "CISCode": "65179483",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 4
+    "SortNumber": 3
   },
   {
     "GenericGroupId": "1618",
@@ -66556,13 +66381,6 @@
     "SortNumber": 13
   },
   {
-    "GenericGroupId": "1649",
-    "GenericGroupLabel": "RIVAROXABAN 2,5 MG - XARELTO 2,5 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "67935417",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 14
-  },
-  {
     "GenericGroupId": "1650",
     "GenericGroupLabel": "ULIPRISTAL (ACETATE D\u0027) 5 MG - ESMYA 5 MG, COMPRIM\u00C9",
     "CISCode": "60529816",
@@ -66589,13 +66407,6 @@
     "CISCode": "65847210",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
-  },
-  {
-    "GenericGroupId": "1651",
-    "GenericGroupLabel": "ARSENIC TRIOXIDE 1 MG/ML - TRISENOX 1 MG/ML, SOLUTION \u00C0 DILUER POUR PERFUSION",
-    "CISCode": "63541065",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 4
   },
   {
     "GenericGroupId": "1652",
@@ -67002,13 +66813,6 @@
     "CISCode": "63006116",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
-  },
-  {
-    "GenericGroupId": "1670",
-    "GenericGroupLabel": "DASATINIB 80 MG - DASATINIB (MONOHYDRATE) \u00C9QUIVALANT \u00C0 DASATINIB 80 MG - SPRYCEL 80 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "65008728",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 3
   },
   {
     "GenericGroupId": "1671",
@@ -67480,13 +67284,6 @@
     "SortNumber": 7
   },
   {
-    "GenericGroupId": "1688",
-    "GenericGroupLabel": "MICAFUNGINE SODIQUE \u00C9QUIVALANT \u00C0 MICAFUNGINE 100 MG - MYCAMINE 100 MG, POUDRE POUR SOLUTION POUR PERFUSION",
-    "CISCode": "63172390",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 8
-  },
-  {
     "GenericGroupId": "1689",
     "GenericGroupLabel": "MICAFUNGINE SODIQUE \u00C9QUIVALANT \u00C0 MICAFUNGINE 50 MG - MYCAMINE 50 MG, POUDRE POUR SOLUTION POUR PERFUSION",
     "CISCode": "63197760",
@@ -67534,13 +67331,6 @@
     "CISCode": "60754631",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
-  },
-  {
-    "GenericGroupId": "1689",
-    "GenericGroupLabel": "MICAFUNGINE SODIQUE \u00C9QUIVALANT \u00C0 MICAFUNGINE 50 MG - MYCAMINE 50 MG, POUDRE POUR SOLUTION POUR PERFUSION",
-    "CISCode": "63485702",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 8
   },
   {
     "GenericGroupId": "1690",
@@ -67895,16 +67685,37 @@
   {
     "GenericGroupId": "1704",
     "GenericGroupLabel": "DESMOPRESSINE 60 MICROGRAMMES - MINIRINMELT 60 MICROGRAMMES, LYOPHILISAT ORAL",
-    "CISCode": "63199672",
+    "CISCode": "64685392",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1704",
     "GenericGroupLabel": "DESMOPRESSINE 60 MICROGRAMMES - MINIRINMELT 60 MICROGRAMMES, LYOPHILISAT ORAL",
-    "CISCode": "68591296",
+    "CISCode": "69836880",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
+  },
+  {
+    "GenericGroupId": "1704",
+    "GenericGroupLabel": "DESMOPRESSINE 60 MICROGRAMMES - MINIRINMELT 60 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "63199672",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 4
+  },
+  {
+    "GenericGroupId": "1704",
+    "GenericGroupLabel": "DESMOPRESSINE 60 MICROGRAMMES - MINIRINMELT 60 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "68591296",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "1704",
+    "GenericGroupLabel": "DESMOPRESSINE 60 MICROGRAMMES - MINIRINMELT 60 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "68826207",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "1705",
@@ -67916,16 +67727,37 @@
   {
     "GenericGroupId": "1705",
     "GenericGroupLabel": "DESMOPRESSINE 240 MICROGRAMMES - MINIRINMELT 240 MICROGRAMMES, LYOPHILISAT ORAL",
-    "CISCode": "63609185",
+    "CISCode": "64727382",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1705",
     "GenericGroupLabel": "DESMOPRESSINE 240 MICROGRAMMES - MINIRINMELT 240 MICROGRAMMES, LYOPHILISAT ORAL",
-    "CISCode": "61596554",
+    "CISCode": "64471869",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
+  },
+  {
+    "GenericGroupId": "1705",
+    "GenericGroupLabel": "DESMOPRESSINE 240 MICROGRAMMES - MINIRINMELT 240 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "63609185",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 4
+  },
+  {
+    "GenericGroupId": "1705",
+    "GenericGroupLabel": "DESMOPRESSINE 240 MICROGRAMMES - MINIRINMELT 240 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "61596554",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "1705",
+    "GenericGroupLabel": "DESMOPRESSINE 240 MICROGRAMMES - MINIRINMELT 240 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "68867442",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "1706",
@@ -67937,16 +67769,37 @@
   {
     "GenericGroupId": "1706",
     "GenericGroupLabel": "DESMOPRESSINE 120 MICROGRAMMES - MINIRINMELT 120 MICROGRAMMES, LYOPHILISAT ORAL",
-    "CISCode": "69692259",
+    "CISCode": "60338978",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1706",
     "GenericGroupLabel": "DESMOPRESSINE 120 MICROGRAMMES - MINIRINMELT 120 MICROGRAMMES, LYOPHILISAT ORAL",
-    "CISCode": "68095745",
+    "CISCode": "67310718",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
+  },
+  {
+    "GenericGroupId": "1706",
+    "GenericGroupLabel": "DESMOPRESSINE 120 MICROGRAMMES - MINIRINMELT 120 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "69692259",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 4
+  },
+  {
+    "GenericGroupId": "1706",
+    "GenericGroupLabel": "DESMOPRESSINE 120 MICROGRAMMES - MINIRINMELT 120 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "68095745",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "1706",
+    "GenericGroupLabel": "DESMOPRESSINE 120 MICROGRAMMES - MINIRINMELT 120 MICROGRAMMES, LYOPHILISAT ORAL",
+    "CISCode": "64694815",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "1707",
@@ -68280,30 +68133,37 @@
   {
     "GenericGroupId": "1714",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 110 MG - PRADAXA 110 MG, G\u00C9LULE",
-    "CISCode": "60292648",
+    "CISCode": "60106104",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1714",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 110 MG - PRADAXA 110 MG, G\u00C9LULE",
-    "CISCode": "61492018",
+    "CISCode": "60292648",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "1714",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 110 MG - PRADAXA 110 MG, G\u00C9LULE",
-    "CISCode": "65589639",
+    "CISCode": "61492018",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "1714",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 110 MG - PRADAXA 110 MG, G\u00C9LULE",
-    "CISCode": "66825836",
+    "CISCode": "65589639",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "1714",
+    "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 110 MG - PRADAXA 110 MG, G\u00C9LULE",
+    "CISCode": "66825836",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "1715",
@@ -68315,30 +68175,37 @@
   {
     "GenericGroupId": "1715",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 150 MG - PRADAXA 150 MG, G\u00C9LULE",
-    "CISCode": "68417210",
+    "CISCode": "63223283",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1715",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 150 MG - PRADAXA 150 MG, G\u00C9LULE",
-    "CISCode": "62154642",
+    "CISCode": "68417210",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "1715",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 150 MG - PRADAXA 150 MG, G\u00C9LULE",
-    "CISCode": "60521680",
+    "CISCode": "62154642",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "1715",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 150 MG - PRADAXA 150 MG, G\u00C9LULE",
-    "CISCode": "65417810",
+    "CISCode": "60521680",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "1715",
+    "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 150 MG - PRADAXA 150 MG, G\u00C9LULE",
+    "CISCode": "65417810",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "1716",
@@ -68350,30 +68217,37 @@
   {
     "GenericGroupId": "1716",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 75 MG - PRADAXA 75 MG, G\u00C9LULE",
-    "CISCode": "68370173",
+    "CISCode": "61495480",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1716",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 75 MG - PRADAXA 75 MG, G\u00C9LULE",
-    "CISCode": "68570512",
+    "CISCode": "68370173",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "1716",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 75 MG - PRADAXA 75 MG, G\u00C9LULE",
-    "CISCode": "65892141",
+    "CISCode": "68570512",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "1716",
     "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 75 MG - PRADAXA 75 MG, G\u00C9LULE",
-    "CISCode": "66480201",
+    "CISCode": "65892141",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "1716",
+    "GenericGroupLabel": "DABIGATRAN ETEXILATE (MESILATE DE) \u00C9QUIVALANT \u00C0  DABIGATRAN ETEXILATE 75 MG - PRADAXA 75 MG, G\u00C9LULE",
+    "CISCode": "66480201",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "1717",
@@ -68707,56 +68581,56 @@
   {
     "GenericGroupId": "1733",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "64820491",
+    "CISCode": "67883810",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1733",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "66401264",
+    "CISCode": "64820491",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1733",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "65768713",
+    "CISCode": "66401264",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "1733",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "66851311",
+    "CISCode": "65768713",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1733",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "64520985",
+    "CISCode": "66851311",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "1733",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "66640008",
+    "CISCode": "64520985",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "1733",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "67451334",
+    "CISCode": "66640008",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "1733",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "65306169",
+    "CISCode": "67451334",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
   },
@@ -68787,13 +68661,6 @@
     "CISCode": "63998345",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 20
-  },
-  {
-    "GenericGroupId": "1733",
-    "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALANT \u00C0 FINGOLIMOD 0,5 MG - GILENYA 0,5 MG, G\u00C9LULE",
-    "CISCode": "68752600",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 21
   },
   {
     "GenericGroupId": "1734",
@@ -68966,16 +68833,9 @@
   {
     "GenericGroupId": "1745",
     "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALENT \u00C0 FINGOLIMOD 0,25 MG - GILENYA 0,25 MG, G\u00C9LULE",
-    "CISCode": "67848916",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 3
-  },
-  {
-    "GenericGroupId": "1745",
-    "GenericGroupLabel": "FINGOLIMOD (CHLORHYDRATE) \u00C9QUIVALENT \u00C0 FINGOLIMOD 0,25 MG - GILENYA 0,25 MG, G\u00C9LULE",
     "CISCode": "68521045",
     "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 4
+    "SortNumber": 3
   },
   {
     "GenericGroupId": "1746",
@@ -69676,13 +69536,6 @@
     "CISCode": "60443413",
     "GenericType": "princeps",
     "SortNumber": 1
-  },
-  {
-    "GenericGroupId": "1774",
-    "GenericGroupLabel": "TEMSIROLIMUS 30 MG - TORISEL 30 MG, SOLUTION \u00C0 DILUER ET DILUANT POUR SOLUTION POUR PERFUSION",
-    "CISCode": "60751083",
-    "GenericType": "g\u00E9n\u00E9rique",
-    "SortNumber": 2
   },
   {
     "GenericGroupId": "1775",
@@ -70471,23 +70324,30 @@
   {
     "GenericGroupId": "1802",
     "GenericGroupLabel": "THIOTEPA 100 MG - TEPADINA 100 MG, POUDRE POUR CONCENTR\u00C9 POUR SOLUTION POUR PERFUSION",
-    "CISCode": "61049115",
+    "CISCode": "62952964",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1802",
     "GenericGroupLabel": "THIOTEPA 100 MG - TEPADINA 100 MG, POUDRE POUR CONCENTR\u00C9 POUR SOLUTION POUR PERFUSION",
-    "CISCode": "63314516",
+    "CISCode": "61049115",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "1802",
     "GenericGroupLabel": "THIOTEPA 100 MG - TEPADINA 100 MG, POUDRE POUR CONCENTR\u00C9 POUR SOLUTION POUR PERFUSION",
-    "CISCode": "67013115",
+    "CISCode": "63314516",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
+  },
+  {
+    "GenericGroupId": "1802",
+    "GenericGroupLabel": "THIOTEPA 100 MG - TEPADINA 100 MG, POUDRE POUR CONCENTR\u00C9 POUR SOLUTION POUR PERFUSION",
+    "CISCode": "67013115",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 5
   },
   {
     "GenericGroupId": "1803",
@@ -70499,23 +70359,30 @@
   {
     "GenericGroupId": "1803",
     "GenericGroupLabel": "THIOTEPA 15 MG - TEPADINA 15 MG, POUDRE POUR CONCENTR\u00C9 POUR SOLUTION POUR PERFUSION",
-    "CISCode": "68252132",
+    "CISCode": "64287342",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1803",
     "GenericGroupLabel": "THIOTEPA 15 MG - TEPADINA 15 MG, POUDRE POUR CONCENTR\u00C9 POUR SOLUTION POUR PERFUSION",
-    "CISCode": "62748292",
+    "CISCode": "68252132",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "1803",
     "GenericGroupLabel": "THIOTEPA 15 MG - TEPADINA 15 MG, POUDRE POUR CONCENTR\u00C9 POUR SOLUTION POUR PERFUSION",
-    "CISCode": "61087062",
+    "CISCode": "62748292",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
+  },
+  {
+    "GenericGroupId": "1803",
+    "GenericGroupLabel": "THIOTEPA 15 MG - TEPADINA 15 MG, POUDRE POUR CONCENTR\u00C9 POUR SOLUTION POUR PERFUSION",
+    "CISCode": "61087062",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 5
   },
   {
     "GenericGroupId": "1804",
@@ -70793,44 +70660,51 @@
   {
     "GenericGroupId": "1821",
     "GenericGroupLabel": "PIRFENIDONE 267 MG - ESBRIET 267 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "65255066",
+    "CISCode": "68989318",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "1821",
     "GenericGroupLabel": "PIRFENIDONE 267 MG - ESBRIET 267 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "61936373",
+    "CISCode": "65255066",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1821",
     "GenericGroupLabel": "PIRFENIDONE 267 MG - ESBRIET 267 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60788605",
+    "CISCode": "61936373",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1821",
     "GenericGroupLabel": "PIRFENIDONE 267 MG - ESBRIET 267 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "66869448",
+    "CISCode": "60788605",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1821",
     "GenericGroupLabel": "PIRFENIDONE 267 MG - ESBRIET 267 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "68404622",
+    "CISCode": "66869448",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1821",
     "GenericGroupLabel": "PIRFENIDONE 267 MG - ESBRIET 267 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "66704133",
+    "CISCode": "68404622",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
+  },
+  {
+    "GenericGroupId": "1821",
+    "GenericGroupLabel": "PIRFENIDONE 267 MG - ESBRIET 267 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "66704133",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 10
   },
   {
     "GenericGroupId": "1822",
@@ -70856,44 +70730,51 @@
   {
     "GenericGroupId": "1822",
     "GenericGroupLabel": "PIRFENIDONE 801 MG - ESBRIET 801 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "62694738",
+    "CISCode": "60967273",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "1822",
     "GenericGroupLabel": "PIRFENIDONE 801 MG - ESBRIET 801 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "69144469",
+    "CISCode": "62694738",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1822",
     "GenericGroupLabel": "PIRFENIDONE 801 MG - ESBRIET 801 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "66551883",
+    "CISCode": "69144469",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
   },
   {
     "GenericGroupId": "1822",
     "GenericGroupLabel": "PIRFENIDONE 801 MG - ESBRIET 801 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "61138813",
+    "CISCode": "66551883",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 7
   },
   {
     "GenericGroupId": "1822",
     "GenericGroupLabel": "PIRFENIDONE 801 MG - ESBRIET 801 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "66169136",
+    "CISCode": "61138813",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 8
   },
   {
     "GenericGroupId": "1822",
     "GenericGroupLabel": "PIRFENIDONE 801 MG - ESBRIET 801 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "61045540",
+    "CISCode": "66169136",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
+  },
+  {
+    "GenericGroupId": "1822",
+    "GenericGroupLabel": "PIRFENIDONE 801 MG - ESBRIET 801 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "61045540",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 10
   },
   {
     "GenericGroupId": "1823",
@@ -71409,16 +71290,23 @@
   {
     "GenericGroupId": "1851",
     "GenericGroupLabel": "TERIFLUNOMIDE 14 MG - AUBAGIO 14 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60399504",
+    "CISCode": "60448937",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1851",
     "GenericGroupLabel": "TERIFLUNOMIDE 14 MG - AUBAGIO 14 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "67129447",
+    "CISCode": "60399504",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
+  },
+  {
+    "GenericGroupId": "1851",
+    "GenericGroupLabel": "TERIFLUNOMIDE 14 MG - AUBAGIO 14 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "67129447",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 11
   },
   {
     "GenericGroupId": "1852",
@@ -71570,37 +71458,44 @@
   {
     "GenericGroupId": "1861",
     "GenericGroupLabel": "PLERIXAFOR 20 MG/ML - MOZOBIL 20 MG/ML, SOLUTION POUR INJECTION",
-    "CISCode": "69389575",
+    "CISCode": "60626514",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
   },
   {
     "GenericGroupId": "1861",
     "GenericGroupLabel": "PLERIXAFOR 20 MG/ML - MOZOBIL 20 MG/ML, SOLUTION POUR INJECTION",
-    "CISCode": "62324639",
+    "CISCode": "69389575",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
   },
   {
     "GenericGroupId": "1861",
     "GenericGroupLabel": "PLERIXAFOR 20 MG/ML - MOZOBIL 20 MG/ML, SOLUTION POUR INJECTION",
-    "CISCode": "65998504",
+    "CISCode": "62324639",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 4
   },
   {
     "GenericGroupId": "1861",
     "GenericGroupLabel": "PLERIXAFOR 20 MG/ML - MOZOBIL 20 MG/ML, SOLUTION POUR INJECTION",
-    "CISCode": "69530271",
+    "CISCode": "65998504",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
   },
   {
     "GenericGroupId": "1861",
     "GenericGroupLabel": "PLERIXAFOR 20 MG/ML - MOZOBIL 20 MG/ML, SOLUTION POUR INJECTION",
-    "CISCode": "65328468",
+    "CISCode": "69530271",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 6
+  },
+  {
+    "GenericGroupId": "1861",
+    "GenericGroupLabel": "PLERIXAFOR 20 MG/ML - MOZOBIL 20 MG/ML, SOLUTION POUR INJECTION",
+    "CISCode": "65328468",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 7
   },
   {
     "GenericGroupId": "1862",
@@ -71741,5 +71636,75 @@
     "CISCode": "67008602",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
+  },
+  {
+    "GenericGroupId": "1873",
+    "GenericGroupLabel": "ESOMEPRAZOLE MAGN\u00C9SIUM DIHYDRAT\u00C9 \u00C9QUIVALENT \u00C0 ESOMEPRAZOLE 10 MG - INEXIUM 10 MG, GRANUL\u00C9S GASTRO-R\u00C9SISTANTS POUR SUSPENSION BUVABLE EN SACHET",
+    "CISCode": "63451237",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1874",
+    "GenericGroupLabel": "ENZALUTAMIDE 40 MG - XTANDI 40 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "64093355",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1875",
+    "GenericGroupLabel": "ENZALUTAMIDE 80 MG - XTANDI 80 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "69215343",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1876",
+    "GenericGroupLabel": "LABETALOL (CHLORHYDRATE DE) 5 MG/ML - TRANDATE 5 MG/ML, SOLUTION INJECTABLE",
+    "CISCode": "60558554",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1877",
+    "GenericGroupLabel": "RISPERIDONE 0,5 MG - RISPERDAL 0,50 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "69196149",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1878",
+    "GenericGroupLabel": "RISPERIDONE 3 MG - RISPERDAL 3 MG, COMPRIM\u00C9 PELLICUL\u00C9 S\u00C9CABLE",
+    "CISCode": "65447077",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1879",
+    "GenericGroupLabel": "ROTIGOTINE 2 MG/24 H - NEUPRO 2 MG/24 H, DISPOSITIF TRANSDERMIQUE",
+    "CISCode": "69741731",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1880",
+    "GenericGroupLabel": "ROTIGOTINE 4 MG/24 H - NEUPRO 4 MG/24 H, DISPOSITIF TRANSDERMIQUE",
+    "CISCode": "66662951",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1881",
+    "GenericGroupLabel": "ROTIGOTINE 6 MG/24 H - NEUPRO 6 MG/24 H, DISPOSITIF TRANSDERMIQUE",
+    "CISCode": "60200500",
+    "GenericType": "princeps",
+    "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1882",
+    "GenericGroupLabel": "ROTIGOTINE 8 MG/24 H - NEUPRO 8 MG/24 H, DISPOSITIF TRANSDERMIQUE",
+    "CISCode": "61578613",
+    "GenericType": "princeps",
+    "SortNumber": 1
   }
 ]

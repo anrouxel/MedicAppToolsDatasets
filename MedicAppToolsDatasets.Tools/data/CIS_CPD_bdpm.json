@@ -264,6 +264,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
+    "CISCode": "60347728",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
     "CISCode": "60375001",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
@@ -365,10 +369,6 @@
   },
   {
     "CISCode": "60654271",
-    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
-  },
-  {
-    "CISCode": "60658693",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
@@ -476,6 +476,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
+    "CISCode": "60929148",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
     "CISCode": "60934825",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
@@ -513,10 +517,6 @@
   },
   {
     "CISCode": "61042996",
-    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
-  },
-  {
-    "CISCode": "61065137",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
@@ -1112,6 +1112,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
+    "CISCode": "63055444",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
     "CISCode": "63069892",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
@@ -1173,6 +1177,10 @@
   },
   {
     "CISCode": "63280448",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
+    "CISCode": "63311662",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
@@ -1549,6 +1557,10 @@
   },
   {
     "CISCode": "64512248",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
+    "CISCode": "64523974",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
@@ -2128,6 +2140,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
+    "CISCode": "66475574",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
     "CISCode": "66477109",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
@@ -2372,6 +2388,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
+    "CISCode": "67307049",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
     "CISCode": "67312950",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
@@ -2425,6 +2445,10 @@
   },
   {
     "CISCode": "67466119",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
+    "CISCode": "67470847",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
@@ -2668,6 +2692,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
+    "CISCode": "68235916",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
     "CISCode": "68255648",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
@@ -2789,6 +2817,10 @@
   },
   {
     "CISCode": "68644681",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
+    "CISCode": "68648893",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
@@ -3053,6 +3085,10 @@
   },
   {
     "CISCode": "69487126",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
+  },
+  {
+    "CISCode": "69520409",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE HOSPITALIER"
   },
   {
@@ -3601,6 +3637,10 @@
   },
   {
     "CISCode": "60401898",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES NEUROLOGIE"
+  },
+  {
+    "CISCode": "60448937",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES NEUROLOGIE"
   },
   {
@@ -4329,6 +4369,10 @@
   },
   {
     "CISCode": "65254676",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES NEUROLOGIE"
+  },
+  {
+    "CISCode": "65269094",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES NEUROLOGIE"
   },
   {
@@ -6048,6 +6092,10 @@
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
+    "CISCode": "60448937",
+    "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
+  },
+  {
     "CISCode": "60457263",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
@@ -6157,10 +6205,6 @@
   },
   {
     "CISCode": "60650426",
-    "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
-  },
-  {
-    "CISCode": "60658693",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
@@ -6661,10 +6705,6 @@
   },
   {
     "CISCode": "61407637",
-    "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
-  },
-  {
-    "CISCode": "61415541",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
@@ -7696,6 +7736,10 @@
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
+    "CISCode": "63055444",
+    "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
+  },
+  {
     "CISCode": "63067336",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
@@ -8077,6 +8121,10 @@
   },
   {
     "CISCode": "63818797",
+    "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
+  },
+  {
+    "CISCode": "63820570",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
@@ -9037,6 +9085,10 @@
   },
   {
     "CISCode": "65256093",
+    "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
+  },
+  {
+    "CISCode": "65269094",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
@@ -10336,7 +10388,7 @@
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
-    "CISCode": "67306591",
+    "CISCode": "67307049",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
@@ -10445,6 +10497,10 @@
   },
   {
     "CISCode": "67468515",
+    "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
+  },
+  {
+    "CISCode": "67470847",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
@@ -11565,6 +11621,10 @@
   },
   {
     "CISCode": "69503274",
+    "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
+  },
+  {
+    "CISCode": "69520409",
     "PrescriptionDispensingCondition": "M\u00C9DICAMENT N\u00C9CESSITANT UNE SURVEILLANCE PARTICULI\u00C8RE PENDANT LE TRAITEMENT"
   },
   {
@@ -13612,6 +13672,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ONCOLOGIE MEDICALE"
   },
   {
+    "CISCode": "63055444",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ONCOLOGIE MEDICALE"
+  },
+  {
     "CISCode": "63093822",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ONCOLOGIE MEDICALE"
   },
@@ -14796,6 +14860,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ONCOLOGIE MEDICALE"
   },
   {
+    "CISCode": "67470847",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ONCOLOGIE MEDICALE"
+  },
+  {
     "CISCode": "67482148",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ONCOLOGIE MEDICALE"
   },
@@ -15464,10 +15532,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEPATO/GASTRO-ENTEROLOGIE"
   },
   {
-    "CISCode": "60898158",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEPATO/GASTRO-ENTEROLOGIE"
-  },
-  {
     "CISCode": "60954219",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEPATO/GASTRO-ENTEROLOGIE"
   },
@@ -15497,10 +15561,6 @@
   },
   {
     "CISCode": "61951699",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEPATO/GASTRO-ENTEROLOGIE"
-  },
-  {
-    "CISCode": "62005716",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEPATO/GASTRO-ENTEROLOGIE"
   },
   {
@@ -15673,10 +15733,6 @@
   },
   {
     "CISCode": "67146044",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEPATO/GASTRO-ENTEROLOGIE"
-  },
-  {
-    "CISCode": "67306591",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEPATO/GASTRO-ENTEROLOGIE"
   },
   {
@@ -17348,6 +17404,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES CANCEROLOGIE"
   },
   {
+    "CISCode": "63055444",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES CANCEROLOGIE"
+  },
+  {
     "CISCode": "63093822",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES CANCEROLOGIE"
   },
@@ -18509,6 +18569,10 @@
   },
   {
     "CISCode": "67430062",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES CANCEROLOGIE"
+  },
+  {
+    "CISCode": "67470847",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES CANCEROLOGIE"
   },
   {
@@ -19740,6 +19804,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE HOSPITALI\u00C8RE"
   },
   {
+    "CISCode": "63820570",
+    "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE HOSPITALI\u00C8RE"
+  },
+  {
     "CISCode": "63886766",
     "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE HOSPITALI\u00C8RE"
   },
@@ -20380,10 +20448,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES MEDECINE INTERNE"
   },
   {
-    "CISCode": "60898158",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES MEDECINE INTERNE"
-  },
-  {
     "CISCode": "60942900",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES MEDECINE INTERNE"
   },
@@ -20529,10 +20593,6 @@
   },
   {
     "CISCode": "62004984",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES MEDECINE INTERNE"
-  },
-  {
-    "CISCode": "62005716",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES MEDECINE INTERNE"
   },
   {
@@ -21261,10 +21321,6 @@
   },
   {
     "CISCode": "67306538",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES MEDECINE INTERNE"
-  },
-  {
-    "CISCode": "67306591",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES MEDECINE INTERNE"
   },
   {
@@ -25272,6 +25328,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION LIMIT\u00C9E \u00C0 12 SEMAINES"
   },
   {
+    "CISCode": "66720276",
+    "PrescriptionDispensingCondition": "PRESCRIPTION LIMIT\u00C9E \u00C0 12 SEMAINES"
+  },
+  {
     "CISCode": "66750351",
     "PrescriptionDispensingCondition": "PRESCRIPTION LIMIT\u00C9E \u00C0 12 SEMAINES"
   },
@@ -27140,10 +27200,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
   },
   {
-    "CISCode": "60658693",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
-  },
-  {
     "CISCode": "60664059",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
   },
@@ -27753,6 +27809,10 @@
   },
   {
     "CISCode": "63053030",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
+  },
+  {
+    "CISCode": "63055444",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
   },
   {
@@ -28832,6 +28892,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
   },
   {
+    "CISCode": "67307049",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
+  },
+  {
     "CISCode": "67311535",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
   },
@@ -28865,6 +28929,10 @@
   },
   {
     "CISCode": "67424650",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
+  },
+  {
+    "CISCode": "67470847",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
   },
   {
@@ -29292,6 +29360,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
   },
   {
+    "CISCode": "69520409",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
+  },
+  {
     "CISCode": "69537091",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES HEMATOLOGIE"
   },
@@ -29621,6 +29693,10 @@
   },
   {
     "CISCode": "61447763",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN CARDIOLOGIE"
+  },
+  {
+    "CISCode": "63820570",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN CARDIOLOGIE"
   },
   {
@@ -31204,6 +31280,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
   {
+    "CISCode": "60929148",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
+  },
+  {
     "CISCode": "60958210",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
@@ -31504,6 +31584,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
   {
+    "CISCode": "64523974",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
+  },
+  {
     "CISCode": "64544979",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
@@ -31649,6 +31733,10 @@
   },
   {
     "CISCode": "66288464",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
+  },
+  {
+    "CISCode": "66475574",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
   {
@@ -31812,6 +31900,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
   {
+    "CISCode": "68235916",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
+  },
+  {
     "CISCode": "68242177",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
@@ -31845,6 +31937,10 @@
   },
   {
     "CISCode": "68633806",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
+  },
+  {
+    "CISCode": "68648893",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE EN SITUATION D\u0027URGENCE SELON L\u0027ARTICLE R5121-96 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
   {
@@ -35448,10 +35544,6 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN MEDECINE INTERNE"
   },
   {
-    "CISCode": "61415541",
-    "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN MEDECINE INTERNE"
-  },
-  {
     "CISCode": "61447763",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN MEDECINE INTERNE"
   },
@@ -35937,6 +36029,10 @@
   },
   {
     "CISCode": "60707788",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES OPHTALMOLOGIE"
+  },
+  {
+    "CISCode": "61150655",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES OPHTALMOLOGIE"
   },
   {
@@ -37376,6 +37472,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
   },
   {
+    "CISCode": "68235916",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
+  },
+  {
     "CISCode": "68309829",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
   },
@@ -37385,6 +37485,10 @@
   },
   {
     "CISCode": "68622560",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
+  },
+  {
+    "CISCode": "68648893",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
   },
   {
@@ -37784,10 +37888,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE R\u00C9SERV\u00C9E \u00C0 CERTAINS SP\u00C9CIALISTES"
   },
   {
-    "CISCode": "61415541",
-    "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE R\u00C9SERV\u00C9E \u00C0 CERTAINS SP\u00C9CIALISTES"
-  },
-  {
     "CISCode": "61429758",
     "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE R\u00C9SERV\u00C9E \u00C0 CERTAINS SP\u00C9CIALISTES"
   },
@@ -38149,6 +38249,10 @@
   },
   {
     "CISCode": "63818797",
+    "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE R\u00C9SERV\u00C9E \u00C0 CERTAINS SP\u00C9CIALISTES"
+  },
+  {
+    "CISCode": "63820570",
     "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE R\u00C9SERV\u00C9E \u00C0 CERTAINS SP\u00C9CIALISTES"
   },
   {
@@ -40664,10 +40768,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
   {
-    "CISCode": "60898158",
-    "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
-  },
-  {
     "CISCode": "60900335",
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
@@ -40757,6 +40857,10 @@
   },
   {
     "CISCode": "61063232",
+    "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
+  },
+  {
+    "CISCode": "61065137",
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
   {
@@ -40948,10 +41052,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
   {
-    "CISCode": "61415541",
-    "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
-  },
-  {
     "CISCode": "61425560",
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
@@ -40977,6 +41077,10 @@
   },
   {
     "CISCode": "61477322",
+    "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
+  },
+  {
+    "CISCode": "61479921",
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
   {
@@ -41212,10 +41316,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
   {
-    "CISCode": "62005716",
-    "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
-  },
-  {
     "CISCode": "62025327",
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
@@ -41401,6 +41501,10 @@
   },
   {
     "CISCode": "62432376",
+    "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
+  },
+  {
+    "CISCode": "62432764",
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
   {
@@ -41837,6 +41941,10 @@
   },
   {
     "CISCode": "63288174",
+    "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
+  },
+  {
+    "CISCode": "63301586",
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
   {
@@ -44116,6 +44224,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
   {
+    "CISCode": "68291320",
+    "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
+  },
+  {
     "CISCode": "68310468",
     "PrescriptionDispensingCondition": "PRESCRIPTION HOSPITALI\u00C8RE"
   },
@@ -45052,10 +45164,6 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN PEDIATRIE"
   },
   {
-    "CISCode": "61415541",
-    "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN PEDIATRIE"
-  },
-  {
     "CISCode": "61429758",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN PEDIATRIE"
   },
@@ -45416,10 +45524,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES INFECTIOLOGIE"
   },
   {
-    "CISCode": "60898158",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES INFECTIOLOGIE"
-  },
-  {
     "CISCode": "60954219",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES INFECTIOLOGIE"
   },
@@ -45445,10 +45549,6 @@
   },
   {
     "CISCode": "61951699",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES INFECTIOLOGIE"
-  },
-  {
-    "CISCode": "62005716",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES INFECTIOLOGIE"
   },
   {
@@ -45569,10 +45669,6 @@
   },
   {
     "CISCode": "67146044",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES INFECTIOLOGIE"
-  },
-  {
-    "CISCode": "67306591",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES INFECTIOLOGIE"
   },
   {
@@ -46488,10 +46584,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE SEMESTRIELLE R\u00C9SERV\u00C9E \u00C0 CERTAINS SP\u00C9CIALISTES"
   },
   {
-    "CISCode": "67306591",
-    "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE SEMESTRIELLE R\u00C9SERV\u00C9E \u00C0 CERTAINS SP\u00C9CIALISTES"
-  },
-  {
     "CISCode": "67628724",
     "PrescriptionDispensingCondition": "PRESCRIPTION INITIALE SEMESTRIELLE R\u00C9SERV\u00C9E \u00C0 CERTAINS SP\u00C9CIALISTES"
   },
@@ -46589,10 +46681,6 @@
   },
   {
     "CISCode": "61382671",
-    "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN DERMATOLOGIE"
-  },
-  {
-    "CISCode": "61415541",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN DERMATOLOGIE"
   },
   {
@@ -47000,10 +47088,6 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN RHUMATOLOGIE"
   },
   {
-    "CISCode": "61415541",
-    "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN RHUMATOLOGIE"
-  },
-  {
     "CISCode": "61709735",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN RHUMATOLOGIE"
   },
@@ -47360,6 +47444,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION PAR UN M\u00C9DECIN EXER\u00C7ANT DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE"
   },
   {
+    "CISCode": "63301586",
+    "PrescriptionDispensingCondition": "PRESCRIPTION PAR UN M\u00C9DECIN EXER\u00C7ANT DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE"
+  },
+  {
     "CISCode": "63585962",
     "PrescriptionDispensingCondition": "PRESCRIPTION PAR UN M\u00C9DECIN EXER\u00C7ANT DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE"
   },
@@ -47409,6 +47497,10 @@
   },
   {
     "CISCode": "67960160",
+    "PrescriptionDispensingCondition": "PRESCRIPTION PAR UN M\u00C9DECIN EXER\u00C7ANT DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE"
+  },
+  {
+    "CISCode": "68291320",
     "PrescriptionDispensingCondition": "PRESCRIPTION PAR UN M\u00C9DECIN EXER\u00C7ANT DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE"
   },
   {
@@ -47593,6 +47685,10 @@
   },
   {
     "CISCode": "60038468",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "60038525",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -47789,6 +47885,10 @@
   },
   {
     "CISCode": "60082450",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "60082938",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -48165,10 +48265,6 @@
   },
   {
     "CISCode": "60165857",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "60166980",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -48896,6 +48992,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "60347728",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "60348342",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -49301,6 +49401,10 @@
   },
   {
     "CISCode": "60447461",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "60448937",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -50036,6 +50140,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "60614280",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "60614889",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -50220,10 +50328,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "60649986",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "60650426",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -50257,10 +50361,6 @@
   },
   {
     "CISCode": "60658330",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "60658693",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -50441,10 +50541,6 @@
   },
   {
     "CISCode": "60691177",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "60691750",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -51312,10 +51408,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "60898158",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "60898838",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -51400,6 +51492,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "60917345",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "60920277",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -51432,10 +51528,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "60927791",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "60928110",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -51449,6 +51541,10 @@
   },
   {
     "CISCode": "60928936",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "60929148",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -51605,10 +51701,6 @@
   },
   {
     "CISCode": "60961427",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "60962707",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -51952,10 +52044,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "61049439",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "61050007",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -52069,6 +52157,10 @@
   },
   {
     "CISCode": "61077666",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "61077869",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -52189,6 +52281,10 @@
   },
   {
     "CISCode": "61103424",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "61104024",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -52360,10 +52456,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "61139452",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "61139833",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -52397,6 +52489,10 @@
   },
   {
     "CISCode": "61150445",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "61150655",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -52681,6 +52777,10 @@
   },
   {
     "CISCode": "61206641",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "61207572",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -53220,10 +53320,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "61342591",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "61342890",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -53580,10 +53676,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "61415541",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "61415580",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -53869,6 +53961,10 @@
   },
   {
     "CISCode": "61479138",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "61479921",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -55160,10 +55256,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "61766832",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "61767005",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -55696,6 +55788,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "61896473",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "61897454",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -56209,10 +56305,6 @@
   },
   {
     "CISCode": "62005075",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "62005716",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -56968,10 +57060,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "62176877",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "62177527",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -57344,6 +57432,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "62279329",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "62280018",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -57620,10 +57712,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "62345448",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "62345640",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -57856,6 +57944,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "62404793",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "62405443",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -58001,6 +58093,10 @@
   },
   {
     "CISCode": "62432383",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "62432764",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -58424,6 +58520,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "62521070",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "62521323",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -58801,10 +58901,6 @@
   },
   {
     "CISCode": "62621779",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "62622863",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -59516,10 +59612,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "62790462",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "62791429",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -59913,6 +60005,10 @@
   },
   {
     "CISCode": "62887057",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "62887096",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -60637,6 +60733,10 @@
   },
   {
     "CISCode": "63054463",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "63055444",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -61652,6 +61752,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "63301586",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "63302229",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -61705,6 +61809,10 @@
   },
   {
     "CISCode": "63309743",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "63311662",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -62512,6 +62620,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "63513354",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "63513482",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -62597,6 +62709,10 @@
   },
   {
     "CISCode": "63532803",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "63535151",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -63616,6 +63732,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "63806909",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "63807217",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -63689,6 +63809,10 @@
   },
   {
     "CISCode": "63820175",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "63820570",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -64157,6 +64281,10 @@
   },
   {
     "CISCode": "63931834",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "63931916",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -65032,6 +65160,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "64163476",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "64163818",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -65089,6 +65221,10 @@
   },
   {
     "CISCode": "64175717",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "64175998",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -66208,6 +66344,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "64431629",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "64431910",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -66641,6 +66781,10 @@
   },
   {
     "CISCode": "64522751",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "64523974",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -67581,6 +67725,10 @@
   },
   {
     "CISCode": "64744218",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "64744321",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -69888,6 +70036,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "65269094",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "65270506",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -72016,6 +72168,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "65732820",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "65734134",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -72193,6 +72349,10 @@
   },
   {
     "CISCode": "65781988",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "65782652",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -72600,6 +72760,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "65899221",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "65899602",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -72900,6 +73064,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "65968728",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "65969680",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -72925,6 +73093,10 @@
   },
   {
     "CISCode": "65976536",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "65978423",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -73169,10 +73341,6 @@
   },
   {
     "CISCode": "66035589",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "66035913",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -73697,10 +73865,6 @@
   },
   {
     "CISCode": "66160525",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "66160774",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -74544,10 +74708,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "66359477",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "66361930",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -74968,6 +75128,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "66475574",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "66475784",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -75197,6 +75361,10 @@
   },
   {
     "CISCode": "66542998",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "66543281",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -75584,6 +75752,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "66652957",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "66654374",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -75861,6 +76033,10 @@
   },
   {
     "CISCode": "66720194",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "66720276",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -77720,6 +77896,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "67136694",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "67136790",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -78380,7 +78560,7 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "67306591",
+    "CISCode": "67307049",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -78692,10 +78872,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "67385172",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "67386324",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -78805,6 +78981,10 @@
   },
   {
     "CISCode": "67402554",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "67403058",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -79089,6 +79269,10 @@
   },
   {
     "CISCode": "67470459",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "67470847",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -79637,6 +79821,10 @@
   },
   {
     "CISCode": "67617681",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "67619892",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -80980,6 +81168,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "67918695",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "67919092",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -82280,7 +82472,7 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "68235154",
+    "CISCode": "68235916",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -82469,6 +82661,10 @@
   },
   {
     "CISCode": "68289554",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "68291320",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -83336,6 +83532,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "68467163",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "68468614",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -83688,10 +83888,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "68553502",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "68553865",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -83920,10 +84116,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "68613433",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "68613700",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -84097,6 +84289,10 @@
   },
   {
     "CISCode": "68648605",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "68648893",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -84649,6 +84845,10 @@
   },
   {
     "CISCode": "68790106",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "68790394",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -85328,6 +85528,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "68968929",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "68969066",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -85484,10 +85688,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "69011611",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "69011860",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -85513,10 +85713,6 @@
   },
   {
     "CISCode": "69018164",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
-    "CISCode": "69018634",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -86321,6 +86517,10 @@
   },
   {
     "CISCode": "69201646",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "69201849",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -87440,10 +87640,6 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
-    "CISCode": "69449086",
-    "PrescriptionDispensingCondition": "LISTE I"
-  },
-  {
     "CISCode": "69449143",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -87808,6 +88004,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "69520409",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "69520448",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -87904,6 +88104,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "69543678",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "69543888",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -87941,6 +88145,10 @@
   },
   {
     "CISCode": "69552232",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "69552780",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -88648,6 +88856,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "69728399",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "69729088",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -88844,6 +89056,10 @@
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
+    "CISCode": "69777706",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
     "CISCode": "69778256",
     "PrescriptionDispensingCondition": "LISTE I"
   },
@@ -88985,6 +89201,10 @@
   },
   {
     "CISCode": "69811090",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "69811279",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -89249,6 +89469,10 @@
   },
   {
     "CISCode": "69875082",
+    "PrescriptionDispensingCondition": "LISTE I"
+  },
+  {
+    "CISCode": "69875342",
     "PrescriptionDispensingCondition": "LISTE I"
   },
   {
@@ -92912,10 +93136,6 @@
     "PrescriptionDispensingCondition": "LISTE II"
   },
   {
-    "CISCode": "62161583",
-    "PrescriptionDispensingCondition": "LISTE II"
-  },
-  {
     "CISCode": "62176770",
     "PrescriptionDispensingCondition": "LISTE II"
   },
@@ -93801,10 +94021,6 @@
   },
   {
     "CISCode": "63704427",
-    "PrescriptionDispensingCondition": "LISTE II"
-  },
-  {
-    "CISCode": "63707067",
     "PrescriptionDispensingCondition": "LISTE II"
   },
   {
@@ -95932,6 +96148,10 @@
     "PrescriptionDispensingCondition": "LISTE II"
   },
   {
+    "CISCode": "67563301",
+    "PrescriptionDispensingCondition": "LISTE II"
+  },
+  {
     "CISCode": "67563415",
     "PrescriptionDispensingCondition": "LISTE II"
   },
@@ -96528,10 +96748,6 @@
     "PrescriptionDispensingCondition": "LISTE II"
   },
   {
-    "CISCode": "68712285",
-    "PrescriptionDispensingCondition": "LISTE II"
-  },
-  {
     "CISCode": "68727038",
     "PrescriptionDispensingCondition": "LISTE II"
   },
@@ -96569,10 +96785,6 @@
   },
   {
     "CISCode": "68779202",
-    "PrescriptionDispensingCondition": "LISTE II"
-  },
-  {
-    "CISCode": "68785600",
     "PrescriptionDispensingCondition": "LISTE II"
   },
   {
@@ -96989,6 +97201,10 @@
   },
   {
     "CISCode": "69643899",
+    "PrescriptionDispensingCondition": "LISTE II"
+  },
+  {
+    "CISCode": "69682635",
     "PrescriptionDispensingCondition": "LISTE II"
   },
   {
@@ -99140,10 +99356,6 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
   },
   {
-    "CISCode": "60658693",
-    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
-  },
-  {
     "CISCode": "60664059",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
   },
@@ -99648,6 +99860,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
   },
   {
+    "CISCode": "67307049",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
+  },
+  {
     "CISCode": "67351558",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
   },
@@ -99740,6 +99956,10 @@
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
   },
   {
+    "CISCode": "68929381",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
+  },
+  {
     "CISCode": "68966390",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
   },
@@ -99789,6 +100009,10 @@
   },
   {
     "CISCode": "69470867",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
+  },
+  {
+    "CISCode": "69520409",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS COMP\u00C9TENTS EN MALADIE DU SANG"
   },
   {
@@ -100324,6 +100548,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
   },
   {
+    "CISCode": "60929148",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
+  },
+  {
     "CISCode": "61070419",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
   },
@@ -100484,6 +100712,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
   },
   {
+    "CISCode": "64523974",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
+  },
+  {
     "CISCode": "64544979",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
   },
@@ -100628,6 +100860,10 @@
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
   },
   {
+    "CISCode": "68235916",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
+  },
+  {
     "CISCode": "68309829",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
   },
@@ -100649,6 +100885,10 @@
   },
   {
     "CISCode": "68633806",
+    "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
+  },
+  {
+    "CISCode": "68648893",
     "PrescriptionDispensingCondition": "R\u00C9SERV\u00C9 \u00C0 UNE STRUCTURE D\u0027ASSISTANCE M\u00C9DICALE MOBILE OU DE RAPATRIEMENT SANITAIRE"
   },
   {
@@ -101404,6 +101644,10 @@
     "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE SANT\u00C9"
   },
   {
+    "CISCode": "63301586",
+    "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE SANT\u00C9"
+  },
+  {
     "CISCode": "63585962",
     "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE SANT\u00C9"
   },
@@ -101436,6 +101680,10 @@
     "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE SANT\u00C9"
   },
   {
+    "CISCode": "68291320",
+    "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE SANT\u00C9"
+  },
+  {
     "CISCode": "68821142",
     "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE SANT\u00C9"
   },
@@ -101464,6 +101712,10 @@
     "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE AUTORIS\u00C9 \u00C0 DISPENSER DES M\u00C9DICAMENTS AUX MALADES QUI Y SONT TRAIT\u00C9S"
   },
   {
+    "CISCode": "63301586",
+    "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE AUTORIS\u00C9 \u00C0 DISPENSER DES M\u00C9DICAMENTS AUX MALADES QUI Y SONT TRAIT\u00C9S"
+  },
+  {
     "CISCode": "63585962",
     "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE AUTORIS\u00C9 \u00C0 DISPENSER DES M\u00C9DICAMENTS AUX MALADES QUI Y SONT TRAIT\u00C9S"
   },
@@ -101481,6 +101733,10 @@
   },
   {
     "CISCode": "67960160",
+    "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE AUTORIS\u00C9 \u00C0 DISPENSER DES M\u00C9DICAMENTS AUX MALADES QUI Y SONT TRAIT\u00C9S"
+  },
+  {
+    "CISCode": "68291320",
     "PrescriptionDispensingCondition": "L\u0027ADMINISTRATION DOIT \u00CATRE EFFECTU\u00C9E DANS UN \u00C9TABLISSEMENT DE TRANSFUSION SANGUINE AUTORIS\u00C9 \u00C0 DISPENSER DES M\u00C9DICAMENTS AUX MALADES QUI Y SONT TRAIT\u00C9S"
   },
   {
@@ -101712,6 +101968,10 @@
     "PrescriptionDispensingCondition": "D\u00C9LIVRANCE EFFECTU\u00C9E PAR UNE PHARMACIE DE VILLE"
   },
   {
+    "CISCode": "60448937",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES NEUROPEDIATRIE"
+  },
+  {
     "CISCode": "60728597",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES NEUROPEDIATRIE"
   },
@@ -101749,6 +102009,10 @@
   },
   {
     "CISCode": "65086189",
+    "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES NEUROPEDIATRIE"
+  },
+  {
+    "CISCode": "65269094",
     "PrescriptionDispensingCondition": "PRESCRIPTION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES NEUROPEDIATRIE"
   },
   {
@@ -102250,10 +102514,6 @@
   {
     "CISCode": "69578113",
     "PrescriptionDispensingCondition": "PRESCRIPTION N\u00C9CESSITANT  PR\u00C9ALABLEMENT LE RECUEIL DE L\u0027ACCORD DE SOINS DU PATIENT POUR LA SCL\u00C9ROSE EN PLAQUES"
-  },
-  {
-    "CISCode": "62681445",
-    "PrescriptionDispensingCondition": "HORS \u00C9TABLISSEMENT DE SANT\u00C9 : M\u00C9DICAMENT R\u00C9SERV\u00C9 \u00C0 L\u0027USAGE PROFESSIONNEL DES M\u00C9DECINS, SAGES-FEMMES ET CENTRES HABILIT\u00C9S CONFORM\u00C9MENT \u00C0 L\u0027ARTICLE L.2212-2 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
   {
     "CISCode": "61971520",
@@ -103400,6 +103660,14 @@
     "PrescriptionDispensingCondition": "\u00C0 NE PRENDRE QUE SUR INSTRUCTIONS DES AUTORIT\u00C9S COMP\u00C9TENTES"
   },
   {
+    "CISCode": "63820570",
+    "PrescriptionDispensingCondition": "M\u00C9DICAMENT SOUMIS \u00C0 PRESCRIPTION M\u00C9DICALE, EN ATTENTE DE NOTIFICATION DE LA BLUE BOX"
+  },
+  {
+    "CISCode": "67665594",
+    "PrescriptionDispensingCondition": "M\u00C9DICAMENT SOUMIS \u00C0 PRESCRIPTION M\u00C9DICALE, EN ATTENTE DE NOTIFICATION DE LA BLUE BOX"
+  },
+  {
     "CISCode": "68968587",
     "PrescriptionDispensingCondition": "PRESCRIPTION LIMIT\u00C9E \u00C0 2 JOURS"
   },
@@ -103457,6 +103725,10 @@
   },
   {
     "CISCode": "61240145",
+    "PrescriptionDispensingCondition": "HORS \u00C9TABLISSEMENT DE SANT\u00C9 : PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS, SAGES-FEMMES ET CENTRES HABILIT\u00C9S CONFORM\u00C9MENT \u00C0 L\u0027ARTICLE L.2212-2 DU CODE DE LA SANT\u00C9 PUBLIQUE"
+  },
+  {
+    "CISCode": "62681445",
     "PrescriptionDispensingCondition": "HORS \u00C9TABLISSEMENT DE SANT\u00C9 : PRESCRIPTION R\u00C9SERV\u00C9E AUX M\u00C9DECINS, SAGES-FEMMES ET CENTRES HABILIT\u00C9S CONFORM\u00C9MENT \u00C0 L\u0027ARTICLE L.2212-2 DU CODE DE LA SANT\u00C9 PUBLIQUE"
   },
   {
@@ -103520,6 +103792,10 @@
     "PrescriptionDispensingCondition": "ADMINISTRATION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
   },
   {
+    "CISCode": "60929148",
+    "PrescriptionDispensingCondition": "ADMINISTRATION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
+  },
+  {
     "CISCode": "61905794",
     "PrescriptionDispensingCondition": "ADMINISTRATION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
   },
@@ -103537,6 +103813,10 @@
   },
   {
     "CISCode": "64353988",
+    "PrescriptionDispensingCondition": "ADMINISTRATION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
+  },
+  {
+    "CISCode": "64523974",
     "PrescriptionDispensingCondition": "ADMINISTRATION R\u00C9SERV\u00C9E AUX SP\u00C9CIALISTES ET SERVICES ANESTHESIE-REANIMATION"
   },
   {
@@ -103596,6 +103876,10 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
+    "CISCode": "60951632",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
     "CISCode": "60992006",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
@@ -103628,6 +103912,10 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
+    "CISCode": "61697585",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
     "CISCode": "61736814",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
@@ -103648,7 +103936,15 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
+    "CISCode": "61962699",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
     "CISCode": "62015062",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
+    "CISCode": "62051172",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
@@ -103812,6 +104108,10 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
+    "CISCode": "65639871",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
     "CISCode": "65665802",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
@@ -103844,6 +104144,14 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
+    "CISCode": "66209488",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
+    "CISCode": "66352529",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
     "CISCode": "66425614",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
@@ -103860,11 +104168,19 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
+    "CISCode": "66890524",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
     "CISCode": "66961409",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
     "CISCode": "67018272",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
+    "CISCode": "67098208",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
@@ -103909,6 +104225,10 @@
   },
   {
     "CISCode": "67952249",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
+    "CISCode": "67955373",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
@@ -103972,6 +104292,10 @@
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
   {
+    "CISCode": "69539377",
+    "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
+  },
+  {
     "CISCode": "69710351",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT NON RESTREINT"
   },
@@ -103982,5 +104306,21 @@
   {
     "CISCode": "61680130",
     "PrescriptionDispensingCondition": "RENOUVELLEMENT DE LA PRESCRIPTION R\u00C9SERV\u00C9 AUX SP\u00C9CIALISTES EN NEUROPEDIATRIE"
+  },
+  {
+    "CISCode": "60325201",
+    "PrescriptionDispensingCondition": "NE PEUT \u00CATRE OBTENU QUE SUR PRESCRIPTION M\u00C9DICALE NON RENOUVELABLE"
+  },
+  {
+    "CISCode": "61120249",
+    "PrescriptionDispensingCondition": "NE PEUT \u00CATRE OBTENU QUE SUR PRESCRIPTION M\u00C9DICALE NON RENOUVELABLE"
+  },
+  {
+    "CISCode": "62227567",
+    "PrescriptionDispensingCondition": "NE PEUT \u00CATRE OBTENU QUE SUR PRESCRIPTION M\u00C9DICALE NON RENOUVELABLE"
+  },
+  {
+    "CISCode": "62580656",
+    "PrescriptionDispensingCondition": "NE PEUT \u00CATRE OBTENU QUE SUR PRESCRIPTION M\u00C9DICALE NON RENOUVELABLE"
   }
 ]
