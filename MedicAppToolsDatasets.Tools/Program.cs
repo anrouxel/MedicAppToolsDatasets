@@ -158,6 +158,9 @@ public class Program
 
         stopwatch.Stop();
         Console.WriteLine($"Temps d'exécution: {stopwatch.ElapsedMilliseconds} ms");
+
+        // Enregistrez le nom de tous les médicaments dans un fichier texte.
+        await File.WriteAllLinesAsync("data/medications.txt", medications.Select(medication => medication.Name));
     }
 
     public static async Task<string> DownloadAsync(string fileName)

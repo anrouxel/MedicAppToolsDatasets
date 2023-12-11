@@ -13925,51 +13925,58 @@
   {
     "GenericGroupId": "351",
     "GenericGroupLabel": "RISPERIDONE 1 MG - RISPERDAL 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "66824855",
+    "CISCode": "61156149",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "351",
     "GenericGroupLabel": "RISPERIDONE 1 MG - RISPERDAL 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "63997357",
+    "CISCode": "66824855",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "351",
     "GenericGroupLabel": "RISPERIDONE 1 MG - RISPERDAL 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "68408122",
+    "CISCode": "63997357",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "351",
     "GenericGroupLabel": "RISPERIDONE 1 MG - RISPERDAL 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "65158699",
+    "CISCode": "68408122",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "351",
     "GenericGroupLabel": "RISPERIDONE 1 MG - RISPERDAL 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "67252364",
+    "CISCode": "65158699",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "351",
     "GenericGroupLabel": "RISPERIDONE 1 MG - RISPERDAL 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "67402554",
+    "CISCode": "67252364",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "351",
     "GenericGroupLabel": "RISPERIDONE 1 MG - RISPERDAL 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "60608384",
+    "CISCode": "67402554",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
+  },
+  {
+    "GenericGroupId": "351",
+    "GenericGroupLabel": "RISPERIDONE 1 MG - RISPERDAL 1 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "CISCode": "60608384",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 17
   },
   {
     "GenericGroupId": "352",
@@ -14037,51 +14044,58 @@
   {
     "GenericGroupId": "352",
     "GenericGroupLabel": "RISPERIDONE 2 MG - RISPERDAL 2 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "62980974",
+    "CISCode": "63340518",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "352",
     "GenericGroupLabel": "RISPERIDONE 2 MG - RISPERDAL 2 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "69364180",
+    "CISCode": "62980974",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "352",
     "GenericGroupLabel": "RISPERIDONE 2 MG - RISPERDAL 2 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "61015084",
+    "CISCode": "69364180",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "352",
     "GenericGroupLabel": "RISPERIDONE 2 MG - RISPERDAL 2 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "65587620",
+    "CISCode": "61015084",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "352",
     "GenericGroupLabel": "RISPERIDONE 2 MG - RISPERDAL 2 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "66315751",
+    "CISCode": "65587620",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "352",
     "GenericGroupLabel": "RISPERIDONE 2 MG - RISPERDAL 2 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "68633172",
+    "CISCode": "66315751",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "352",
     "GenericGroupLabel": "RISPERIDONE 2 MG - RISPERDAL 2 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "61671836",
+    "CISCode": "68633172",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
+  },
+  {
+    "GenericGroupId": "352",
+    "GenericGroupLabel": "RISPERIDONE 2 MG - RISPERDAL 2 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "CISCode": "61671836",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 17
   },
   {
     "GenericGroupId": "353",
@@ -14149,51 +14163,58 @@
   {
     "GenericGroupId": "353",
     "GenericGroupLabel": "RISPERIDONE 4 MG - RISPERDAL 4 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "68803742",
+    "CISCode": "61575738",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "353",
     "GenericGroupLabel": "RISPERIDONE 4 MG - RISPERDAL 4 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "61451313",
+    "CISCode": "68803742",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
   },
   {
     "GenericGroupId": "353",
     "GenericGroupLabel": "RISPERIDONE 4 MG - RISPERDAL 4 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "66802129",
+    "CISCode": "61451313",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "353",
     "GenericGroupLabel": "RISPERIDONE 4 MG - RISPERDAL 4 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "68909592",
+    "CISCode": "66802129",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
   },
   {
     "GenericGroupId": "353",
     "GenericGroupLabel": "RISPERIDONE 4 MG - RISPERDAL 4 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "69532685",
+    "CISCode": "68909592",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 14
   },
   {
     "GenericGroupId": "353",
     "GenericGroupLabel": "RISPERIDONE 4 MG - RISPERDAL 4 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "60812134",
+    "CISCode": "69532685",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 15
   },
   {
     "GenericGroupId": "353",
     "GenericGroupLabel": "RISPERIDONE 4 MG - RISPERDAL 4 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
-    "CISCode": "67971737",
+    "CISCode": "60812134",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 16
+  },
+  {
+    "GenericGroupId": "353",
+    "GenericGroupLabel": "RISPERIDONE 4 MG - RISPERDAL 4 MG, COMPRIM\u00C9 PELLICUL\u00C9.",
+    "CISCode": "67971737",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 17
   },
   {
     "GenericGroupId": "354",
@@ -22321,6 +22342,13 @@
     "CISCode": "65534856",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 5
+  },
+  {
+    "GenericGroupId": "553",
+    "GenericGroupLabel": "MODAFINIL 100 MG - MODIODAL 100 MG, COMPRIM\u00C9.",
+    "CISCode": "69277042",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 6
   },
   {
     "GenericGroupId": "554",
@@ -60018,6 +60046,13 @@
     "SortNumber": 3
   },
   {
+    "GenericGroupId": "1471",
+    "GenericGroupLabel": "PALONOSETRON (CHLORHYDRATE DE) \u00C9QUIVALENT \u00C0 PALONOSETRON 50 MICROGRAMMES/ML - ALOXI 250 MICROGRAMMES, SOLUTION INJECTABLE",
+    "CISCode": "67044648",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 4
+  },
+  {
     "GenericGroupId": "1472",
     "GenericGroupLabel": "PERINDOPRIL TERT-BUTYLAMINE 4 MG - PERINDOPRIL ARGININE 5 MG \u002B AMLODIPINE (BESILATE DE) \u00C9QUIVALENT \u00C0 AMLODIPINE 10 MG - COVERAM 5 MG/10 MG, COMPRIM\u00C9",
     "CISCode": "60972480",
@@ -61420,30 +61455,37 @@
   {
     "GenericGroupId": "1497",
     "GenericGroupLabel": "RIVAROXABAN 10 MG - XARELTO 10 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "64140958",
+    "CISCode": "61456812",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 24
   },
   {
     "GenericGroupId": "1497",
     "GenericGroupLabel": "RIVAROXABAN 10 MG - XARELTO 10 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60984568",
+    "CISCode": "64140958",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 25
   },
   {
     "GenericGroupId": "1497",
     "GenericGroupLabel": "RIVAROXABAN 10 MG - XARELTO 10 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "63038441",
+    "CISCode": "60984568",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 26
   },
   {
     "GenericGroupId": "1497",
     "GenericGroupLabel": "RIVAROXABAN 10 MG - XARELTO 10 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "67067668",
+    "CISCode": "63038441",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 27
+  },
+  {
+    "GenericGroupId": "1497",
+    "GenericGroupLabel": "RIVAROXABAN 10 MG - XARELTO 10 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "67067668",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 28
   },
   {
     "GenericGroupId": "1498",
@@ -61616,30 +61658,37 @@
   {
     "GenericGroupId": "1498",
     "GenericGroupLabel": "RIVAROXABAN 15 MG - XARELTO 15 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "63905526",
+    "CISCode": "69946889",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 25
   },
   {
     "GenericGroupId": "1498",
     "GenericGroupLabel": "RIVAROXABAN 15 MG - XARELTO 15 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "64290203",
+    "CISCode": "63905526",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 26
   },
   {
     "GenericGroupId": "1498",
     "GenericGroupLabel": "RIVAROXABAN 15 MG - XARELTO 15 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "63186536",
+    "CISCode": "64290203",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 27
   },
   {
     "GenericGroupId": "1498",
     "GenericGroupLabel": "RIVAROXABAN 15 MG - XARELTO 15 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "67336588",
+    "CISCode": "63186536",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 28
+  },
+  {
+    "GenericGroupId": "1498",
+    "GenericGroupLabel": "RIVAROXABAN 15 MG - XARELTO 15 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "67336588",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 29
   },
   {
     "GenericGroupId": "1499",
@@ -61812,30 +61861,37 @@
   {
     "GenericGroupId": "1499",
     "GenericGroupLabel": "RIVAROXABAN 20 MG - XARELTO 20 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "63787298",
+    "CISCode": "64388170",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 25
   },
   {
     "GenericGroupId": "1499",
     "GenericGroupLabel": "RIVAROXABAN 20 MG - XARELTO 20 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "61186021",
+    "CISCode": "63787298",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 26
   },
   {
     "GenericGroupId": "1499",
     "GenericGroupLabel": "RIVAROXABAN 20 MG - XARELTO 20 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "64330217",
+    "CISCode": "61186021",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 27
   },
   {
     "GenericGroupId": "1499",
     "GenericGroupLabel": "RIVAROXABAN 20 MG - XARELTO 20 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60908257",
+    "CISCode": "64330217",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 28
+  },
+  {
+    "GenericGroupId": "1499",
+    "GenericGroupLabel": "RIVAROXABAN 20 MG - XARELTO 20 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "60908257",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 29
   },
   {
     "GenericGroupId": "1500",
@@ -66369,16 +66425,23 @@
   {
     "GenericGroupId": "1649",
     "GenericGroupLabel": "RIVAROXABAN 2,5 MG - XARELTO 2,5 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "64686359",
+    "CISCode": "62321461",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 12
   },
   {
     "GenericGroupId": "1649",
     "GenericGroupLabel": "RIVAROXABAN 2,5 MG - XARELTO 2,5 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60378887",
+    "CISCode": "64686359",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 13
+  },
+  {
+    "GenericGroupId": "1649",
+    "GenericGroupLabel": "RIVAROXABAN 2,5 MG - XARELTO 2,5 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "60378887",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 14
   },
   {
     "GenericGroupId": "1650",
@@ -67559,9 +67622,16 @@
   {
     "GenericGroupId": "1699",
     "GenericGroupLabel": "MELPHALAN 50 MG/10 ML - MELPHALAN (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 MELPHALAN 50MG/10 ML - ALKERAN 50 MG/10 ML, LYOPHILISAT ET SOLUTION POUR USAGE PARENT\u00C9RAL (I.V.)",
-    "CISCode": "65547063",
+    "CISCode": "69865063",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 3
+  },
+  {
+    "GenericGroupId": "1699",
+    "GenericGroupLabel": "MELPHALAN 50 MG/10 ML - MELPHALAN (CHLORHYDRATE DE) \u00C9QUIVALANT \u00C0 MELPHALAN 50MG/10 ML - ALKERAN 50 MG/10 ML, LYOPHILISAT ET SOLUTION POUR USAGE PARENT\u00C9RAL (I.V.)",
+    "CISCode": "65547063",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 4
   },
   {
     "GenericGroupId": "1700",
@@ -68315,9 +68385,16 @@
   {
     "GenericGroupId": "1721",
     "GenericGroupLabel": "TOLVAPTAN 15 MG \u002B 45 MG - JINARC 15 MG, COMPRIM\u00C9 \u002B JINARC 45 MG, COMPRIM\u00C9",
-    "CISCode": "67126700",
+    "CISCode": "69512405",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
+  },
+  {
+    "GenericGroupId": "1721",
+    "GenericGroupLabel": "TOLVAPTAN 15 MG \u002B 45 MG - JINARC 15 MG, COMPRIM\u00C9 \u002B JINARC 45 MG, COMPRIM\u00C9",
+    "CISCode": "67126700",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 3
   },
   {
     "GenericGroupId": "1722",
@@ -68329,9 +68406,16 @@
   {
     "GenericGroupId": "1722",
     "GenericGroupLabel": "TOLVAPTAN 30 MG \u002B 60 MG - JINARC 30 MG, COMPRIM\u00C9 \u002B JINARC 60 MG, COMPRIM\u00C9",
-    "CISCode": "64599993",
+    "CISCode": "66055638",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
+  },
+  {
+    "GenericGroupId": "1722",
+    "GenericGroupLabel": "TOLVAPTAN 30 MG \u002B 60 MG - JINARC 30 MG, COMPRIM\u00C9 \u002B JINARC 60 MG, COMPRIM\u00C9",
+    "CISCode": "64599993",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 3
   },
   {
     "GenericGroupId": "1723",
@@ -68343,9 +68427,16 @@
   {
     "GenericGroupId": "1723",
     "GenericGroupLabel": "TOLVAPTAN 30 MG \u002B 90 MG - JINARC 30 MG, COMPRIM\u00C9 \u002B JINARC 90 MG, COMPRIM\u00C9",
-    "CISCode": "63235257",
+    "CISCode": "60544558",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 2
+  },
+  {
+    "GenericGroupId": "1723",
+    "GenericGroupLabel": "TOLVAPTAN 30 MG \u002B 90 MG - JINARC 30 MG, COMPRIM\u00C9 \u002B JINARC 90 MG, COMPRIM\u00C9",
+    "CISCode": "63235257",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 3
   },
   {
     "GenericGroupId": "1724",
@@ -71290,23 +71381,30 @@
   {
     "GenericGroupId": "1851",
     "GenericGroupLabel": "TERIFLUNOMIDE 14 MG - AUBAGIO 14 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60448937",
+    "CISCode": "65095633",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 9
   },
   {
     "GenericGroupId": "1851",
     "GenericGroupLabel": "TERIFLUNOMIDE 14 MG - AUBAGIO 14 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "60399504",
+    "CISCode": "60448937",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 10
   },
   {
     "GenericGroupId": "1851",
     "GenericGroupLabel": "TERIFLUNOMIDE 14 MG - AUBAGIO 14 MG, COMPRIM\u00C9 PELLICUL\u00C9",
-    "CISCode": "67129447",
+    "CISCode": "60399504",
     "GenericType": "g\u00E9n\u00E9rique",
     "SortNumber": 11
+  },
+  {
+    "GenericGroupId": "1851",
+    "GenericGroupLabel": "TERIFLUNOMIDE 14 MG - AUBAGIO 14 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "67129447",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 12
   },
   {
     "GenericGroupId": "1852",
@@ -71645,11 +71743,25 @@
     "SortNumber": 1
   },
   {
+    "GenericGroupId": "1873",
+    "GenericGroupLabel": "ESOMEPRAZOLE MAGN\u00C9SIUM DIHYDRAT\u00C9 \u00C9QUIVALENT \u00C0 ESOMEPRAZOLE 10 MG - INEXIUM 10 MG, GRANUL\u00C9S GASTRO-R\u00C9SISTANTS POUR SUSPENSION BUVABLE EN SACHET",
+    "CISCode": "61578855",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
+  },
+  {
     "GenericGroupId": "1874",
     "GenericGroupLabel": "ENZALUTAMIDE 40 MG - XTANDI 40 MG, COMPRIM\u00C9 PELLICUL\u00C9",
     "CISCode": "64093355",
     "GenericType": "princeps",
     "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1874",
+    "GenericGroupLabel": "ENZALUTAMIDE 40 MG - XTANDI 40 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "68861044",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
   },
   {
     "GenericGroupId": "1875",
@@ -71659,11 +71771,25 @@
     "SortNumber": 1
   },
   {
+    "GenericGroupId": "1875",
+    "GenericGroupLabel": "ENZALUTAMIDE 80 MG - XTANDI 80 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "66551488",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
+  },
+  {
     "GenericGroupId": "1876",
     "GenericGroupLabel": "LABETALOL (CHLORHYDRATE DE) 5 MG/ML - TRANDATE 5 MG/ML, SOLUTION INJECTABLE",
     "CISCode": "60558554",
     "GenericType": "princeps",
     "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1876",
+    "GenericGroupLabel": "LABETALOL (CHLORHYDRATE DE) 5 MG/ML - TRANDATE 5 MG/ML, SOLUTION INJECTABLE",
+    "CISCode": "61308023",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
   },
   {
     "GenericGroupId": "1877",
@@ -71673,11 +71799,25 @@
     "SortNumber": 1
   },
   {
+    "GenericGroupId": "1877",
+    "GenericGroupLabel": "RISPERIDONE 0,5 MG - RISPERDAL 0,50 MG, COMPRIM\u00C9 PELLICUL\u00C9",
+    "CISCode": "62593066",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
+  },
+  {
     "GenericGroupId": "1878",
     "GenericGroupLabel": "RISPERIDONE 3 MG - RISPERDAL 3 MG, COMPRIM\u00C9 PELLICUL\u00C9 S\u00C9CABLE",
     "CISCode": "65447077",
     "GenericType": "princeps",
     "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1878",
+    "GenericGroupLabel": "RISPERIDONE 3 MG - RISPERDAL 3 MG, COMPRIM\u00C9 PELLICUL\u00C9 S\u00C9CABLE",
+    "CISCode": "60992433",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
   },
   {
     "GenericGroupId": "1879",
@@ -71687,11 +71827,25 @@
     "SortNumber": 1
   },
   {
+    "GenericGroupId": "1879",
+    "GenericGroupLabel": "ROTIGOTINE 2 MG/24 H - NEUPRO 2 MG/24 H, DISPOSITIF TRANSDERMIQUE",
+    "CISCode": "66103392",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
+  },
+  {
     "GenericGroupId": "1880",
     "GenericGroupLabel": "ROTIGOTINE 4 MG/24 H - NEUPRO 4 MG/24 H, DISPOSITIF TRANSDERMIQUE",
     "CISCode": "66662951",
     "GenericType": "princeps",
     "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1880",
+    "GenericGroupLabel": "ROTIGOTINE 4 MG/24 H - NEUPRO 4 MG/24 H, DISPOSITIF TRANSDERMIQUE",
+    "CISCode": "68395130",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
   },
   {
     "GenericGroupId": "1881",
@@ -71701,10 +71855,24 @@
     "SortNumber": 1
   },
   {
+    "GenericGroupId": "1881",
+    "GenericGroupLabel": "ROTIGOTINE 6 MG/24 H - NEUPRO 6 MG/24 H, DISPOSITIF TRANSDERMIQUE",
+    "CISCode": "66639739",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
+  },
+  {
     "GenericGroupId": "1882",
     "GenericGroupLabel": "ROTIGOTINE 8 MG/24 H - NEUPRO 8 MG/24 H, DISPOSITIF TRANSDERMIQUE",
     "CISCode": "61578613",
     "GenericType": "princeps",
     "SortNumber": 1
+  },
+  {
+    "GenericGroupId": "1882",
+    "GenericGroupLabel": "ROTIGOTINE 8 MG/24 H - NEUPRO 8 MG/24 H, DISPOSITIF TRANSDERMIQUE",
+    "CISCode": "63205730",
+    "GenericType": "g\u00E9n\u00E9rique",
+    "SortNumber": 2
   }
 ]
