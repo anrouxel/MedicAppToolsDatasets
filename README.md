@@ -30,13 +30,13 @@ snap install medicapptoolsdatasets
 <p align="center">Published for <img src="https://raw.githubusercontent.com/anythingcodes/slack-emoji-for-techies/gh-pages/emoji/tux.png" align="top" width="24" /> with :gift_heart: by anrouxel</p>
 
 
-## Usage :
+## Usage
 
 ```plaintext
 MedicAppToolsDatasets [options]
 ```
 
-## Options :
+## Options
 
 ```plaintext
     -m, --model <model>: Model to use - ai or dataset
@@ -49,3 +49,17 @@ MedicAppToolsDatasets [options]
     --version: Show version information
     -?, -h, --help: Show help and usage information
 ```
+
+## Authors
+* Antonin Rouxel ([anrouxel](https://github.com/anrouxel))
+* Quentin Tegny ([Qt144](https://github.com/Qt144))
+* Paul BOUTET ([Kartinlage](https://github.com/Kartinlage))
+* Arthur Osselin ([tuturita](https://github.com/tuturita))
+* Lana Heyrendt ([Renarde-dev](https://github.com/Renarde-dev))
+
+## Related Git repository
+* Android application: [MedicApp](https://github.com/anrouxel/MedicApp.git)
+* C# data cleaner: [MedicAppToolsDatasets](https://github.com/anrouxel/MedicAppToolsDatasets.git)
+* Artificial Intelligence Generator (Named Entity Recognition): [MedicAppAI](https://github.com/anrouxel/MedicAppAI.git)
+* Named Entity Recognition AI model for prescriptions (usable as a sub-module): [MedicAppAssets](https://gitlab.univ-nantes.fr/E213726L/MedicAppAssets.git)
+* API : [MedicAppAPI](https://github.com/Renarde-dev/MedicApp-API.git)
