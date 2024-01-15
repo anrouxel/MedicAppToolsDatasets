@@ -132,4 +132,4 @@ Please replace `/path/to/outputDir`, `/path/to/inputFile`, and `http://example.c
 * C# data cleaner: [MedicAppToolsDatasets](https://github.com/anrouxel/MedicAppToolsDatasets#----)
 * Artificial Intelligence Generator (Named Entity Recognition): [MedicAppAI](https://github.com/anrouxel/MedicAppAI#----)
 * Named Entity Recognition AI model for prescriptions (usable as a sub-module): [MedicAppAssets](https://gitlab.univ-nantes.fr/E213726L/MedicAppAssets.git)
-* API : [MedicAppAPI](https://github.com/Renarde-dev/MedicApp-API.git)
+* API : [MedicAppAPI](https://github.com/Renarde-dev/MedicApp-API#----)
