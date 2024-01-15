@@ -2,7 +2,19 @@ name: medicapptoolsdatasets
 license: EUPL-1.2
 summary: MedicAppToolsDatasets
 description: |
-  MedicAppToolsDatasets
+  Usage:
+      medicapptoolsdatasets [options]
+
+  Options:
+      -m, --model <model>: Model to use - ai or dataset
+      -d, --dataset <dataset>: Dataset to use - CIS_bdpm, CIS_COMPO_bdpm, CIS_CIP_bdpm, CIS_GENER_bdpm, CIS_HAS_SMR_bdpm, CIS_HAS_ASMR_bdpm, CIS_InfoImportantes, CIS_CPD_bdpm, HAS_LiensPageCT_bdpm, all
+      --merge: Merge datasets
+      -o, --outputDir <outputDir>: Output directory
+      -u, --outputUrl <outputUrl>: Output URL
+      -s, --sentenceCount <sentenceCount>: Number of sentences to generate
+      -i, --input <input>: Input file
+      --version: Show version information
+      -?, -h, --help: Show help and usage information
 base: core22
 grade: stable
 confinement: strict
@@ -15,8 +27,6 @@ architectures:
 apps:
   medicapptoolsdatasets:
     command: MedicAppToolsDatasets
-    #daemon: simple
-    #restart-condition: always
     plugs: [home, network, network-bind]
 
 parts:
