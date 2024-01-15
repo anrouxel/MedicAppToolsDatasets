@@ -1,0 +1,42 @@
+name: medicapptoolsdatasets
+license: EUPL-1.2
+summary: MedicAppToolsDatasets
+description: |
+  MedicAppToolsDatasets
+base: core22
+grade: stable
+confinement: strict
+version: v0.1
+
+architectures:
+  - build-on: amd64
+    build-for: amd64
+
+apps:
+  medicapptoolsdatasets:
+    command: MedicAppToolsDatasets
+    #daemon: simple
+    #restart-condition: always
+    plugs: [home, network, network-bind]
+
+parts:
+  medicapptoolsdatasets:
+    plugin: dotnet
+    dotnet-build-configuration: Release
+    dotnet-self-contained-runtime-identifier: linux-x64
+    source: .
+    source-type: git
+    build-packages:
+      - dotnet-sdk-8.0
+      - git
+      - sed
+    stage-packages:
+      - libicu70
+
+package-repositories:
+  - type: apt
+    components: [main]
+    suites: [jammy]
+    priority: always
+    key-id: BC528686B50D79E339D3721CEB3E94ADBE1229CF
+    url: https://packages.microsoft.com/ubuntu/22.04/prod
