@@ -6,7 +6,7 @@ description: |
 base: core22
 grade: stable
 confinement: strict
-version: v0.1
+version: git
 
 architectures:
   - build-on: amd64
