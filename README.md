@@ -33,7 +33,7 @@ snap install medicapptoolsdatasets
 ## Usage
 
 ```plaintext
-MedicAppToolsDatasets [options]
+medicapptoolsdatasets [options]
 ```
 
 ## Options
@@ -49,6 +49,76 @@ MedicAppToolsDatasets [options]
     --version: Show version information
     -?, -h, --help: Show help and usage information
 ```
+
+## Example
+
+Here are some examples of how to use `medicapptoolsdatasets`:
+
+### Merging all datasets and outputting to a specific directory
+
+```plaintext
+medicapptoolsdatasets -m dataset -d all --merge -o /path/to/outputDir
+```
+
+
+### Merging all datasets and outputting to a specific URL
+
+```plaintext
+medicapptoolsdatasets -m dataset -d all --merge -u http://example.com/output
+```
+
+
+### Outputting all datasets to a specific directory
+
+```plaintext
+medicapptoolsdatasets -m dataset -d all -o /path/to/outputDir
+```
+
+
+### Outputting all datasets to a specific URL
+
+```plaintext
+medicapptoolsdatasets -m dataset -d all -u http://example.com/output
+```
+
+
+### Outputting the CIS_bdpm dataset to a specific directory
+
+```plaintext
+medicapptoolsdatasets -m dataset -d CIS_bdpm -o /path/to/outputDir
+```
+
+
+### Outputting the CIS_bdpm dataset to a specific URL
+
+```plaintext
+medicapptoolsdatasets -m dataset -d CIS_bdpm -u http://example.com/output
+```
+
+
+### Outputting the CIS_bdpm and CIS_COMPO_bdpm datasets to a specific directory
+
+```plaintext
+medicapptoolsdatasets -m dataset -d CIS_bdpm -d CIS_COMPO_bdpm -o /path/to/outputDir
+```
+
+
+### Outputting the CIS_bdpm and CIS_COMPO_bdpm datasets to a specific URL
+
+```plaintext
+medicapptoolsdatasets -m dataset -d CIS_bdpm -d CIS_COMPO_bdpm -u http://example.com/output
+```
+
+
+### Using the AI model with all datasets, generating 100 sentences from an input file and outputting to a specific directory
+
+```plaintext
+medicapptoolsdatasets -m ai -d all -s 100 -i /path/to/inputFile -o /path/to/outputDir
+```
+
+
+Please replace `/path/to/outputDir`, `/path/to/inputFile`, and `http://example.com/output` with your actual file paths and URLs.
+
 
 ## Authors
 * Antonin Rouxel ([anrouxel](https://github.com/anrouxel))
