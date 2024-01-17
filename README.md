@@ -119,9 +119,14 @@ medicapptoolsdatasets -m ai -d all -s 100 -i /path/to/inputFile -o /path/to/outp
 
 Please replace `/path/to/outputDir`, `/path/to/inputFile`, and `http://example.com/output` with your actual file paths and URLs.
 
+## Development
+### Requirement
+* DotNet 8
 
 ## Authors
 * Antonin Rouxel ([anrouxel](https://github.com/anrouxel))
+
+## Collaborators
 * Quentin Tegny ([Qt144](https://github.com/Qt144))
 * Paul BOUTET ([Kartinlage](https://github.com/Kartinlage))
 * Arthur Osselin ([tuturita](https://github.com/tuturita))
