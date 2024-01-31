@@ -68,6 +68,11 @@ public class Program
     const string HAS_LiensPageCT_bdpm = "HAS_LiensPageCT_bdpm";
 
     /// <summary>
+    /// Nom du fichier contenant les données de disposition spéciale.
+    /// </summary>
+    const string CIS_CIP_Dispo_Spec = "CIS_CIP_Dispo_Spec";
+
+    /// <summary>
     /// Liste pour stocker les données des médicaments.
     /// </summary>
     static List<Medication> medications = new List<Medication>();
@@ -126,7 +131,7 @@ public class Program
         // Options de la ligne de commande.
         var modelOption = new Option<string>(
             new string[] { "--model", "-m" },
-            description: "Modèle à utiliser : ai ou dataset"
+            description: "Modèle à utiliser : ai ou dataset ou database"
         );
 
         var datasetOption = new Option<string[]>(
@@ -184,7 +189,7 @@ public class Program
                         CIS_HAS_ASMR_bdpm,
                         CIS_InfoImportantes,
                         CIS_CPD_bdpm,
-                        HAS_LiensPageCT_bdpm
+                        HAS_LiensPageCT_bdpm,
                     };
 
                 // Validation des arguments de la ligne de commande.
@@ -251,6 +256,30 @@ public class Program
                         throw new Exception("Output directory or output URL is required for model dataset");
                     }
                 }
+                else if (model == "database")
+                {
+                    if (datasetInput == null)
+                    {
+                        throw new Exception("Dataset is required for model database");
+                    }
+                    else
+                    {
+                        if (!datasetInput.Contains("all"))
+                        {
+                            dataset = dataset.Where(d => datasetInput.Contains(d)).ToArray();
+
+                            if (dataset.Length == 0)
+                            {
+                                throw new Exception("Dataset is required for model database");
+                            }
+                        }
+                    }
+
+                    if (outputDir == null)
+                    {
+                        throw new Exception("Output directory is required for model database");
+                    }
+                }
                 else
                 {
                     throw new Exception("Unknown model");
@@ -297,6 +326,26 @@ public class Program
                         else
                         {
                             await UploadDatasets(dataset.ToList(), outputUrl);
+                        }
+                    }
+                }
+                else if (model == "database")
+                {
+                    if (outputDir != null)
+                    {
+                        var file = new FileInfo(Path.Join(outputDir.FullName, "data.db"));
+                        if (file.Exists)
+                        {
+                            file.Delete();
+                        }
+                        using (var context = new MedicationContext(outputDir.FullName))
+                        {
+                            context.Database.EnsureDeleted();
+                            context.Database.EnsureCreated();
+
+                            context.Medications.AddRange(medications);
+
+                            context.SaveChanges();
                         }
                     }
                 }
