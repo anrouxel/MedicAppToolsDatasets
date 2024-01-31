@@ -21,47 +21,47 @@ public class Program
         WriteIndented = true,
         Encoder = JavaScriptEncoder.Create(UnicodeRanges.All)
     };
-    
+
     /// <summary>
     /// Nom du fichier contenant les données de base des médicaments.
     /// </summary>
     const string CIS_bdpm = "CIS_bdpm";
-    
+
     /// <summary>
     /// Nom du fichier contenant les données de composition des médicaments.
     /// </summary>
     const string CIS_COMPO_bdpm = "CIS_COMPO_bdpm";
-    
+
     /// <summary>
     /// Nom du fichier contenant les données de présentation des médicaments.
     /// </summary>
     const string CIS_CIP_bdpm = "CIS_CIP_bdpm";
-    
+
     /// <summary>
     /// Nom du fichier contenant les données des groupes génériques.
     /// </summary>
     const string CIS_GENER_bdpm = "CIS_GENER_bdpm";
-    
+
     /// <summary>
     /// Nom du fichier contenant les données des avis SMR de la HAS.
     /// </summary>
     const string CIS_HAS_SMR_bdpm = "CIS_HAS_SMR_bdpm";
-    
+
     /// <summary>
     /// Nom du fichier contenant les données des avis ASMR de la HAS.
     /// </summary>
     const string CIS_HAS_ASMR_bdpm = "CIS_HAS_ASMR_bdpm";
-    
+
     /// <summary>
     /// Nom du fichier contenant les informations importantes.
     /// </summary>
     const string CIS_InfoImportantes = "CIS_InfoImportantes";
-    
+
     /// <summary>
     /// Nom du fichier contenant les conditions de prescription et de délivrance.
     /// </summary>
     const string CIS_CPD_bdpm = "CIS_CPD_bdpm";
-    
+
     /// <summary>
     /// Nom du fichier contenant les liens vers les avis de la Commission de la transparence.
     /// </summary>
@@ -71,42 +71,42 @@ public class Program
     /// Liste pour stocker les données des médicaments.
     /// </summary>
     static List<Medication> medications = new List<Medication>();
-    
+
     /// <summary>
     /// Liste pour stocker les données de composition des médicaments.
     /// </summary>
     static List<MedicationComposition> medicationCompositions = new List<MedicationComposition>();
-    
+
     /// <summary>
     /// Liste pour stocker les données de présentation des médicaments.
     /// </summary>
     static List<MedicationPresentation> medicationPresentations = new List<MedicationPresentation>();
-    
+
     /// <summary>
     /// Liste pour stocker les données des groupes génériques.
     /// </summary>
     static List<GenericGroup> genericGroups = new List<GenericGroup>();
-    
+
     /// <summary>
     /// Liste pour stocker les données des avis SMR de la HAS.
     /// </summary>
     static List<HasSmrOpinion> hasSmrOpinions = new List<HasSmrOpinion>();
-    
+
     /// <summary>
     /// Liste pour stocker les données des avis ASMR de la HAS.
     /// </summary>
     static List<HasAsmrOpinion> hasAsmrOpinions = new List<HasAsmrOpinion>();
-    
+
     /// <summary>
     /// Liste pour stocker les informations importantes.
     /// </summary>
     static List<ImportantInformation> importantInformations = new List<ImportantInformation>();
-    
+
     /// <summary>
     /// Liste pour stocker les conditions de prescription et de délivrance.
     /// </summary>
     static List<PrescriptionDispensingConditions> prescriptionDispensingConditions = new List<PrescriptionDispensingConditions>();
-    
+
     /// <summary>
     /// Liste pour stocker les liens vers les avis de la Commission de la transparence.
     /// </summary>
@@ -171,28 +171,11 @@ public class Program
         };
 
         // Définition du gestionnaire de la commande.
-        rootCommand.SetHandler(async (model, dataset, merge, outputDir, outputUrl, sentenceCount, input) =>
+        rootCommand.SetHandler(async (model, datasetInput, merge, outputDir, outputUrl, sentenceCount, inputDir) =>
         {
             try
             {
-                // Validation des arguments de la ligne de commande.
-                if (model == null || dataset == null || (outputDir == null && outputUrl == null))
-                {
-                    throw new Exception("Model, dataset and outputDir or outputUrl must be specified");
-                }
-                else if (model == "ai" && !dataset.Any(d => d == "all") && sentenceCount <= 0 && outputDir == null && input == null)
-                {
-                    throw new Exception("When model is 'ai', dataset must be 'all', sentenceCount must be greater than 0 and outputDir must be specified");
-                }
-                else if (model == "dataset" && !dataset.Any())
-                {
-                    throw new Exception("When model is 'dataset', dataset must be specified");
-                }
-
-                // Traitement des arguments de la ligne de commande.
-                if (dataset.Any(d => d == "all"))
-                {
-                    dataset = new string[] {
+                string[] dataset = new string[] {
                         CIS_bdpm,
                         CIS_COMPO_bdpm,
                         CIS_CIP_bdpm,
@@ -203,38 +186,119 @@ public class Program
                         CIS_CPD_bdpm,
                         HAS_LiensPageCT_bdpm
                     };
+
+                // Validation des arguments de la ligne de commande.
+                if (model == "ai")
+                {
+                    if (datasetInput == null)
+                    {
+                        throw new Exception("Dataset is required for model dataset");
+                    }
+                    else
+                    {
+                        if (!datasetInput.Contains("all"))
+                        {
+                            dataset = dataset.Where(d => datasetInput.Contains(d)).ToArray();
+
+                            if (dataset.Length == 0)
+                            {
+                                throw new Exception("Dataset is required for model dataset");
+                            }
+                        }
+                    }
+                    if (sentenceCount == 0)
+                    {
+                        throw new Exception("Sentence count is required for model ai");
+                    }
+                    if (inputDir == null)
+                    {
+                        throw new Exception("Input file is required for model ai");
+                    }
+                    else if (!inputDir.Exists)
+                    {
+                        throw new Exception("Input file does not exist");
+                    }
+                    else if (File.ReadAllLines(inputDir.FullName).Length < 1)
+                    {
+                        throw new Exception("Input file contains empty lines");
+                    }
+                    if (outputDir == null && outputUrl == null)
+                    {
+                        throw new Exception("Output directory or output URL is required for model ai");
+                    }
+                }
+                else if (model == "dataset")
+                {
+                    if (datasetInput == null)
+                    {
+                        throw new Exception("Dataset is required for model dataset");
+                    }
+                    else
+                    {
+                        if (!datasetInput.Contains("all"))
+                        {
+                            dataset = dataset.Where(d => datasetInput.Contains(d)).ToArray();
+
+                            if (dataset.Length == 0)
+                            {
+                                throw new Exception("Dataset is required for model dataset");
+                            }
+                        }
+                    }
+
+                    if (outputDir == null && outputUrl == null)
+                    {
+                        throw new Exception("Output directory or output URL is required for model dataset");
+                    }
+                }
+                else
+                {
+                    throw new Exception("Unknown model");
                 }
 
                 // Téléchargement et conversion des jeux de données.
                 await DownloadAndConvert(dataset.ToList());
 
                 // Traitement en fonction du modèle et des options spécifiées.
-                if (model == "ai" && outputDir != null)
+                if (model == "ai")
                 {
                     Merge();
-                    await MakeIAModel(sentenceCount, outputDir, new FileInfo("ai_" + sentenceCount), input);
+                    List<SentenceData> sentences = MakeIAModel(sentenceCount, inputDir);
+
+                    if (outputDir != null)
+                    {
+                        await SaveAsJsonAsync(sentences, outputDir, new FileInfo("sentences"));
+                    }
+                    else
+                    {
+                        await UploadJsonAsync(sentences, outputUrl);
+                    }
                 }
-                else if (model == "dataset" && !merge && outputDir != null)
+                else if (model == "dataset")
                 {
-                    await SaveDatasets(dataset.ToList(), outputDir);
-                }
-                else if (model == "dataset" && !merge && outputUrl != null)
-                {
-                    await UploadDatasets(dataset.ToList(), outputUrl);
-                }
-                else if (model == "dataset" && merge && outputDir != null)
-                {
-                    Merge();
-                    await SaveAsJsonAsync(medications, outputDir, new FileInfo("merged_" + CIS_bdpm));
-                }
-                else if (model == "dataset" && merge && outputUrl != null)
-                {
-                    Merge();
-                    await UploadJsonAsync(medications, outputUrl);
-                }
-                else
-                {
-                    throw new Exception("Unknown model");
+                    if (merge)
+                    {
+                        Merge();
+                        if (outputDir != null)
+                        {
+                            await SaveAsJsonAsync(medications, outputDir, new FileInfo("merged_" + CIS_bdpm));
+                        }
+                        else
+                        {
+                            await UploadJsonAsync(medications, outputUrl);
+                        }
+                    }
+                    else
+                    {
+                        if (outputDir != null)
+                        {
+                            await SaveDatasets(dataset.ToList(), outputDir);
+                        }
+                        else
+                        {
+                            await UploadDatasets(dataset.ToList(), outputUrl);
+                        }
+                    }
                 }
             }
             catch (Exception ex)
@@ -681,13 +745,11 @@ public class Program
     }
 
     /// <summary>
-    /// Crée un modèle d'IA en générant un certain nombre de phrases, en les tokenisant et en les enregistrant au format JSON.
+    /// Crée un modèle d'IA en générant un certain nombre de phrases, en les tokenisant et en les retournant sous forme de liste de données de phrases.
     /// </summary>
     /// <param name="sentenceCount">Le nombre de phrases à générer.</param>
-    /// <param name="output">Le répertoire de sortie où le fichier sera enregistré.</param>
-    /// <param name="fileName">Le nom du fichier de sortie.</param>
     /// <param name="input">Le fichier d'entrée contenant les prescriptions.</param>
-    public static async Task MakeIAModel(int sentenceCount, DirectoryInfo output, FileInfo fileName, FileInfo input)
+    public static List<SentenceData> MakeIAModel(int sentenceCount, FileInfo input)
     {
         Prescriptions prescriptions = new Prescriptions();
 
@@ -866,8 +928,8 @@ public class Program
             sentences.Add(sentence);
         }
 
-        // Enregistrement de la liste de sentences au format JSON dans le fichier spécifié.
-        await SaveAsJsonAsync(sentences, output, fileName);
+        // Retourne la liste des sentences.
+        return sentences;
     }
 
     /// <summary>
