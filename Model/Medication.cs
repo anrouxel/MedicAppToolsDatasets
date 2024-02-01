@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using CsvHelper.Configuration.Attributes;
 using CsvHelper.TypeConversion;
 
@@ -6,6 +7,13 @@ using CsvHelper.TypeConversion;
 /// </summary>
 public class Medication
 {
+    /// <summary>
+    /// Obtient ou définit l'identifiant.
+    /// </summary>
+    [Ignore]
+    [JsonIgnore]
+    public Guid Id { get; set; }
+
     /// <summary>
     /// Obtient ou définit le code CIS du médicament.
     /// </summary>

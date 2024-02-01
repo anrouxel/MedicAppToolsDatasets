@@ -154,6 +154,11 @@ public class Program
             description: "URL de sortie"
         );
 
+        var outputNameOption = new Option<FileInfo>(
+            new string[] { "--outputName", "-n" },
+            description: "Nom du fichier de sortie"
+        );
+
         var sentenceCountOption = new Option<int>(
             new string[] { "--sentenceCount", "-s" },
             description: "Nombre de phrases à générer"
@@ -172,11 +177,12 @@ public class Program
             outputDirOption,
             outputUrlOption,
             sentenceCountOption,
-            inputOption
+            inputOption,
+            outputNameOption
         };
 
         // Définition du gestionnaire de la commande.
-        rootCommand.SetHandler(async (model, datasetInput, merge, outputDir, outputUrl, sentenceCount, inputDir) =>
+        rootCommand.SetHandler(async (model, datasetInput, merge, outputDir, outputUrl, sentenceCount, inputDir, outputName) =>
         {
             try
             {
@@ -195,21 +201,9 @@ public class Program
                 // Validation des arguments de la ligne de commande.
                 if (model == "ai")
                 {
-                    if (datasetInput == null)
+                    if (datasetInput.Length > 0)
                     {
-                        throw new Exception("Dataset is required for model dataset");
-                    }
-                    else
-                    {
-                        if (!datasetInput.Contains("all"))
-                        {
-                            dataset = dataset.Where(d => datasetInput.Contains(d)).ToArray();
-
-                            if (dataset.Length == 0)
-                            {
-                                throw new Exception("Dataset is required for model dataset");
-                            }
-                        }
+                        throw new Exception("Dataset is not required for model ai");
                     }
                     if (sentenceCount == 0)
                     {
@@ -230,6 +224,24 @@ public class Program
                     if (outputDir == null && outputUrl == null)
                     {
                         throw new Exception("Output directory or output URL is required for model ai");
+                    }
+                    else if (outputDir != null)
+                    {
+                        if (!outputDir.Exists)
+                        {
+                            outputDir.Create();
+                        }
+                    }
+                    else if (outputUrl != null)
+                    {
+                        if (!outputUrl.IsWellFormedOriginalString())
+                        {
+                            throw new Exception("Output URL is not well formed");
+                        }
+                    }
+                    if (outputDir != null && outputName == null)
+                    {
+                        throw new Exception("Output name is required for model ai");
                     }
                 }
                 else if (model == "dataset")
@@ -255,29 +267,38 @@ public class Program
                     {
                         throw new Exception("Output directory or output URL is required for model dataset");
                     }
+                    else if (outputDir != null)
+                    {
+                        if (!outputDir.Exists)
+                        {
+                            outputDir.Create();
+                        }
+                    }
+                    else if (outputUrl != null)
+                    {
+                        if (!outputUrl.IsWellFormedOriginalString())
+                        {
+                            throw new Exception("Output URL is not well formed");
+                        }
+                    }
                 }
                 else if (model == "database")
                 {
-                    if (datasetInput == null)
+                    if (datasetInput.Length > 0)
                     {
-                        throw new Exception("Dataset is required for model database");
+                        throw new Exception("Dataset is not required for model database");
                     }
-                    else
-                    {
-                        if (!datasetInput.Contains("all"))
-                        {
-                            dataset = dataset.Where(d => datasetInput.Contains(d)).ToArray();
-
-                            if (dataset.Length == 0)
-                            {
-                                throw new Exception("Dataset is required for model database");
-                            }
-                        }
-                    }
-
                     if (outputDir == null)
                     {
                         throw new Exception("Output directory is required for model database");
+                    }
+                    else if (!outputDir.Exists)
+                    {
+                        outputDir.Create();
+                    }
+                    if (outputName == null)
+                    {
+                        throw new Exception("Output name is required for model database");
                     }
                 }
                 else
@@ -296,9 +317,9 @@ public class Program
 
                     if (outputDir != null)
                     {
-                        await SaveAsJsonAsync(sentences, outputDir, new FileInfo("sentences"));
+                        await SaveAsJsonAsync(sentences, outputDir, outputName);
                     }
-                    else
+                    else if (outputUrl != null)
                     {
                         await UploadJsonAsync(sentences, outputUrl);
                     }
@@ -312,7 +333,7 @@ public class Program
                         {
                             await SaveAsJsonAsync(medications, outputDir, new FileInfo("merged_" + CIS_bdpm));
                         }
-                        else
+                        else if (outputUrl != null)
                         {
                             await UploadJsonAsync(medications, outputUrl);
                         }
@@ -323,7 +344,7 @@ public class Program
                         {
                             await SaveDatasets(dataset.ToList(), outputDir);
                         }
-                        else
+                        else if (outputUrl != null)
                         {
                             await UploadDatasets(dataset.ToList(), outputUrl);
                         }
@@ -331,9 +352,10 @@ public class Program
                 }
                 else if (model == "database")
                 {
-                    if (outputDir != null)
+                    Merge();
+                    if (outputDir != null && outputName != null)
                     {
-                        var file = new FileInfo(Path.Join(outputDir.FullName, "data.db"));
+                        var file = new FileInfo(Path.Join(outputDir.FullName, outputName.Name + outputName.Extension));
                         if (file.Exists)
                         {
                             file.Delete();
@@ -358,7 +380,7 @@ public class Program
             // Arrêt du chronomètre et affichage du temps d'exécution.
             stopwatch.Stop();
             Console.WriteLine($"Temps d'exécution: {stopwatch.ElapsedMilliseconds} ms");
-        }, modelOption, datasetOption, mergeOption, outputDirOption, outputUrlOption, sentenceCountOption, inputOption);
+        }, modelOption, datasetOption, mergeOption, outputDirOption, outputUrlOption, sentenceCountOption, inputOption, outputNameOption);
 
         // Invocation de la commande avec les arguments de la ligne de commande.
         return await rootCommand.InvokeAsync(args);

@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using CsvHelper.Configuration.Attributes;
 
 /// <summary>
@@ -5,6 +6,13 @@ using CsvHelper.Configuration.Attributes;
 /// </summary>
 public class GenericGroup
 {
+    /// <summary>
+    /// Obtient ou définit l'identifiant.
+    /// </summary>
+    [Ignore]
+    [JsonIgnore]
+    public Guid Id { get; set; }
+
     /// <summary>
     /// Obtient ou définit l'identifiant du groupe générique.
     /// </summary>
