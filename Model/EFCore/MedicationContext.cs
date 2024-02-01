@@ -12,10 +12,11 @@ public class MedicationContext : DbContext
     public DbSet<ImportantInformation> ImportantInformations { get; set; }
     public DbSet<PrescriptionDispensingConditions> PrescriptionDispensingConditions { get; set; }
     public DbSet<TransparencyCommissionOpinionLinks> TransparencyCommissionOpinionLinks { get; set; }
+    public DbSet<PharmaceuticalSpecialty> PharmaceuticalSpecialties { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    /*protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        /*modelBuilder.Entity<Medication>()
+        modelBuilder.Entity<Medication>()
             .HasKey(c => c.CISCode);
 
         modelBuilder.Entity<MedicationComposition>()
@@ -40,8 +41,8 @@ public class MedicationContext : DbContext
             .HasKey(c => new { c.CISCode });
 
         modelBuilder.Entity<TransparencyCommissionOpinionLinks>()
-            .HasKey(c => new { c.HasDossierCode });*/
-    }
+            .HasKey(c => new { c.HasDossierCode });
+    }*/
 
     public string DbPath { get; }
 

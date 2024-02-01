@@ -23,7 +23,7 @@ public static class GenericType
     {
         if (GenericTypeInfoMap.TryGetValue(typeId, out var typeInfo))
         {
-            return typeInfo;
+            return typeInfo.ToUpper();
         }
         return null;
     }

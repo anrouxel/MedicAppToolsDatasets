@@ -38,8 +38,14 @@ public class GenericGroup
     /// Obtient ou définit le type générique.
     /// </summary>
     [Index(3)]
+    public int GenericType { get; set; }
+
+    /// <summary>
+    /// Obtient ou définit le libellé du type générique.
+    /// </summary>
+    [Index(3)]
     [TypeConverter(typeof(ParseGenericTypeConverter))]
-    public string GenericType { get; set; } = string.Empty;
+    public string GenericName { get; set; } = string.Empty;
 
     /// <summary>
     /// Obtient ou définit le numéro de tri.

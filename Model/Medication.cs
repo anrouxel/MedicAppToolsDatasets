@@ -139,4 +139,10 @@ public class Medication
     /// </summary>
     [Ignore]
     public List<PrescriptionDispensingConditions> PrescriptionDispensingConditions { get; set; } = new();
+
+    /// <summary>
+    /// Obtient ou définit les spécialités pharmaceutiques du médicament.
+    /// </summary>
+    [Ignore]
+    public List<PharmaceuticalSpecialty> PharmaceuticalSpecialties { get; set; } = new();
 }

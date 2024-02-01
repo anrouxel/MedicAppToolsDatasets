@@ -118,6 +118,11 @@ public class Program
     static List<TransparencyCommissionOpinionLinks> transparencyCommissionOpinionLinks = new List<TransparencyCommissionOpinionLinks>();
 
     /// <summary>
+    /// Liste pour stocker les spécialités pharmaceutiques.
+    /// </summary>
+    static List<PharmaceuticalSpecialty> pharmaceuticalSpecialties = new List<PharmaceuticalSpecialty>();
+
+    /// <summary>
     /// Point d'entrée principal de l'application.
     /// </summary>
     /// <param name="args">Arguments de la ligne de commande.</param>
@@ -136,7 +141,7 @@ public class Program
 
         var datasetOption = new Option<string[]>(
             new string[] { "--dataset", "-d" },
-            description: "Jeu de données à utiliser : CIS_bdpm, CIS_COMPO_bdpm, CIS_CIP_bdpm, CIS_GENER_bdpm, CIS_HAS_SMR_bdpm, CIS_HAS_ASMR_bdpm, CIS_InfoImportantes, CIS_CPD_bdpm, HAS_LiensPageCT_bdpm, all"
+            description: "Jeu de données à utiliser : CIS_bdpm, CIS_COMPO_bdpm, CIS_CIP_bdpm, CIS_GENER_bdpm, CIS_HAS_SMR_bdpm, CIS_HAS_ASMR_bdpm, CIS_InfoImportantes, CIS_CPD_bdpm, HAS_LiensPageCT_bdpm, CIS_CIP_Dispo_Spec, all"
         );
 
         var mergeOption = new Option<bool>(
@@ -196,6 +201,7 @@ public class Program
                         CIS_InfoImportantes,
                         CIS_CPD_bdpm,
                         HAS_LiensPageCT_bdpm,
+                        CIS_CIP_Dispo_Spec
                     };
 
                 // Validation des arguments de la ligne de commande.
@@ -403,6 +409,7 @@ public class Program
         Task<List<ImportantInformation>> importantInformationsTask = Task.FromResult(new List<ImportantInformation>());
         Task<List<PrescriptionDispensingConditions>> prescriptionDispensingConditionsTask = Task.FromResult(new List<PrescriptionDispensingConditions>());
         Task<List<TransparencyCommissionOpinionLinks>> transparencyCommissionOpinionLinksTask = Task.FromResult(new List<TransparencyCommissionOpinionLinks>());
+        Task<List<PharmaceuticalSpecialty>> pharmaceuticalSpecialtiesTask = Task.FromResult(new List<PharmaceuticalSpecialty>());
 
         // Pour chaque jeu de données, on lance une tâche de téléchargement et de conversion.
         foreach (var dataset in datasets)
@@ -445,6 +452,10 @@ public class Program
                     transparencyCommissionOpinionLinksTask = DownloadAndConvertToCsvRecordsAsync<TransparencyCommissionOpinionLinks>(HAS_LiensPageCT_bdpm);
                     tasks.Add(transparencyCommissionOpinionLinksTask);
                     break;
+                case CIS_CIP_Dispo_Spec:
+                    pharmaceuticalSpecialtiesTask = DownloadAndConvertToCsvRecordsAsync<PharmaceuticalSpecialty>(CIS_CIP_Dispo_Spec);
+                    tasks.Add(pharmaceuticalSpecialtiesTask);
+                    break;
                 default:
                     throw new Exception($"Jeu de données inconnu: {dataset}");
             }
@@ -463,6 +474,7 @@ public class Program
         importantInformations = importantInformationsTask.Result;
         prescriptionDispensingConditions = prescriptionDispensingConditionsTask.Result;
         transparencyCommissionOpinionLinks = transparencyCommissionOpinionLinksTask.Result;
+        pharmaceuticalSpecialties = pharmaceuticalSpecialtiesTask.Result;
     }
 
     /// <summary>
@@ -506,6 +518,9 @@ public class Program
                     break;
                 case HAS_LiensPageCT_bdpm:
                     tasks.Add(SaveAsJsonAsync(transparencyCommissionOpinionLinks, output, new FileInfo(HAS_LiensPageCT_bdpm)));
+                    break;
+                case CIS_CIP_Dispo_Spec:
+                    tasks.Add(SaveAsJsonAsync(pharmaceuticalSpecialties, output, new FileInfo(CIS_CIP_Dispo_Spec)));
                     break;
                 default:
                     throw new Exception($"Jeu de données inconnu: {dataset}");
@@ -557,6 +572,9 @@ public class Program
                     break;
                 case HAS_LiensPageCT_bdpm:
                     tasks.Add(UploadJsonAsync(transparencyCommissionOpinionLinks, output));
+                    break;
+                case CIS_CIP_Dispo_Spec:
+                    tasks.Add(UploadJsonAsync(pharmaceuticalSpecialties, output));
                     break;
                 default:
                     throw new Exception($"Jeu de données inconnu: {dataset}");
@@ -669,6 +687,16 @@ public class Program
                 (medication, prescriptionDispensingCondition) =>
                 {
                     medication.PrescriptionDispensingConditions = prescriptionDispensingCondition.ToList();
+                    return medication;
+                }
+            )
+            .GroupJoin(
+                pharmaceuticalSpecialties,
+                medication => medication.CISCode,
+                pharmaceuticalSpecialty => pharmaceuticalSpecialty.CISCode,
+                (medication, pharmaceuticalSpecialty) =>
+                {
+                    medication.PharmaceuticalSpecialties = pharmaceuticalSpecialty.ToList();
                     return medication;
                 }
             )
