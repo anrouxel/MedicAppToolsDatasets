@@ -361,7 +361,7 @@ public class Program
                     Merge();
                     if (outputDir != null && outputName != null)
                     {
-                        var path = Path.Join(outputDir.FullName, outputName.Name + outputName.Extension);
+                        var path = Path.Join(outputDir.FullName, outputName.Name);
                         var file = new FileInfo(path);
                         if (file.Exists)
                         {
