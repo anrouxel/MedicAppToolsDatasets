@@ -48,7 +48,7 @@ public class MedicationContext : DbContext
 
     public MedicationContext(string path)
     {
-        DbPath = Path.Join(path, "data.db");
+        DbPath = path;
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)

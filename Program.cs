@@ -361,12 +361,13 @@ public class Program
                     Merge();
                     if (outputDir != null && outputName != null)
                     {
-                        var file = new FileInfo(Path.Join(outputDir.FullName, outputName.Name + outputName.Extension));
+                        var path = Path.Join(outputDir.FullName, outputName.Name + outputName.Extension);
+                        var file = new FileInfo(path);
                         if (file.Exists)
                         {
                             file.Delete();
                         }
-                        using (var context = new MedicationContext(outputDir.FullName))
+                        using (var context = new MedicationContext(path))
                         {
                             context.Database.EnsureDeleted();
                             context.Database.EnsureCreated();
