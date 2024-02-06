@@ -17,8 +17,7 @@ public class MedicationComposition
     /// Obtient ou définit le code CIS du médicament.
     /// </summary>
     [Index(0)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CISCode { get; set; } = string.Empty;
+    public long CISCode { get; set; }
 
     /// <summary>
     /// Obtient ou définit la désignation de l'élément pharmaceutique.
@@ -31,8 +30,7 @@ public class MedicationComposition
     /// Obtient ou définit le code de la substance.
     /// </summary>
     [Index(2)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string SubstanceCode { get; set; } = string.Empty;
+    public long SubstanceCode { get; set; }
 
     /// <summary>
     /// Obtient ou définit le nom de la substance.

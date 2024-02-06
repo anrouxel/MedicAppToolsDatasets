@@ -17,8 +17,7 @@ public class PrescriptionDispensingConditions
     /// Obtient ou définit le code CIS du médicament.
     /// </summary>
     [Index(0)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CISCode { get; set; } = string.Empty;
+    public long CISCode { get; set; }
 
     /// <summary>
     /// Obtient ou définit la condition de prescription et de délivrance du médicament.

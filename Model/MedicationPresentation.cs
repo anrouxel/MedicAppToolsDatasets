@@ -17,15 +17,13 @@ public class MedicationPresentation
     /// Obtient ou définit le code CIS du médicament.
     /// </summary>
     [Index(0)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CISCode { get; set; } = string.Empty;
+    public long CISCode { get; set; }
 
     /// <summary>
     /// Obtient ou définit le code CIP7 de la présentation.
     /// </summary>
     [Index(1)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CIP7Code { get; set; } = string.Empty;
+    public long CIP7Code { get; set; }
 
     /// <summary>
     /// Obtient ou définit le libellé de la présentation.
@@ -59,8 +57,7 @@ public class MedicationPresentation
     /// Obtient ou définit le code CIP13 de la présentation.
     /// </summary>
     [Index(6)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CIP13Code { get; set; } = string.Empty;
+    public long CIP13Code { get; set; }
 
     /// <summary>
     /// Obtient ou définit si la présentation est approuvée pour les communautés.

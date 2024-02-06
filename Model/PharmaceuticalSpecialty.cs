@@ -18,8 +18,7 @@ public class PharmaceuticalSpecialty
     /// Code CIS (Code Identifiant de Spécialité)
     /// </summary>
     [Index(0)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CISCode { get; set; } = string.Empty;
+    public long CISCode { get; set; }
 
     /// <summary>
     /// Code CIP13 (Code Identifiant de Présentation à 13 chiffres)

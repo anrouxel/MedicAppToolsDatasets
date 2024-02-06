@@ -17,8 +17,7 @@ public class ImportantInformation
     /// Obtient ou définit le code CIS.
     /// </summary>
     [Index(0)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CISCode { get; set; } = string.Empty;
+    public long CISCode { get; set; }
 
     /// <summary>
     /// Obtient ou définit la date de début des informations de sécurité.

@@ -824,7 +824,7 @@ public class Program
     {
         // Sérialisation des enregistrements en format JSON.
         string json = JsonSerializer.Serialize(
-            new RequestJson<List<T>> { Data = records },
+            records,
             jsonSerializerOptions
         );
 

@@ -17,8 +17,7 @@ public class HasAsmrOpinion
     /// Obtient ou définit le code CIS.
     /// </summary>
     [Index(0)]
-    [TypeConverter(typeof(ParseStringConverter))]
-    public string CISCode { get; set; } = string.Empty;
+    public long CISCode { get; set; }
 
     /// <summary>
     /// Obtient ou définit le code du dossier.
